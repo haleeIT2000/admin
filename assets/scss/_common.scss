@@ -158,9 +158,9 @@ p {
 
 // section title
 
-.appie-section-title{
+.orfarm-section-title{
 	padding-bottom: 25px;
-	& .appie-title{
+	& .orfarm-title{
 		font-size: 44px;
 		line-height: 54px;
 		@media #{$lg} {
@@ -205,8 +205,8 @@ p {
 			border-color: $theme-color-2;
 		}
 	}
-	&.appie-section-title-2{
-		& .appie-title{
+	&.orfarm-section-title-2{
+		& .orfarm-title{
 			color: $white;
 		}
 		& p{

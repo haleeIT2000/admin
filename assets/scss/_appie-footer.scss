@@ -2,26 +2,26 @@
 
 
 /*===========================
-    10.APPIE FOOTER css 
+    10.orfarm FOOTER css 
 ===========================*/
 
 
 
 
 
-.appie-footer-area{
+.orfarm-footer-area{
 	background: $grey;
 	padding-top: 50px;
 	padding-bottom: 60px;
-	&.appie-footer-3-area{
+	&.orfarm-footer-3-area{
 		padding-top: 180px;
-		&.appie-footer-5-area{
+		&.orfarm-footer-5-area{
 			background: $white;
 		}
 	}
-	&.appie-footer-about-area{
+	&.orfarm-footer-about-area{
 		padding-top: 230px;
-		&.appie-footer-8-area{
+		&.orfarm-footer-8-area{
 			background: $white;
 			& .footer-about-widget{
 				& .social{
@@ -365,16 +365,16 @@
 
 
 
-// appie error css
+// orfarm error css
 
 
-.appie-error-area{
+.orfarm-error-area{
 	padding-top: 250px;
 }
 
 
 
-.appie-error-content{
+.orfarm-error-content{
 	& span{
 		display: block;
 		font-size: 50px;
@@ -411,10 +411,10 @@
 
 
 
-.appie-signup-area{
-	&.appie-signup-8-area{
+.orfarm-signup-area{
+	&.orfarm-signup-8-area{
 		background: #eef1f6;
-		& .appie-signup-box{
+		& .orfarm-signup-box{
 			& form{
 				& .input-box{
 					& button{
@@ -428,7 +428,7 @@
 
 
 
-.appie-signup-box{
+.orfarm-signup-box{
 	background-image: url(../images/signup-bg.jpg);
 	padding: 63px 100px 60px;
 	border-radius: 10px;
@@ -505,26 +505,26 @@
 	}
 }
 
-.appie_checkbox_common{
+.orfarm_checkbox_common{
 	margin-top: 15px;
 }
-.appie_checkbox_common  label {
+.orfarm_checkbox_common  label {
     color: #fff;
     font-size: 14px;
     margin-bottom: 12px;
     cursor: pointer;
     font-weight: 400;
 }
-.appie_checkbox_common  label a{
+.orfarm_checkbox_common  label a{
 	text-decoration: underline;
 	color: #b3b6bc;
 }
 
-.appie_checkbox_common  input[type="checkbox"] {
+.orfarm_checkbox_common  input[type="checkbox"] {
     display: none;
 }
 
-.appie_checkbox_common  input[type="checkbox"]+label span {
+.orfarm_checkbox_common  input[type="checkbox"]+label span {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -537,7 +537,7 @@
     position: relative;
 }
 
-.appie_checkbox_common  input[type="checkbox"]+label span:before {
+.orfarm_checkbox_common  input[type="checkbox"]+label span:before {
     color: #fff;
     content: "\f00c";
     font-family: 'Font Awesome 5 Pro';
@@ -558,12 +558,12 @@
     transition: 0.2s;
 }
 
-.appie_checkbox_common  input[type="checkbox"]:checked+label span {
+.orfarm_checkbox_common  input[type="checkbox"]:checked+label span {
     background: #2079ff;
     border-color: #2079ff;
 }
 
-.appie_checkbox_common  input[type="checkbox"]:checked+label span:before {
+.orfarm_checkbox_common  input[type="checkbox"]:checked+label span:before {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
@@ -571,14 +571,14 @@
     transform: scale(1);
 }
 
-.appie_checkbox_common  input[type="checkbox"]+label span,
-.appie_checkbox_common input[type="checkbox"]:checked+label span {
+.orfarm_checkbox_common  input[type="checkbox"]+label span,
+.orfarm_checkbox_common input[type="checkbox"]:checked+label span {
     -webkit-transition: background-color 0.2s linear;
     -o-transition: background-color 0.2s linear;
     -moz-transition: background-color 0.2s linear;
     transition: background-color 0.2s linear;
 }
 
-.appie_checkbox_common.checkbox_style2  input[type="checkbox"] + label span {
+.orfarm_checkbox_common.checkbox_style2  input[type="checkbox"] + label span {
   border-radius: 3px;
 }

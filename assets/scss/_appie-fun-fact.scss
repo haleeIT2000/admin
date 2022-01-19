@@ -2,16 +2,16 @@
 
 
 /*===========================
-    15.APPIE FUN FACT css 
+    15.orfarm FUN FACT css 
 ===========================*/
 
 
 
-.appie-fun-fact-area{
+.orfarm-fun-fact-area{
 
 }
 
-.appie-fun-fact-box{
+.orfarm-fun-fact-box{
 	background-image: url(../images/fun-fact-bg.jpg);
 	padding: 90px 70px;
 	background-size: cover;
@@ -21,7 +21,7 @@
 	@media #{$xs} {
 		padding: 30px;
 	}
-	& .appie-fun-fact-content{
+	& .orfarm-fun-fact-content{
 		& > .title{
 			font-size: 44px;
 			line-height: 54px;
@@ -47,7 +47,7 @@
 			color: $white;
 			opacity: 0.8;
 		}
-		& .appie-fun-fact-item{
+		& .orfarm-fun-fact-item{
 			margin-top: 36px;
 			@media #{$xs} {
 				text-align: center;
@@ -65,7 +65,7 @@
 			}
 		}
 	}
-	& .appie-fun-fact-play{
+	& .orfarm-fun-fact-play{
 		position: relative;
 		z-index: 10;
 		@media #{$md} {

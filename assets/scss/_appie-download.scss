@@ -2,13 +2,13 @@
 
 
 /*===========================
-    14.APPIE DOWNLOAD css 
+    14.orfarm DOWNLOAD css 
 ===========================*/
 
 
 
 
-.appie-download-area{
+.orfarm-download-area{
 	background-image: url(../images/download-bg.png);
 	background-size: cover;
 	background-position: center;
@@ -69,7 +69,7 @@
 	}
 }
 
-.appie-download-content{
+.orfarm-download-content{
 	& > span{
 		font-size: 14px;
 		font-weight: 500;
@@ -149,7 +149,7 @@
 
 
 
-.appie-sponser-area{
+.orfarm-sponser-area{
 	position: relative;
 	z-index: 10;
 	& .sponser-shape{
@@ -162,7 +162,7 @@
 }
 
 
-.appie-sponser-box{
+.orfarm-sponser-box{
 	@media #{$xs} {
 		flex-wrap: wrap; 
 	}
@@ -191,7 +191,7 @@
 
 
 
-.appie-download-3-box{
+.orfarm-download-3-box{
 	border-radius: 20px;
 	background: #ebf2fc;
 	overflow: hidden;
@@ -241,7 +241,7 @@
 			}
 		}
 	}
-	&.appie-download-6-box{
+	&.orfarm-download-6-box{
 		& a{
 			&.main-btn{
 				&:hover{
@@ -255,7 +255,7 @@
 			}
 		}
 	}
-	&.appie-download-5-box{
+	&.orfarm-download-5-box{
 		& a{
 			&.main-btn{
 				&:hover{

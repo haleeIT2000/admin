@@ -2,18 +2,18 @@
 
 
 /*===========================
-    4.APPIE SERVOCE css 
+    4.orfarm SERVOCE css 
 ===========================*/
 
 
-.appie-service-area{
+.orfarm-service-area{
 	background: $grey;
 	position: relative;
 	background-image: url(../images/shape/shape-1.png);
 	background-position: 92% 100%;
 	background-repeat: no-repeat;
 	background-size: auto;
-	&.appie-service-3-area{
+	&.orfarm-service-3-area{
 		background: none;
 		@media #{$xs} {
 			padding-top: 100px;
@@ -26,7 +26,7 @@
 
 
 
-.appie-single-service{
+.orfarm-single-service{
 	padding: 50px 30px 43px;
 	background: $white;
 	border-radius: 6px;
@@ -58,7 +58,7 @@
 			color: $white;
 		}
 	}
-	& .appie-title{
+	& .orfarm-title{
 		font-size: 20px;
 		font-weight: 700;
 		padding-top: 33px;
@@ -92,7 +92,7 @@
 			}
 		}
 	}
-	&.appie-single-services-3{
+	&.orfarm-single-services-3{
 		background: transparent;
 		& .icon{
 			border-radius: 50%;
@@ -132,7 +132,7 @@
 				background-image: -ms-linear-gradient( 110deg, rgb(119,89,237) 0%, rgb(172,151,255) 100%);
 			}
 		}
-		&.appie-single-services-5{
+		&.orfarm-single-services-5{
 			& a{
 				&:hover{
 					color: $theme-color-4;
@@ -151,8 +151,8 @@
 
 
 
-.appie-services-2-area{
-	& .appie-section-title{
+.orfarm-services-2-area{
+	& .orfarm-section-title{
 		@media #{$xs} {
 			text-align: center !important;
 		}
@@ -162,7 +162,7 @@
 
 
 
-.appie-single-service-2{
+.orfarm-single-service-2{
 	border: 1px solid #eef0f4;
 	border-radius: 10px;
 	padding: 48px;
@@ -252,7 +252,7 @@
 			border-top-color: #3ab094;
 		}
 	}
-	&.appie-single-service-about{
+	&.orfarm-single-service-about{
 		border-radius: 0;
 		padding: 0 90px 30px 0;
 		border: 0;
@@ -327,8 +327,8 @@
 
 
 
-.appie-services-6-area{
-	& .appie-section-title{
+.orfarm-services-6-area{
+	& .orfarm-section-title{
 		& .main-btn{
 			&:hover{
 				background: $theme-color-6;
@@ -336,7 +336,7 @@
 			}
 		}
 	}
-	& .appie-single-service-2{
+	& .orfarm-single-service-2{
 		& a{
 			&:hover{
 				color: $theme-color-6;
@@ -429,7 +429,7 @@
 
 
 
-.appie-services-8-area{
+.orfarm-services-8-area{
 	& .service-thumb{
 		margin-left: -50px;
 		margin-right: -100px;

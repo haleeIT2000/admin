@@ -205,7 +205,7 @@ function showProduct() {
                                     <h3>` + cart[i].productName + `</h3>
                                 </a>
                                 <p><strong>Kích thước:</strong> <span>1</span>kg</p>
-                                <div class="discount-price"><span>` + cart[i].productPrice + ` </span> <sup>đ</sup> </div>
+                                <div class="discount-price"><span>` + cart[i].productPrice + ` </span> </div>
 
                             </div>
                             <div class="change-pro">
@@ -449,7 +449,7 @@ function changePriceProductMain(productItem) {
 //                     <h3>` + prod.productNameMain + `</h3>
 //                 </a>
 //                 <p><strong>Kích thước:</strong> <span>1</span>kg</p>
-//                 <div class="discount-price"><span>` + prod.productPriceMain + ` </span> <sup>đ</sup> </div>
+//                 <div class="discount-price"><span>` + prod.productPriceMain + ` </span> </div>
 
 //             </div>
 //             <div class="change-pro">
@@ -596,9 +596,7 @@ console.log(discounts);
     let sum1 = (parseInt(sum) - discountMoney)*1000;
     document.querySelector(".sumarizePrice .padding-price").innerHTML = sum1.toLocaleString("de-DE");
 }
-let btnPromotion = document.querySelector('.applyDiscount button');
-
-    btnPromotion.addEventListener('click', function () {
-        debugger;
-        updateTotalMoney();
-    });
+// let btnPromotion = document.querySelector('.applyDiscount button');
+//     btnPromotion.addEventListener('click', function () {
+//         updateTotalMoney();
+//     });

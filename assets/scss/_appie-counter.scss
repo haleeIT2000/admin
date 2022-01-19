@@ -2,25 +2,25 @@
 
 
 /*===========================
-    12.APPIE COUNTER css 
+    12.orfarm COUNTER css 
 ===========================*/
 
 
 
 
-.appie-counter-area{
+.orfarm-counter-area{
 	@media #{$md} {
 		padding-bottom: 100px;
 	}
 	@media #{$xs} {
 		padding-bottom: 100px;
 	}
-	&.appie-counter-5-area{
+	&.orfarm-counter-5-area{
 		background: $grey;
 	}
 }
 
-.appie-single-counter{
+.orfarm-single-counter{
 	padding: 30px;
 	position: relative;
 	background: $white;

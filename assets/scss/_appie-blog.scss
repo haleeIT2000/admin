@@ -2,7 +2,7 @@
 
 
 /*===========================
-    10.APPIE BLOG css 
+    10.orfarm BLOG css 
 ===========================*/
 
 
@@ -10,7 +10,7 @@
 
 
 
-.appie-blog-item{
+.orfarm-blog-item{
 	& .thumb{
 		overflow: hidden;
 		border-radius: 6px;
@@ -87,7 +87,7 @@
 
 
 
-.appie-blog-3-area{
+.orfarm-blog-3-area{
 	& .blog-btn{
 		& a{
 			background: transparent;
@@ -100,7 +100,7 @@
 			}
 		}
 	}
-    &.appie-blog-6-area{
+    &.orfarm-blog-6-area{
         & .blog-btn{
             & a{
                 &:hover{
@@ -110,17 +110,17 @@
             }
         }
     }
-    &.appie-blog-8-area{
+    &.orfarm-blog-8-area{
         background: #eef1f6;
         position: relative;
         z-index: 10;
-        & .appie-blog-8-shape-1{
+        & .orfarm-blog-8-shape-1{
             position: absolute;
             left: 0;
             top: 0;
             z-index: -1;
         }
-        & .appie-blog-8-shape-2{
+        & .orfarm-blog-8-shape-2{
             position: absolute;
             right: 0;
             bottom: 340px;
@@ -141,7 +141,7 @@
 
 
 
-.appie-blog-item-3{
+.orfarm-blog-item-3{
 	box-shadow: 0px 15px 50px 0px rgba(14, 17, 51, 0.1);
 	border-radius: 10px;
 	padding: 35px;
@@ -233,7 +233,7 @@
 			}
 		}
 	}
-    &.appie-blog-item-6{
+    &.orfarm-blog-item-6{
         & .content{
             & .title{
                 & a{
@@ -244,7 +244,7 @@
             }
         }
     }
-    &.appie-blog-item-8{
+    &.orfarm-blog-item-8{
         background: $white;
         & .content{
             & .title{

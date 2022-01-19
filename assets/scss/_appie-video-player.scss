@@ -2,13 +2,13 @@
 
 
 /*===========================
-    13.APPIE VIDEO PLAYER css 
+    13.orfarm VIDEO PLAYER css 
 ===========================*/
 
 
 
 
-.appie-video-player-slider{
+.orfarm-video-player-slider{
 	& .slick-arrow{
 		position: absolute;
 		right: 0;
@@ -41,7 +41,7 @@
 	}
 }
 
-.appie-video-player-item{
+.orfarm-video-player-item{
 	@media #{$md} {
 		margin-bottom: 50px;
 	}
@@ -144,8 +144,8 @@
 
 
 
-.appie-video-player-6-area{
-	& .appie-video-player-item{
+.orfarm-video-player-6-area{
+	& .orfarm-video-player-item{
 		& .content{
 			& a{
 				&:hover{
@@ -155,7 +155,7 @@
 			}
 		}
 	}
-	& .appie-video-player-slider{
+	& .orfarm-video-player-slider{
 		& .slick-arrow{
 			&:hover{
 				background: $theme-color-6;

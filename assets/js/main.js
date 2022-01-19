@@ -37,15 +37,15 @@
         jQuery(window).on('scroll', function (event) {
             var scroll = jQuery(window).scrollTop();
             if (scroll < 150) {
-                jQuery(".appie-sticky").removeClass("sticky");
+                jQuery(".orfarm-sticky").removeClass("sticky");
             } else {
-                jQuery(".appie-sticky").addClass("sticky");
+                jQuery(".orfarm-sticky").addClass("sticky");
             }
         });
 
 
-        //===== appie team slick slider
-        $('.appie-testimonial-slider').slick({
+        //===== orfarm team slick slider
+        $('.orfarm-testimonial-slider').slick({
             dots: true,
             infinite: true,
             autoplay: true,
@@ -82,8 +82,8 @@
         });
 
 
-        //===== appie team slick slider
-        $('.appie-testimonial-slider-rtl').slick({
+        //===== orfarm team slick slider
+        $('.orfarm-testimonial-slider-rtl').slick({
             dots: true,
             infinite: true,
             autoplay: true,
@@ -121,8 +121,8 @@
         });
 
 
-        //===== appie team slick slider
-        $('.appie-testimonial-slider-2').slick({
+        //===== orfarm team slick slider
+        $('.orfarm-testimonial-slider-2').slick({
             dots: false,
             infinite: true,
             autoplay: true,
@@ -160,8 +160,8 @@
 
 
 
-        //===== appie VIDEO PLAYER slick slider
-        $('.appie-video-player-slider').slick({
+        //===== orfarm VIDEO PLAYER slick slider
+        $('.orfarm-video-player-slider').slick({
             dots: false,
             infinite: true,
             autoplay: true,
@@ -195,8 +195,8 @@
         });
 
 
-        //===== appie VIDEO PLAYER slick slider
-        $('.appie-showcase-slider').slick({
+        //===== orfarm VIDEO PLAYER slick slider
+        $('.orfarm-showcase-slider').slick({
             dots: true,
             infinite: true,
             autoplay: true,
@@ -232,7 +232,7 @@
             ]
         });
 
-        //===== appie VIDEO PLAYER slick slider
+        //===== orfarm VIDEO PLAYER slick slider
         $('.shop-related-product-slider-active').slick({
             dots: true,
             infinite: true,
@@ -405,7 +405,7 @@
 
         //====== Magnific Popup
 
-        jQuery('.appie-video-popup').magnificPopup({
+        jQuery('.orfarm-video-popup').magnificPopup({
             type: 'iframe'
             // other options
         });
@@ -413,7 +413,7 @@
 
         //===== Magnific Popup
 
-        jQuery('.appie-image-popup').magnificPopup({
+        jQuery('.orfarm-image-popup').magnificPopup({
             type: 'image',
             gallery: {
                 enabled: true

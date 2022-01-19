@@ -2,11 +2,11 @@
 
 
 /*===========================
-    7.APPIE TEAM css 
+    7.orfarm TEAM css 
 ===========================*/
 
 
-.appie-team-item{
+.orfarm-team-item{
 	& .thumb{
 		position: relative;
 		z-index: 10;
@@ -87,7 +87,7 @@
 			}
 		}
 	}
-	&.appie-team-item-about{
+	&.orfarm-team-item-about{
 		& .thumb{
 			border-radius: 6px;
 			overflow: hidden;
@@ -111,7 +111,7 @@
 				}
 			}
 		}
-		&.appie-team-item-8{
+		&.orfarm-team-item-8{
 			& .thumb{
 				&::before{
 					background: $theme-color-7;
@@ -147,7 +147,7 @@
 	}
 }
 
-.appie-team-about-area{
+.orfarm-team-about-area{
 	.team-btn{
 		& a{
 			border-color: $theme-color;
@@ -157,7 +157,7 @@
 			}
 		}
 	}
-	&.appie-team-8-area{
+	&.orfarm-team-8-area{
 		& .team-btn{
 			& a{
 				border-color: $theme-color-7;

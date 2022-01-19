@@ -2,12 +2,12 @@
 
 
 /*===========================
-    5.APPIE FEATURES css 
+    5.orfarm FEATURES css 
 ===========================*/
 
 
 
-.appie-features-area{
+.orfarm-features-area{
 	position: relative;
 	z-index: 10;
 	overflow: hidden;
@@ -36,7 +36,7 @@
 
 
 
-.appie-features-tabs-btn{
+.orfarm-features-tabs-btn{
 	& .nav{
 		@media #{$md} {
 			flex-direction: row !important;
@@ -89,7 +89,7 @@
 }
 
 
-.appie-features-content{
+.orfarm-features-content{
 	@media #{$md} {
 		padding-top: 40px;
 	}
@@ -125,7 +125,7 @@
 
 
 
-.appie-features-area-2{
+.orfarm-features-area-2{
 	background: $heading-color;
 	position: relative;
 	overflow: hidden;
@@ -151,14 +151,14 @@
 		z-index: -1;
 		animation: linear 20s animationFramesOne infinite;
 	}
-	&.appie-features-area-5{
+	&.orfarm-features-area-5{
 		background: $white;
 	}
 }
 
 
 
-.appie-features-box-item{
+.orfarm-features-box-item{
 	border: 1px solid #202234;
 	padding: 25px 30px 30px 70px;
 	border-radius: 6px;
@@ -233,7 +233,7 @@
 			border-color: #33c956;
 		}
 	}
-	&.appie-features-box-5-item{
+	&.orfarm-features-box-5-item{
 		& .title{
 			color: $heading-color; 
 			&::before{
@@ -250,7 +250,7 @@
 
 
 
-.appie-features-thumb{
+.orfarm-features-thumb{
 	@media #{$md} {
 		text-align: center;
 		margin-top: 50px;
@@ -267,8 +267,8 @@
 
 
 
-.appie-features-6-area{
-	& .appie-features-tabs-btn{
+.orfarm-features-6-area{
+	& .orfarm-features-tabs-btn{
 		& .nav{
 			& a{
 				&.active{
@@ -281,7 +281,7 @@
 			}
 		}
 	}
-	& .appie-features-content{
+	& .orfarm-features-content{
 		& > span{
 			color: $theme-color-6;
 		}

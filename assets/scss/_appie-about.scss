@@ -2,7 +2,7 @@
 
 
 /*===========================
-    11.APPIE ABOUT css 
+    11.orfarm ABOUT css 
 ===========================*/
 
 
@@ -12,14 +12,14 @@
 
 
 
-.appie-about-area{
+.orfarm-about-area{
 
 
 }
 
 
 
-.appie-about-box{
+.orfarm-about-box{
 	background: #f0f1f7;
 	padding: 70px;
 	overflow: hidden;
@@ -42,7 +42,7 @@
 }
 
 
-.appie-about-content{
+.orfarm-about-content{
 	padding-right: 50px;
 	@media #{$xs} {
 		padding-right: 0;
@@ -69,7 +69,7 @@
 }
 
 
-.appie-about-service{
+.orfarm-about-service{
 	position: relative;
 	padding-left: 40px;
 	@media #{$xs} {
@@ -108,8 +108,8 @@
 
 
 
-.appie-about-3-area{
-	& .appie-traffic-title{
+.orfarm-about-3-area{
+	& .orfarm-traffic-title{
 		padding-right: 100px;
 		@media #{$xs} {
 			text-align: center;
@@ -123,7 +123,7 @@
 			margin-bottom: 15px;
 		}
 	}
-	& .appie-traffic-service{
+	& .orfarm-traffic-service{
 		padding-left: 0;
 		padding-right: 50px;
 		@media #{$lg} {
@@ -179,7 +179,7 @@
 
 
 
-.appie-about-thumb-3{
+.orfarm-about-thumb-3{
 	@media #{$md} {
 		margin-bottom: 40px;
 	}
@@ -195,11 +195,11 @@
 
 
 
-.appie-about-top-title-area{
+.orfarm-about-top-title-area{
 	padding-top: 227px;
 }
 
-.appie-about-top-title{
+.orfarm-about-top-title{
 	padding-right: 65px;
 	@media #{$lg} {
 		padding-right: 0;
@@ -256,7 +256,7 @@
 
 
 
-.appie-about-page-area{
+.orfarm-about-page-area{
 	padding-top: 462px;
 	padding-bottom: 100px;
 	background-image: url(../images/about-page-bg.jpg);
@@ -272,7 +272,7 @@
 
 
 
-.appie-about-page-content{
+.orfarm-about-page-content{
 	position: relative;
 	& .title{
 		font-size: 36px;
@@ -328,9 +328,9 @@
 
 
 
-.appie-how-it-work-area{}
+.orfarm-how-it-work-area{}
 
-.appie-how-it-work-content{
+.orfarm-how-it-work-content{
 	& > .title{
 		font-size: 44px;
 	}
@@ -375,14 +375,14 @@
 
 
 
-.appie-about-8-area{
+.orfarm-about-8-area{
 	background-image: url(../images/background-bg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.appie-about-8-box{
+.orfarm-about-8-box{
 	padding: 50px 50px 145px;
 	background: $white;
 	border-radius: 6px;

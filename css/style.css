@@ -227,7 +227,7 @@ background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.news-letter .subscribe-content .contact-form {
+.news-letter .subscribe-content .contact-form-coupon {
     text-align: center;
 }
 .news-letter .subscribe-content input {
@@ -240,6 +240,7 @@ background-position: center;
     position: absolute;
     top: 0;
     right: 0;
+    width: 72px;
     border: none;
     height: 100%;
     background-color: yellowgreen;
@@ -475,7 +476,7 @@ breadcrumb-item .active{
 .form-search{
     display: flex;
 }
-.appie-about-page-area {
+.orfarm-about-page-area {
     background-image: url(/image/chi-dep-bien-hoa-quay-rau-cu-qua-sieu-to-khong-lo-thanh-be-xiu-xiu-xiu-khien-ai-nay-deu-phai-thot-len-dich-thi-la-tien-nu-ket-lai-o-ha-pham-roi1222-2021-05-22-15-00.jpg);
 }
 /* shop */
@@ -488,88 +489,87 @@ breadcrumb-item .active{
     padding-left: 250px;
 }
 
-/*---------------------- productList --------------------------------------*/
-/* .page-header {
-    border: 0;
-    margin: 0;
-    *zoom: 1
-} */
-
-/* .page-header:before,
-.page-header:after {
-    display: table;
-    content: "";
-    line-height: 0
+.carousel-caption .text-title{
+    color: #222222;
+    padding-left: 90px;
+    padding-bottom: 150px;
+    
 }
-
-.page-header:after {
-    clear: both
-} */
-
-/* .page-title {
-    float: left;
-    margin-bottom: 35px;
-    margin-top: 35px;
+.carousel-caption .text-title-diff{
+    color: #222222;
+    padding-bottom: 150px;
+    
 }
-
-.page-title h3 {
-    margin: 0;
-    margin-bottom: 10px;
-    font-size: 20px;
-    color: #1f212d;
+.carousel-caption .text-title h2, .carousel-caption .text-title-diff h2{
+    font-size: 60px;
+    text-transform: capitalize;
     font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
 }
+.carousel-caption .text-title h6, .carousel-caption .text-title-diff h6{
+    font-size: 22px;
+    margin-top: 16px;
+    text-transform: capitalize;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1;
 
-.page-title span {
-    display: block;
-    font-size: 11px;
-    color: #888;
-    font-weight: normal
 }
+.carousel-caption .text-title a, .carousel-caption .text-title-diff a{
+    color: #f5ab1e;
+}
+.carousel-caption .text-title a:hover, .carousel-caption .text-title-diff a:hover{
+    color: #333;
+}
+#clockdiv h2{font-family:'Roboto';font-weight:100;color:black;text-align:center;font-size:40px;margin:0 0 16px}
+#clockdiv{font-family:sans-serif;color:#fff;background:rgba(255,255,255,0.63);display:inline-block;font-weight:100;text-align:center;font-size:30px;margin:20px auto;padding:20px;width:100%}
+#clockdiv > div{padding:10px 35px;border-radius:3px;background:yellowgreen;display:inline-block}
+#clockdiv div > span{padding:0;border-radius:3px;font-size:58px;display:inline-block}
+#clockdiv .smalltext{padding-top:5px;font-size:16px}
 
-.page-stats {
+.pro-loop .box-pro-detail i{
     float: right;
-    padding: 25px 0;
-    margin-left: 0;
-    list-style: none
+    /* padding-right: 40px;
+    padding-bottom: 10px; */
+    padding-top: 30px;
+    font-size: 22px;
 }
-
-.page-stats li {
-    float: left;
-    display: block;
-    margin-left: 20px;
-    padding-left: 20px;
-    border-left: 1px solid #d9d9d9
+.pro-loop .box-pro-detail ul li a{
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    line-height: 36px;
+    background: #eef1f6;
+    color: #0e1133;
+    margin-bottom: 6px;
+    border-radius: 5px;
 }
-
-.page-stats li:first-child {
-    border: 0
-}
-
-.page-stats li .summary {
-    float: left;
-    margin-right: 18px
-}
-
-.page-stats li .summary span {
-    color: #888;
-    font-weight: 600;
-    font-size: 11px;
-    text-transform: uppercase
-}
-
-.page-stats li .summary h3 {
-    color: #555;
+.pro-loop .cart-list-icon {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+  }
+  .pro-loop .cart-list-icon ul {
     margin: 0;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 600
-}
-
-.page-stats li .graph {
-    float: right
-}
-
-.page-stats li .sparkline {
-    margin-top: 4px
-} */
+    padding: 0;
+    list-style-type: none;
+  }
+  .pro-loop  .cart-list-icon ul li a {
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    line-height: 36px;
+    background: #eef1f6;
+    color: #0e1133;
+    margin-bottom: 6px;
+    border-radius: 5px;
+  }
+ .pro-loop .cart-list-icon ul li a:hover {
+    background: #2b70fa;
+    color: #fff;
+  }

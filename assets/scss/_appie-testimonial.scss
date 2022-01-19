@@ -2,23 +2,23 @@
 
 
 /*===========================
-    6.APPIE TRAFFICE css 
+    6.orfarm TRAFFICE css 
 ===========================*/
 
 
 
 
 
-.appie-testimonial-area{
+.orfarm-testimonial-area{
 	background-image: url(../images/testimonial-bg.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-.appie-testimonial-slider-rtl,
-.appie-testimonial-slider{
-	& .appie-testimonial-item{
+.orfarm-testimonial-slider-rtl,
+.orfarm-testimonial-slider{
+	& .orfarm-testimonial-item{
 		& .author-info{
 			margin-bottom: 15px;
 			& img{
@@ -103,7 +103,7 @@
 
 
 
-.appie-testimonial-2-box{
+.orfarm-testimonial-2-box{
 	background-image: url(../images/testimonial-bg-2.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -122,7 +122,7 @@
 
 
 
-.appie-testimonial-slider-2{
+.orfarm-testimonial-slider-2{
 	& .slick-arrow{
 		position: absolute;
 		right: 0;
@@ -151,7 +151,7 @@
 }
 
 
-.appie-testimonial-slider-2-item{
+.orfarm-testimonial-slider-2-item{
 	& .item{
 		display: flex;
 		padding-right: 30px;
@@ -238,14 +238,14 @@
 
 
 
-.appie-testimonial-about-area{
+.orfarm-testimonial-about-area{
 	background-image: url(../images/map-bg.png);
 	background-size: auto;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	& .appie-section-title{
+	& .orfarm-section-title{
 		margin-bottom: 30px;
-		& .appie-title{
+		& .orfarm-title{
 			padding: 0 30px;
 		}
 	}

@@ -167,31 +167,31 @@ p {
   color: #fff;
 }
 
-.appie-section-title {
+.orfarm-section-title {
   padding-bottom: 25px;
 }
 
-.appie-section-title .appie-title {
+.orfarm-section-title .orfarm-title {
   font-size: 44px;
   line-height: 54px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-section-title .appie-title {
+  .orfarm-section-title .orfarm-title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-section-title .appie-title {
+  .orfarm-section-title .orfarm-title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-section-title .appie-title {
+  .orfarm-section-title .orfarm-title {
     font-size: 26px;
     line-height: 36px;
   }
@@ -204,54 +204,54 @@ p {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-section-title .appie-title {
+  .orfarm-section-title .orfarm-title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 
-.appie-section-title p {
+.orfarm-section-title p {
   font-size: 18px;
   line-height: 28px;
   margin-top: 11px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-section-title p {
+  .orfarm-section-title p {
     font-size: 15px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-section-title p {
+  .orfarm-section-title p {
     font-size: 15px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-section-title p {
+  .orfarm-section-title p {
     font-size: 15px;
   }
 }
 
-.appie-section-title .main-btn {
+.orfarm-section-title .main-btn {
   border-radius: 30px;
   border: 2px solid #e7eaef;
   background: #fff;
   color: #0e1133;
 }
 
-.appie-section-title .main-btn:hover {
+.orfarm-section-title .main-btn:hover {
   background: #ff3e66;
   color: #fff;
   border-color: #ff3e66;
 }
 
-.appie-section-title.appie-section-title-2 .appie-title {
+.orfarm-section-title.orfarm-section-title-2 .orfarm-title {
   color: #fff;
 }
 
-.appie-section-title.appie-section-title-2 p {
+.orfarm-section-title.orfarm-section-title-2 p {
   color: #fff;
 }
 
@@ -1047,14 +1047,14 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
     height: 1.75em;
     padding: 0 0.5833333333em;
     position: absolute;
-    right: -0.75em;
+    right: 0.25em;
     top: -0.2em;
     z-index: 2;
 }
 /*===========================
     2.HEADER css 
 ===========================*/
-.appie-sticky.sticky {
+.orfarm-sticky.sticky {
   position: fixed;
   left: 0;
   top: 0;
@@ -1069,7 +1069,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           animation: sticky  1.2s;
 }
 
-.appie-header-area {
+.orfarm-header-area {
   padding-top: 30px;
   position: absolute;
   left: 0;
@@ -1078,53 +1078,53 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   z-index: 999;
 }
 
-.appie-header-area.appie-header-2-area .appie-btn-box .main-btn {
+.orfarm-header-area.orfarm-header-2-area .orfarm-btn-box .main-btn {
   background: #ff3e66;
   border-radius: 30px;
   border-color: #ff3e66;
 }
 
-.appie-header-area.appie-header-2-area .appie-btn-box .main-btn:hover {
+.orfarm-header-area.orfarm-header-2-area .orfarm-btn-box .main-btn:hover {
   background: transparent;
   color: #ff3e66;
 }
 
-.appie-header-area.appie-header-3-area.appie-sticky.sticky {
+.orfarm-header-area.orfarm-header-3-area.orfarm-sticky.sticky {
   background: #0e1133;
 }
 
-.appie-header-area.appie-header-4-area.appie-sticky.sticky {
+.orfarm-header-area.orfarm-header-4-area.orfarm-sticky.sticky {
   background: -webkit-gradient(linear, left top, right top, from(#6b1fcd), to(#374ede));
   background: linear-gradient(90deg, #6b1fcd 0%, #374ede 100%);
 }
 
-.appie-header-area.appie-header-page-area.appie-sticky.sticky {
+.orfarm-header-area.orfarm-header-page-area.orfarm-sticky.sticky {
   background: #0a44b9;
 }
 
-.appie-header-area.appie-header-7-area.appie-sticky.sticky {
+.orfarm-header-area.orfarm-header-7-area.orfarm-sticky.sticky {
   background: #290645;
 }
 
-.appie-header-area.appie-header-error-page {
+.orfarm-header-area.orfarm-header-error-page {
   -webkit-box-shadow: 0px 10px 20px 0px rgba(14, 17, 51, 0.1);
           box-shadow: 0px 10px 20px 0px rgba(14, 17, 51, 0.1);
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.header-nav-box .appie-btn-box {
+.header-nav-box .orfarm-btn-box {
   position: relative;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .header-nav-box .appie-btn-box {
+  .header-nav-box .orfarm-btn-box {
     padding-right: 50px;
   }
 }
 
 @media (max-width: 767px) {
-  .header-nav-box .appie-btn-box {
+  .header-nav-box .orfarm-btn-box {
     padding-right: 30px;
   }
 }
@@ -1138,47 +1138,47 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 .payment-right .firstName_custormer{
   padding-right: 10px;
 }
-.header-nav-box .appie-btn-box .login-btn {
+.header-nav-box .orfarm-btn-box .login-btn {
   color: #0e1133;
   font-size: 15px;
   font-weight: 500;
 }
 
-.header-nav-box .appie-btn-box .login-btn i {
+.header-nav-box .orfarm-btn-box .login-btn i {
   padding-right: 6px;
 }
 
 @media (max-width: 767px) {
-  .header-nav-box .appie-btn-box .main-btn {
+  .header-nav-box .orfarm-btn-box .main-btn {
     display: none;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .header-nav-box .appie-btn-box .main-btn {
+  .header-nav-box .orfarm-btn-box .main-btn {
     padding: 0 10px;
     display: inline-block;
   }
 }
 
-.header-nav-box.header-nav-box-3 .appie-header-main-menu ul > li > a {
+.header-nav-box.header-nav-box-3 .orfarm-header-main-menu ul > li > a {
   color: #fff;
 }
 
-.header-nav-box.header-nav-box-3 .appie-header-main-menu ul > li .sub-menu li a {
+.header-nav-box.header-nav-box-3 .orfarm-header-main-menu ul > li .sub-menu li a {
   color: #0e1133;
 }
 
-.header-nav-box.header-nav-box-3 .appie-btn-box .login-btn {
+.header-nav-box.header-nav-box-3 .orfarm-btn-box .login-btn {
   color: #fff;
 }
 
-.header-nav-box.header-nav-box-3 .appie-btn-box .main-btn {
+.header-nav-box.header-nav-box-3 .orfarm-btn-box .main-btn {
   background: #ff6b58;
   border-color: #ff6b58;
 }
 
-.header-nav-box.header-nav-box-3 .appie-btn-box .main-btn:hover {
+.header-nav-box.header-nav-box-3 .orfarm-btn-box .main-btn:hover {
   background: transparent;
   color: #ff6b58;
 }
@@ -1188,34 +1188,34 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   font-size: 20px;
 }
 
-.header-nav-box.header-nav-box-3.header-nav-box-inner-page .appie-btn-box .main-btn {
+.header-nav-box.header-nav-box-3.header-nav-box-inner-page .orfarm-btn-box .main-btn {
   border-color: #fff;
   background: transparent;
 }
 
-.header-nav-box.header-nav-box-3.header-nav-box-inner-page .appie-btn-box .main-btn:hover {
+.header-nav-box.header-nav-box-3.header-nav-box-inner-page .orfarm-btn-box .main-btn:hover {
   background: #fff;
   color: #2b70fa;
 }
 
-.header-nav-box.header-nav-box-5 .appie-header-main-menu ul > li > a {
+.header-nav-box.header-nav-box-5 .orfarm-header-main-menu ul > li > a {
   color: #fff;
 }
 
-.header-nav-box.header-nav-box-5 .appie-header-main-menu ul > li .sub-menu li a {
+.header-nav-box.header-nav-box-5 .orfarm-header-main-menu ul > li .sub-menu li a {
   color: #0e1133;
 }
 
-.header-nav-box.header-nav-box-5 .appie-btn-box .login-btn {
+.header-nav-box.header-nav-box-5 .orfarm-btn-box .login-btn {
   color: #fff;
 }
 
-.header-nav-box.header-nav-box-5 .appie-btn-box .main-btn {
+.header-nav-box.header-nav-box-5 .orfarm-btn-box .main-btn {
   background: #f84a6e;
   border-color: #f84a6e;
 }
 
-.header-nav-box.header-nav-box-5 .appie-btn-box .main-btn:hover {
+.header-nav-box.header-nav-box-5 .orfarm-btn-box .main-btn:hover {
   background: transparent;
   color: #f84a6e;
 }
@@ -1225,41 +1225,41 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   font-size: 20px;
 }
 
-.header-nav-box.header-nav-4-box .appie-header-main-menu ul > li > a:hover {
+.header-nav-box.header-nav-4-box .orfarm-header-main-menu ul > li > a:hover {
   color: #801f82;
 }
 
-.header-nav-box.header-nav-4-box .appie-btn-box .main-btn {
+.header-nav-box.header-nav-4-box .orfarm-btn-box .main-btn {
   background: #801f82;
   border-color: #801f82;
 }
 
-.header-nav-box.header-nav-4-box .appie-btn-box .main-btn:hover {
+.header-nav-box.header-nav-4-box .orfarm-btn-box .main-btn:hover {
   background: transparent;
   color: #801f82;
 }
 
 @media (max-width: 767px) {
-  .header-nav-box.header-nav-4-box .appie-btn-box ul {
+  .header-nav-box.header-nav-4-box .orfarm-btn-box ul {
     margin-right: 10px;
   }
 }
 
-.header-nav-box.header-nav-4-box .appie-btn-box ul li {
+.header-nav-box.header-nav-4-box .orfarm-btn-box ul li {
   display: inline-block;
 }
 
-.header-nav-box.header-nav-4-box .appie-btn-box ul li a {
+.header-nav-box.header-nav-4-box .orfarm-btn-box ul li a {
   font-size: 18px;
   color: #0e1133;
   margin-left: 15px;
 }
 
-.header-nav-box.header-nav-4-box .appie-btn-box ul li a.cart-btn {
+.header-nav-box.header-nav-4-box .orfarm-btn-box ul li a.cart-btn {
   position: relative;
 }
 
-.header-nav-box.header-nav-4-box .appie-btn-box ul li a.cart-btn span {
+.header-nav-box.header-nav-4-box .orfarm-btn-box ul li a.cart-btn span {
   position: absolute;
   top: -7px;
   display: inline-block;
@@ -1284,32 +1284,32 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   color: #9b2cfa;
 }
 
-.header-nav-box.header-nav-box-6 .appie-header-main-menu ul > li > a:hover {
+.header-nav-box.header-nav-box-6 .orfarm-header-main-menu ul > li > a:hover {
   color: #9b2cfa;
 }
 
-.header-nav-box.header-nav-box-6 .appie-btn-box form {
+.header-nav-box.header-nav-box-6 .orfarm-btn-box form {
   display: inline-block;
   margin-left: 18px;
 }
 
 @media (max-width: 767px) {
-  .header-nav-box.header-nav-box-6 .appie-btn-box form {
+  .header-nav-box.header-nav-box-6 .orfarm-btn-box form {
     display: none;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .header-nav-box.header-nav-box-6 .appie-btn-box form {
+  .header-nav-box.header-nav-box-6 .orfarm-btn-box form {
     display: inline-block;
   }
 }
 
-.header-nav-box.header-nav-box-6 .appie-btn-box form .input-box {
+.header-nav-box.header-nav-box-6 .orfarm-btn-box form .input-box {
   position: relative;
 }
 
-.header-nav-box.header-nav-box-6 .appie-btn-box form .input-box i {
+.header-nav-box.header-nav-box-6 .orfarm-btn-box form .input-box i {
   position: absolute;
   left: 20px;
   top: 50%;
@@ -1317,7 +1317,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           transform: translateY(-50%);
 }
 
-.header-nav-box.header-nav-box-6 .appie-btn-box form .input-box input {
+.header-nav-box.header-nav-box-6 .orfarm-btn-box form .input-box input {
   width: 105px;
   padding-left: 50px;
   border: 0;
@@ -1325,72 +1325,72 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   background: transparent;
 }
 
-.header-nav-box.header-nav-box-7 .appie-header-main-menu ul > li > a {
+.header-nav-box.header-nav-box-7 .orfarm-header-main-menu ul > li > a {
   color: #fff;
 }
 
-.header-nav-box.header-nav-box-7 .appie-header-main-menu ul > li > a:hover {
+.header-nav-box.header-nav-box-7 .orfarm-header-main-menu ul > li > a:hover {
   color: #2b70fa;
 }
 
-.header-nav-box.header-nav-box-7 .appie-header-main-menu ul > li .sub-menu li a {
+.header-nav-box.header-nav-box-7 .orfarm-header-main-menu ul > li .sub-menu li a {
   color: #505056;
 }
 
-.header-nav-box.header-nav-box-7 .appie-header-main-menu ul > li .sub-menu li a:hover {
+.header-nav-box.header-nav-box-7 .orfarm-header-main-menu ul > li .sub-menu li a:hover {
   color: #2b70fa;
 }
 
-.header-nav-box.header-nav-box-7 .appie-btn-box .login-btn {
+.header-nav-box.header-nav-box-7 .orfarm-btn-box .login-btn {
   color: #fff;
 }
 
-.header-nav-box.header-nav-box-7 .appie-btn-box .toggle-btn {
+.header-nav-box.header-nav-box-7 .orfarm-btn-box .toggle-btn {
   color: #fff;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu {
+  .orfarm-header-main-menu {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-header-main-menu {
+  .orfarm-header-main-menu {
     display: none;
   }
 }
 
-.appie-header-main-menu ul {
+.orfarm-header-main-menu ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.appie-header-main-menu ul > li {
+.orfarm-header-main-menu ul > li {
   display: inline-block;
   margin-right: 30px;
   position: relative;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-header-main-menu ul > li {
+  .orfarm-header-main-menu ul > li {
     margin-right: 14px;
   }
 }
 
-.appie-header-main-menu ul > li > a {
+.orfarm-header-main-menu ul > li > a {
   font-size: 15px;
   font-weight: 500;
   color: #0e1133;
   line-height: 45px;
 }
 
-.appie-header-main-menu ul > li > a i {
+.orfarm-header-main-menu ul > li > a i {
   padding-left: 6px;
 }
 
-.appie-header-main-menu ul > li .sub-menu {
+.orfarm-header-main-menu ul > li .sub-menu {
   position: absolute;
   left: 0;
   top: 110%;
@@ -1413,21 +1413,21 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  .appie-header-main-menu ul > li .sub-menu {
+  .orfarm-header-main-menu ul > li .sub-menu {
     min-width: 200px;
     max-width: 200px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-header-main-menu ul > li .sub-menu {
+  .orfarm-header-main-menu ul > li .sub-menu {
     min-width: 200px;
     max-width: 200px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu ul > li .sub-menu {
+  .orfarm-header-main-menu ul > li .sub-menu {
     position: relative;
     width: 100%;
     left: 0;
@@ -1451,7 +1451,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media (max-width: 767px) {
-  .appie-header-main-menu ul > li .sub-menu {
+  .orfarm-header-main-menu ul > li .sub-menu {
     position: relative;
     width: 100%;
     left: 0;
@@ -1474,35 +1474,35 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   }
 }
 
-.appie-header-main-menu ul > li .sub-menu > li {
+.orfarm-header-main-menu ul > li .sub-menu > li {
   position: relative;
   margin-left: 0;
   display: block;
 }
 
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu {
+.orfarm-header-main-menu ul > li .sub-menu > li .sub-menu {
   margin-left: 0px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu ul > li .sub-menu > li .sub-menu {
+  .orfarm-header-main-menu ul > li .sub-menu > li .sub-menu {
     margin-left: 0;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-header-main-menu ul > li .sub-menu > li .sub-menu {
+  .orfarm-header-main-menu ul > li .sub-menu > li .sub-menu {
     margin-left: 0;
   }
 }
 
-.appie-header-main-menu ul > li .sub-menu > li .sub-nav-toggler {
+.orfarm-header-main-menu ul > li .sub-menu > li .sub-nav-toggler {
   color: #0e1133;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
-.appie-header-main-menu ul > li .sub-menu > li a {
+.orfarm-header-main-menu ul > li .sub-menu > li a {
   display: block;
   padding: 0px 30px;
   position: relative;
@@ -1515,44 +1515,44 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  .appie-header-main-menu ul > li .sub-menu > li a {
+  .orfarm-header-main-menu ul > li .sub-menu > li a {
     padding: 0 20px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-header-main-menu ul > li .sub-menu > li a {
+  .orfarm-header-main-menu ul > li .sub-menu > li a {
     padding: 0 20px;
   }
 }
 
-.appie-header-main-menu ul > li .sub-menu > li a i {
+.orfarm-header-main-menu ul > li .sub-menu > li a i {
   float: right;
   font-size: 16px;
   margin-top: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu ul > li .sub-menu > li a i {
+  .orfarm-header-main-menu ul > li .sub-menu > li a i {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-header-main-menu ul > li .sub-menu > li a i {
+  .orfarm-header-main-menu ul > li .sub-menu > li a i {
     display: none;
   }
 }
 
-.appie-header-main-menu ul > li .sub-menu > li a .sub-nav-toggler i {
+.orfarm-header-main-menu ul > li .sub-menu > li a .sub-nav-toggler i {
   display: inline-block;
 }
 
-.appie-header-main-menu ul > li .sub-menu > li a:hover {
+.orfarm-header-main-menu ul > li .sub-menu > li a:hover {
   padding-left: 35px;
 }
 
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu {
+.orfarm-header-main-menu ul > li .sub-menu > li .sub-menu {
   right: auto;
   left: 100%;
   top: 50%;
@@ -1563,7 +1563,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu ul > li .sub-menu > li .sub-menu {
+  .orfarm-header-main-menu ul > li .sub-menu > li .sub-menu {
     padding-left: 30px;
     -webkit-transition: all 0s ease-out 0s;
     transition: all 0s ease-out 0s;
@@ -1571,18 +1571,18 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media (max-width: 767px) {
-  .appie-header-main-menu ul > li .sub-menu > li .sub-menu {
+  .orfarm-header-main-menu ul > li .sub-menu > li .sub-menu {
     padding-left: 30px;
     -webkit-transition: all 0s ease-out 0s;
     transition: all 0s ease-out 0s;
   }
 }
 
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu li {
+.orfarm-header-main-menu ul > li .sub-menu > li .sub-menu li {
   position: relative;
 }
 
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu li .sub-menu {
+.orfarm-header-main-menu ul > li .sub-menu > li .sub-menu li .sub-menu {
   right: auto;
   left: 100%;
   top: 50%;
@@ -1592,27 +1592,27 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   transition: all 0.3s ease-out 0s;
 }
 
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu li:hover .sub-menu {
+.orfarm-header-main-menu ul > li .sub-menu > li .sub-menu li:hover .sub-menu {
   top: 0%;
   opacity: 1;
   visibility: visible;
 }
 
-.appie-header-main-menu ul > li .sub-menu > li:hover .sub-menu {
+.orfarm-header-main-menu ul > li .sub-menu > li:hover .sub-menu {
   top: 0%;
   opacity: 1;
   visibility: visible;
 }
 
-.appie-header-main-menu ul > li .sub-menu > li:hover .sub-nav-toggler {
+.orfarm-header-main-menu ul > li .sub-menu > li:hover .sub-nav-toggler {
   color: #2b70fa;
 }
 
-.appie-header-main-menu ul > li .sub-menu > li:hover > a {
+.orfarm-header-main-menu ul > li .sub-menu > li:hover > a {
   color: #2b70fa;
 }
 
-.appie-header-main-menu ul > li:hover .sub-menu {
+.orfarm-header-main-menu ul > li:hover .sub-menu {
   opacity: 1;
   visibility: visible;
   top: 100%;
@@ -1636,24 +1636,24 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   }
 }
 
-.appie-header-8-area .header-nav-box .appie-btn-box .main-btn {
+.orfarm-header-8-area .header-nav-box .orfarm-btn-box .main-btn {
   background: #db0f30;
   border-color: #db0f30;
 }
 
-.appie-header-8-area .header-nav-box .appie-btn-box .main-btn:hover {
+.orfarm-header-8-area .header-nav-box .orfarm-btn-box .main-btn:hover {
   background: #fff;
   color: #db0f30;
 }
 
-.appie-header-8-area .header-nav-box .appie-header-main-menu ul > li a:hover {
+.orfarm-header-8-area .header-nav-box .orfarm-header-main-menu ul > li a:hover {
   color: #db0f30;
 }
 
 /*===========================
-    3.APPIE HERO css 
+    3.orfarm HERO css 
 ===========================*/
-.appie-hero-area {
+.orfarm-hero-area {
   padding-top: 200px;
   padding-bottom: 110px;
   overflow: hidden;
@@ -1664,7 +1664,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   background-repeat: no-repeat;
 }
 
-.appie-hero-area.appie-hero-3-area {
+.orfarm-hero-area.orfarm-hero-3-area {
   background-image: url(../images/hero-bg.jpg);
   background-size: cover;
   background-position: center;
@@ -1675,7 +1675,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   z-index: 15;
 }
 
-.appie-hero-area.appie-hero-3-area .appie-hero-content .appie-title {
+.orfarm-hero-area.orfarm-hero-3-area .orfarm-hero-content .orfarm-title {
   color: #fff;
   font-size: 70px;
   line-height: 80px;
@@ -1683,21 +1683,21 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-hero-area.appie-hero-3-area .appie-hero-content .appie-title {
+  .orfarm-hero-area.orfarm-hero-3-area .orfarm-hero-content .orfarm-title {
     font-size: 54px;
     line-height: 64px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-hero-area.appie-hero-3-area .appie-hero-content .appie-title {
+  .orfarm-hero-area.orfarm-hero-3-area .orfarm-hero-content .orfarm-title {
     font-size: 50px;
     line-height: 60px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-hero-area.appie-hero-3-area .appie-hero-content .appie-title {
+  .orfarm-hero-area.orfarm-hero-3-area .orfarm-hero-content .orfarm-title {
     font-size: 36px;
     line-height: 46px;
     padding: 0;
@@ -1705,44 +1705,44 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-hero-area.appie-hero-3-area .appie-hero-content .appie-title {
+  .orfarm-hero-area.orfarm-hero-3-area .orfarm-hero-content .orfarm-title {
     font-size: 46px;
     line-height: 56px;
     padding: 0;
   }
 }
 
-.appie-hero-area.appie-hero-3-area .appie-hero-content p {
+.orfarm-hero-area.orfarm-hero-3-area .orfarm-hero-content p {
   color: #fff;
   opacity: 0.5;
   font-size: 18px;
   line-height: 28px;
 }
 
-.appie-hero-area.appie-hero-3-area .appie-hero-content .hero-btns {
+.orfarm-hero-area.orfarm-hero-3-area .orfarm-hero-content .hero-btns {
   margin-top: 35px;
 }
 
-.appie-hero-area.appie-hero-3-area .appie-hero-content .hero-btns .main-btn {
+.orfarm-hero-area.orfarm-hero-3-area .orfarm-hero-content .hero-btns .main-btn {
   border-color: #ff6b58;
   color: #ff6b58;
   background: transparent;
   margin-right: 14px;
 }
 
-.appie-hero-area.appie-hero-3-area .appie-hero-content .hero-btns .appie-video-popup {
+.orfarm-hero-area.orfarm-hero-3-area .orfarm-hero-content .hero-btns .orfarm-video-popup {
   color: #fff;
   font-size: 15px;
   font-weight: 500;
 }
 
 @media (max-width: 767px) {
-  .appie-hero-area.appie-hero-3-area .appie-hero-content .hero-btns .appie-video-popup {
+  .orfarm-hero-area.orfarm-hero-3-area .orfarm-hero-content .hero-btns .orfarm-video-popup {
     margin-top: 20px;
   }
 }
 
-.appie-hero-area.appie-hero-3-area .appie-hero-content .hero-btns .appie-video-popup i {
+.orfarm-hero-area.orfarm-hero-3-area .orfarm-hero-content .hero-btns .orfarm-video-popup i {
   height: 45px;
   width: 45px;
   text-align: center;
@@ -1753,109 +1753,109 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   margin-right: 10px;
 }
 
-.appie-hero-area.appie-hero-3-area .appie-hero-content .thumb {
+.orfarm-hero-area.orfarm-hero-3-area .orfarm-hero-content .thumb {
   margin-bottom: -210px;
 }
 
 @media (max-width: 767px) {
-  .appie-hero-area.appie-hero-3-area .appie-hero-content .thumb {
+  .orfarm-hero-area.orfarm-hero-3-area .orfarm-hero-content .thumb {
     display: none;
     margin-bottom: 0;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-hero-area.appie-hero-3-area .appie-hero-content .thumb {
+  .orfarm-hero-area.orfarm-hero-3-area .orfarm-hero-content .thumb {
     display: block;
     margin-bottom: -210px;
   }
 }
 
-.appie-hero-area.appie-hero-3-area.appie-hero-5-area {
+.orfarm-hero-area.orfarm-hero-3-area.orfarm-hero-5-area {
   background-color: #eef1f6;
   background-image: url(../images/hero-bg-2.png);
   padding-top: 280px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-hero-area.appie-hero-3-area.appie-hero-5-area {
+  .orfarm-hero-area.orfarm-hero-3-area.orfarm-hero-5-area {
     padding-top: 120px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-hero-area.appie-hero-3-area.appie-hero-5-area {
+  .orfarm-hero-area.orfarm-hero-3-area.orfarm-hero-5-area {
     padding-top: 160px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-hero-area.appie-hero-3-area.appie-hero-5-area {
+  .orfarm-hero-area.orfarm-hero-3-area.orfarm-hero-5-area {
     padding-top: 120px;
     padding-bottom: 100px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-hero-area.appie-hero-3-area.appie-hero-5-area {
+  .orfarm-hero-area.orfarm-hero-3-area.orfarm-hero-5-area {
     padding-top: 120px;
     padding-bottom: 0px;
   }
 }
 
-.appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .thumb {
+.orfarm-hero-area.orfarm-hero-3-area.orfarm-hero-5-area .orfarm-hero-content .thumb {
   margin-bottom: -110px;
 }
 
-.appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .appie-title {
+.orfarm-hero-area.orfarm-hero-3-area.orfarm-hero-5-area .orfarm-hero-content .orfarm-title {
   font-weight: 700;
   font-size: 70px;
   line-height: 80px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .appie-title {
+  .orfarm-hero-area.orfarm-hero-3-area.orfarm-hero-5-area .orfarm-hero-content .orfarm-title {
     font-size: 50px;
     line-height: 60px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .appie-title {
+  .orfarm-hero-area.orfarm-hero-3-area.orfarm-hero-5-area .orfarm-hero-content .orfarm-title {
     font-size: 40px;
     line-height: 50px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .appie-title {
+  .orfarm-hero-area.orfarm-hero-3-area.orfarm-hero-5-area .orfarm-hero-content .orfarm-title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .appie-title {
+  .orfarm-hero-area.orfarm-hero-3-area.orfarm-hero-5-area .orfarm-hero-content .orfarm-title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 
-.appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .hero-btns .appie-video-popup i {
+.orfarm-hero-area.orfarm-hero-3-area.orfarm-hero-5-area .orfarm-hero-content .hero-btns .orfarm-video-popup i {
   border-color: rgba(255, 255, 255, 0.2);
 }
 
-.appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .hero-btns .main-btn {
+.orfarm-hero-area.orfarm-hero-3-area.orfarm-hero-5-area .orfarm-hero-content .hero-btns .main-btn {
   border-color: rgba(255, 255, 255, 0.2);
   color: #fff;
 }
 
-.appie-hero-area.appie-hero-3-area.appie-hero-5-area .appie-hero-content .hero-btns .main-btn:hover {
+.orfarm-hero-area.orfarm-hero-3-area.orfarm-hero-5-area .orfarm-hero-content .hero-btns .main-btn:hover {
   background: #f84a6e;
   color: #fff;
 }
 
-.appie-hero-area .hero-shape-1 {
+.orfarm-hero-area .hero-shape-1 {
   position: absolute;
   left: 0;
   top: 250px;
@@ -1864,7 +1864,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           animation: linear 20s animationFramesOne infinite;
 }
 
-.appie-hero-area .hero-shape-2 {
+.orfarm-hero-area .hero-shape-2 {
   position: absolute;
   left: 80px;
   z-index: -1;
@@ -1873,7 +1873,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           animation: linear 25s animationFramesThree infinite;
 }
 
-.appie-hero-area .hero-shape-3 {
+.orfarm-hero-area .hero-shape-3 {
   position: absolute;
   bottom: 120px;
   right: 320px;
@@ -1882,7 +1882,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           animation: linear 25s animationFramesFive infinite;
 }
 
-.appie-hero-area.appie-hero-4-area {
+.orfarm-hero-area.orfarm-hero-4-area {
   background: #f9f9f9;
   background-image: url(../images/hero-shape-1.png);
   background-repeat: no-repeat;
@@ -1892,48 +1892,48 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   padding-bottom: 60px;
 }
 
-.appie-hero-area.appie-hero-6-area {
+.orfarm-hero-area.orfarm-hero-6-area {
   background-image: url(../images/hero-bg-3.jpg);
 }
 
-.appie-hero-area.appie-hero-7-area {
+.orfarm-hero-area.orfarm-hero-7-area {
   background-image: url(../images/hero-bg-4.png);
 }
 
-.appie-hero-area.appie-hero-8-area {
+.orfarm-hero-area.orfarm-hero-8-area {
   position: relative;
   z-index: 10;
 }
 
-.appie-hero-area.appie-hero-8-area .home-8-shape-1 {
+.orfarm-hero-area.orfarm-hero-8-area .home-8-shape-1 {
   position: absolute;
   left: 0;
   bottom: 100px;
   z-index: -1;
 }
 
-.appie-hero-area.appie-hero-8-area .home-8-shape-2 {
+.orfarm-hero-area.orfarm-hero-8-area .home-8-shape-2 {
   position: absolute;
   top: 0;
   right: 0;
   z-index: -1;
 }
 
-.appie-hero-area.appie-hero-8-area .home-8-shape-3 {
+.orfarm-hero-area.orfarm-hero-8-area .home-8-shape-3 {
   position: absolute;
   top: 400px;
   right: 290px;
   z-index: -1;
 }
 
-.appie-hero-area.appie-hero-8-area .home-8-shape-4 {
+.orfarm-hero-area.orfarm-hero-8-area .home-8-shape-4 {
   position: absolute;
   bottom: 195px;
   left: 195px;
   z-index: -1;
 }
 
-.appie-hero-area.appie-hero-8-area .appie-hero-content-8 .appie-title {
+.orfarm-hero-area.orfarm-hero-8-area .orfarm-hero-content-8 .orfarm-title {
   font-size: 70px;
   line-height: 80px;
   font-weight: 700;
@@ -1944,32 +1944,32 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-hero-area.appie-hero-8-area .appie-hero-content-8 .appie-title {
+  .orfarm-hero-area.orfarm-hero-8-area .orfarm-hero-content-8 .orfarm-title {
     font-size: 56px;
     line-height: 66px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-hero-area.appie-hero-8-area .appie-hero-content-8 .appie-title {
+  .orfarm-hero-area.orfarm-hero-8-area .orfarm-hero-content-8 .orfarm-title {
     font-size: 42px;
     line-height: 66px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-hero-area.appie-hero-8-area .appie-hero-content-8 .appie-title {
+  .orfarm-hero-area.orfarm-hero-8-area .orfarm-hero-content-8 .orfarm-title {
     font-size: 32px;
     line-height: 44px;
   }
 }
 
-.appie-hero-thumb-6 .thumb {
+.orfarm-hero-thumb-6 .thumb {
   position: relative;
   z-index: 10;
 }
 
-.appie-hero-thumb-6 .thumb .back-image {
+.orfarm-hero-thumb-6 .thumb .back-image {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1980,26 +1980,26 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-hero-content {
+  .orfarm-hero-content {
     margin-bottom: 50px;
     text-align: center;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-hero-content {
+  .orfarm-hero-content {
     margin-bottom: 50px;
     text-align: center;
   }
 }
 
-.appie-hero-content > span {
+.orfarm-hero-content > span {
   color: #2b70fa;
   font-size: 14px;
   font-weight: 500;
 }
 
-.appie-hero-content .appie-title {
+.orfarm-hero-content .orfarm-title {
   font-size: 60px;
   line-height: 70px;
   margin-top: 10px;
@@ -2007,69 +2007,69 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-hero-content .appie-title {
+  .orfarm-hero-content .orfarm-title {
     font-size: 48px;
     line-height: 58px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-hero-content .appie-title {
+  .orfarm-hero-content .orfarm-title {
     font-size: 48px;
     line-height: 58px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-hero-content .appie-title {
+  .orfarm-hero-content .orfarm-title {
     font-size: 28px;
     line-height: 38px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-hero-content .appie-title {
+  .orfarm-hero-content .orfarm-title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 
-.appie-hero-content p {
+.orfarm-hero-content p {
   font-size: 18px;
   line-height: 28px;
 }
 
 @media (max-width: 767px) {
-  .appie-hero-content p {
+  .orfarm-hero-content p {
     font-size: 15px;
     line-height: 26px;
   }
 }
 
-.appie-hero-content ul {
+.orfarm-hero-content ul {
   margin: 41px 0 0;
   padding: 0;
   list-style-type: none;
 }
 
-.appie-hero-content ul li {
+.orfarm-hero-content ul li {
   display: inline-block;
   margin-right: 8px;
 }
 
 @media (max-width: 767px) {
-  .appie-hero-content ul li {
+  .orfarm-hero-content ul li {
     margin-bottom: 20px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-hero-content ul li {
+  .orfarm-hero-content ul li {
     margin-bottom: 0px;
   }
 }
 
-.appie-hero-content ul li a {
+.orfarm-hero-content ul li a {
   background: #0e1133;
   color: #fff;
   line-height: 40px;
@@ -2078,80 +2078,80 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   border: 2px solid #0e1133;
 }
 
-.appie-hero-content ul li a i {
+.orfarm-hero-content ul li a i {
   padding-right: 6px;
 }
 
-.appie-hero-content ul li a:hover {
+.orfarm-hero-content ul li a:hover {
   background: transparent;
   color: #0e1133;
 }
 
-.appie-hero-content ul li a.item-2 {
+.orfarm-hero-content ul li a.item-2 {
   background: transparent;
   color: #0e1133;
 }
 
-.appie-hero-content ul li a.item-2:hover {
+.orfarm-hero-content ul li a.item-2:hover {
   background: #0e1133;
   color: #fff;
 }
 
-.appie-hero-content.appie-hero-content-4 {
+.orfarm-hero-content.orfarm-hero-content-4 {
   padding-right: 40px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-hero-content.appie-hero-content-4 {
+  .orfarm-hero-content.orfarm-hero-content-4 {
     padding-right: 0;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-hero-content.appie-hero-content-4 {
+  .orfarm-hero-content.orfarm-hero-content-4 {
     padding-right: 0;
   }
 }
 
-.appie-hero-content.appie-hero-content-4 > span {
+.orfarm-hero-content.orfarm-hero-content-4 > span {
   color: #801f82;
 }
 
-.appie-hero-content.appie-hero-content-4 .appie-title {
+.orfarm-hero-content.orfarm-hero-content-4 .orfarm-title {
   font-size: 70px;
   font-weight: 700;
   line-height: 80px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-hero-content.appie-hero-content-4 .appie-title {
+  .orfarm-hero-content.orfarm-hero-content-4 .orfarm-title {
     font-size: 60px;
     line-height: 70px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-hero-content.appie-hero-content-4 .appie-title {
+  .orfarm-hero-content.orfarm-hero-content-4 .orfarm-title {
     font-size: 50px;
     line-height: 60px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-hero-content.appie-hero-content-4 .appie-title {
+  .orfarm-hero-content.orfarm-hero-content-4 .orfarm-title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-hero-content.appie-hero-content-4 .appie-title {
+  .orfarm-hero-content.orfarm-hero-content-4 .orfarm-title {
     font-size: 40px;
     line-height: 50px;
   }
 }
 
-.appie-hero-content.appie-hero-content-4 a.main-btn {
+.orfarm-hero-content.orfarm-hero-content-4 a.main-btn {
   border: 2px solid #801f82;
   color: #801f82;
   background: #fff;
@@ -2161,43 +2161,43 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   margin-top: 40px;
 }
 
-.appie-hero-content.appie-hero-content-4 a.main-btn:hover {
+.orfarm-hero-content.orfarm-hero-content-4 a.main-btn:hover {
   background: #801f82;
   color: #fff;
 }
 
-.appie-hero-content.appie-hero-content-6 > span {
+.orfarm-hero-content.orfarm-hero-content-6 > span {
   color: #9b2cfa;
 }
 
-.appie-hero-content.appie-hero-content-6 .appie-title {
+.orfarm-hero-content.orfarm-hero-content-6 .orfarm-title {
   font-weight: 700;
   font-size: 70px;
   line-height: 80px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-hero-content.appie-hero-content-6 .appie-title {
+  .orfarm-hero-content.orfarm-hero-content-6 .orfarm-title {
     font-size: 60px;
     line-height: 70px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-hero-content.appie-hero-content-6 .appie-title {
+  .orfarm-hero-content.orfarm-hero-content-6 .orfarm-title {
     font-size: 50px;
     line-height: 60px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-hero-content.appie-hero-content-6 .appie-title {
+  .orfarm-hero-content.orfarm-hero-content-6 .orfarm-title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 
-.appie-hero-content.appie-hero-content-6 ul li a {
+.orfarm-hero-content.orfarm-hero-content-6 ul li a {
   background: #9b2cfa;
   border-color: #9b2cfa;
   display: -webkit-box;
@@ -2212,78 +2212,78 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   padding-bottom: 10px;
 }
 
-.appie-hero-content.appie-hero-content-6 ul li a span {
+.orfarm-hero-content.orfarm-hero-content-6 ul li a span {
   line-height: 20px;
 }
 
-.appie-hero-content.appie-hero-content-6 ul li a span span {
+.orfarm-hero-content.orfarm-hero-content-6 ul li a span span {
   font-size: 16px;
   font-weight: 700;
   display: block;
   line-height: 20px;
 }
 
-.appie-hero-content.appie-hero-content-6 ul li a i {
+.orfarm-hero-content.orfarm-hero-content-6 ul li a i {
   font-size: 30px;
 }
 
-.appie-hero-content.appie-hero-content-6 ul li a:hover {
+.orfarm-hero-content.orfarm-hero-content-6 ul li a:hover {
   background: #fff;
   color: #0e1133;
   border-color: #fff;
 }
 
-.appie-hero-content.appie-hero-content-6 ul li a.item-2 {
+.orfarm-hero-content.orfarm-hero-content-6 ul li a.item-2 {
   background: #fff;
   border-color: #fff;
 }
 
-.appie-hero-content.appie-hero-content-6 ul li a.item-2:hover {
+.orfarm-hero-content.orfarm-hero-content-6 ul li a.item-2:hover {
   background: #9b2cfa;
   border-color: #9b2cfa;
   color: #fff;
 }
 
-.appie-hero-content.appie-hero-content-6.appie-hero-content-7 .appie-title {
+.orfarm-hero-content.orfarm-hero-content-6.orfarm-hero-content-7 .orfarm-title {
   color: #fff;
 }
 
-.appie-hero-content.appie-hero-content-6.appie-hero-content-7 p {
+.orfarm-hero-content.orfarm-hero-content-6.orfarm-hero-content-7 p {
   color: #fff;
   opacity: 0.5;
 }
 
-.appie-hero-content.appie-hero-content-6.appie-hero-content-7 ul li a {
+.orfarm-hero-content.orfarm-hero-content-6.orfarm-hero-content-7 ul li a {
   background: #fff;
   color: #0e1133;
   border-color: #fff;
 }
 
-.appie-hero-content.appie-hero-content-6.appie-hero-content-7 ul li a:hover {
+.orfarm-hero-content.orfarm-hero-content-6.orfarm-hero-content-7 ul li a:hover {
   background: transparent;
   border-color: #54386a;
   color: #fff;
 }
 
-.appie-hero-content.appie-hero-content-6.appie-hero-content-7 ul li a.item-2 {
+.orfarm-hero-content.orfarm-hero-content-6.orfarm-hero-content-7 ul li a.item-2 {
   background: transparent;
   color: #fff;
   border-color: #54386a;
 }
 
-.appie-hero-content.appie-hero-content-6.appie-hero-content-7 ul li a.item-2:hover {
+.orfarm-hero-content.orfarm-hero-content-6.orfarm-hero-content-7 ul li a.item-2:hover {
   border-color: #fff;
   background: #fff;
   color: #0e1133;
 }
 
-.appie-hero-thumb {
+.orfarm-hero-thumb {
   position: relative;
   z-index: 10;
   text-align: center;
 }
 
-.appie-hero-thumb .thumb-2 {
+.orfarm-hero-thumb .thumb-2 {
   position: absolute;
   right: -30px;
   top: 50%;
@@ -2293,7 +2293,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           box-shadow: 0px 30px 70px 0px rgba(68, 1, 15, 0.2);
 }
 
-.appie-hero-thumb::before {
+.orfarm-hero-thumb::before {
   position: absolute;
   content: '';
   left: 50%;
@@ -2307,7 +2307,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   z-index: -1;
 }
 
-.appie-hero-thumb.appie-hero-thumb-4::before {
+.orfarm-hero-thumb.orfarm-hero-thumb-4::before {
   height: 160px;
   width: 160px;
   top: 200px;
@@ -2317,14 +2317,14 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           transform: translate(0%, 0%);
 }
 
-.appie-hero-thumb.appie-hero-thumb-4 .hero-dot {
+.orfarm-hero-thumb.orfarm-hero-thumb-4 .hero-dot {
   position: absolute;
   right: 70px;
   bottom: 115px;
   z-index: -1;
 }
 
-.appie-hero-area-2 {
+.orfarm-hero-area-2 {
   padding-top: 290px;
   padding-bottom: 170px;
   background: #eef1f6;
@@ -2334,27 +2334,27 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-hero-area-2 {
+  .orfarm-hero-area-2 {
     padding-top: 190px;
     padding-bottom: 120px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-hero-area-2 {
+  .orfarm-hero-area-2 {
     padding-top: 190px;
     padding-bottom: 120px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-hero-area-2 {
+  .orfarm-hero-area-2 {
     padding-top: 190px;
     padding-bottom: 150px;
   }
 }
 
-.appie-hero-area-2 .appie-hero-thumb-3 {
+.orfarm-hero-area-2 .orfarm-hero-thumb-3 {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -2362,24 +2362,24 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  .appie-hero-area-2 .appie-hero-thumb-3 {
+  .orfarm-hero-area-2 .orfarm-hero-thumb-3 {
     width: 60%;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-hero-area-2 .appie-hero-thumb-3 {
+  .orfarm-hero-area-2 .orfarm-hero-thumb-3 {
     width: 40%;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-hero-area-2 .appie-hero-thumb-3 {
+  .orfarm-hero-area-2 .orfarm-hero-thumb-3 {
     width: 36%;
   }
 }
 
-.appie-hero-area-2 .hero-shape-1 {
+.orfarm-hero-area-2 .hero-shape-1 {
   position: absolute;
   top: 250px;
   left: 130px;
@@ -2388,7 +2388,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   z-index: -1;
 }
 
-.appie-hero-area-2 .hero-shape-2 {
+.orfarm-hero-area-2 .hero-shape-2 {
   position: absolute;
   bottom: 290px;
   left: 40px;
@@ -2397,7 +2397,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   z-index: -1;
 }
 
-.appie-hero-area-2 .hero-shape-3 {
+.orfarm-hero-area-2 .hero-shape-3 {
   position: absolute;
   top: 480px;
   right: 240px;
@@ -2406,7 +2406,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   z-index: -1;
 }
 
-.appie-hero-area-2 .hero-shape-4 {
+.orfarm-hero-area-2 .hero-shape-4 {
   position: absolute;
   top: 210px;
   right: 0px;
@@ -2415,14 +2415,14 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   z-index: -1;
 }
 
-.appie-hero-content-2 > span {
+.orfarm-hero-content-2 > span {
   font-size: 16px;
   font-weight: 500;
   color: #ff3e66;
   position: relative;
 }
 
-.appie-hero-content-2 > span::before {
+.orfarm-hero-content-2 > span::before {
   position: absolute;
   content: '';
   left: 50%;
@@ -2437,7 +2437,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   background-repeat: no-repeat;
 }
 
-.appie-hero-content-2 .appie-title {
+.orfarm-hero-content-2 .orfarm-title {
   font-size: 64px;
   line-height: 70px;
   font-weight: 400;
@@ -2445,56 +2445,56 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-hero-content-2 .appie-title {
+  .orfarm-hero-content-2 .orfarm-title {
     font-size: 50px;
     line-height: 50px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-hero-content-2 .appie-title {
+  .orfarm-hero-content-2 .orfarm-title {
     font-size: 50px;
     line-height: 60px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-hero-content-2 .appie-title {
+  .orfarm-hero-content-2 .orfarm-title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-hero-content-2 .appie-title {
+  .orfarm-hero-content-2 .orfarm-title {
     font-size: 40px;
     line-height: 50px;
   }
 }
 
-.appie-hero-content-2 .appie-title span {
+.orfarm-hero-content-2 .orfarm-title span {
   font-weight: 900;
 }
 
-.appie-hero-content-2 p {
+.orfarm-hero-content-2 p {
   font-size: 18px;
   color: #0e1133;
   margin-top: 22px;
 }
 
-.appie-hero-content-2 .input-box {
+.orfarm-hero-content-2 .input-box {
   position: relative;
   margin-top: 40px;
   width: 400px;
 }
 
 @media (max-width: 767px) {
-  .appie-hero-content-2 .input-box {
+  .orfarm-hero-content-2 .input-box {
     width: 100%;
   }
 }
 
-.appie-hero-content-2 .input-box > i {
+.orfarm-hero-content-2 .input-box > i {
   position: absolute;
   left: 25px;
   top: 50%;
@@ -2503,7 +2503,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   color: #c3c3cc;
 }
 
-.appie-hero-content-2 .input-box input {
+.orfarm-hero-content-2 .input-box input {
   width: 100%;
   height: 60px;
   border-radius: 40px;
@@ -2514,7 +2514,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           box-shadow: -3px 0px 0px 0px rgba(255, 62, 102, 0.004), 0px 30px 30px 0px rgba(14, 17, 51, 0.1);
 }
 
-.appie-hero-content-2 .input-box button {
+.orfarm-hero-content-2 .input-box button {
   position: absolute;
   right: 0;
   top: 50%;
@@ -2530,7 +2530,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   color: #ff3e66;
 }
 
-.appie-hero-content-2 .hero-users {
+.orfarm-hero-content-2 .hero-users {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2540,7 +2540,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   margin-top: 40px;
 }
 
-.appie-hero-content-2 .hero-users > span {
+.orfarm-hero-content-2 .hero-users > span {
   margin-left: 20px;
   font-size: 26px;
   font-weight: 900;
@@ -2550,7 +2550,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   line-height: 16px;
 }
 
-.appie-hero-content-2 .hero-users > span span {
+.orfarm-hero-content-2 .hero-users > span span {
   font-size: 13px;
   font-weight: 500;
   color: #505056;
@@ -2558,7 +2558,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   line-height: 13px;
 }
 
-.appie-page-title-area {
+.orfarm-page-title-area {
   height: 450px;
   background-image: url(../images/page-bg.jpg);
   background-size: cover;
@@ -2572,52 +2572,52 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           align-items: center;
 }
 
-.appie-page-title-area.appie-page-service-title-area {
+.orfarm-page-title-area.orfarm-page-service-title-area {
   height: 650px;
   background-image: url(../images/page-title-bg.jpg);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-page-title-area.appie-page-service-title-area {
+  .orfarm-page-title-area.orfarm-page-service-title-area {
     height: 500px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-page-title-area.appie-page-service-title-area {
+  .orfarm-page-title-area.orfarm-page-service-title-area {
     height: 400px;
   }
 }
 
-.appie-page-title-area.appie-page-service-title-area .appie-page-title-item .thumb {
+.orfarm-page-title-area.orfarm-page-service-title-area .orfarm-page-title-item .thumb {
   right: 110px;
   width: auto;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-page-title-area.appie-page-service-title-area .appie-page-title-item .thumb {
+  .orfarm-page-title-area.orfarm-page-service-title-area .orfarm-page-title-item .thumb {
     right: 0;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-page-title-area.appie-page-service-title-area .appie-page-title-item .thumb {
+  .orfarm-page-title-area.orfarm-page-service-title-area .orfarm-page-title-item .thumb {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-page-title-area.appie-page-service-title-area .appie-page-title-item .thumb {
+  .orfarm-page-title-area.orfarm-page-service-title-area .orfarm-page-title-item .thumb {
     display: none;
   }
 }
 
-.appie-page-title-item {
+.orfarm-page-title-item {
   margin-top: 80px;
   position: relative;
 }
 
-.appie-page-title-item .thumb {
+.orfarm-page-title-item .thumb {
   position: absolute;
   right: 0;
   bottom: -100px;
@@ -2625,66 +2625,66 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media (max-width: 767px) {
-  .appie-page-title-item .thumb {
+  .orfarm-page-title-item .thumb {
     display: none;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-page-title-item .thumb {
+  .orfarm-page-title-item .thumb {
     display: block;
   }
 }
 
-.appie-page-title-item span {
+.orfarm-page-title-item span {
   color: #fff;
   font-weight: 500;
   opacity: 0.7;
   padding-bottom: 14px;
 }
 
-.appie-page-title-item .title {
+.orfarm-page-title-item .title {
   color: #fff;
   font-size: 44px;
   font-weight: 700;
 }
 
 @media (max-width: 767px) {
-  .appie-page-title-item .title {
+  .orfarm-page-title-item .title {
     font-size: 26px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-page-title-item .title {
+  .orfarm-page-title-item .title {
     font-size: 32px;
   }
 }
 
-.appie-page-title-item nav {
+.orfarm-page-title-item nav {
   display: inline-block;
   margin-top: 20px;
 }
 
-.appie-page-title-item nav ol {
+.orfarm-page-title-item nav ol {
   background: transparent;
   padding: 0;
 }
 
-.appie-page-title-item nav ol li a {
+.orfarm-page-title-item nav ol li a {
   color: #fff;
   opacity: 0.8;
 }
 
-.appie-page-title-item nav ol li.active {
+.orfarm-page-title-item nav ol li.active {
   color: #fff;
   opacity: 0.8;
 }
 
 /*===========================
-    4.APPIE SERVOCE css 
+    4.orfarm SERVOCE css 
 ===========================*/
-.appie-service-area {
+.orfarm-service-area {
   background: #eef1f6;
   position: relative;
   background-image: url(../images/shape/shape-1.png);
@@ -2693,23 +2693,23 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   background-size: auto;
 }
 
-.appie-service-area.appie-service-3-area {
+.orfarm-service-area.orfarm-service-3-area {
   background: none;
 }
 
 @media (max-width: 767px) {
-  .appie-service-area.appie-service-3-area {
+  .orfarm-service-area.orfarm-service-3-area {
     padding-top: 100px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-service-area.appie-service-3-area {
+  .orfarm-service-area.orfarm-service-3-area {
     padding-top: 190px;
   }
 }
 
-.appie-single-service {
+.orfarm-single-service {
   padding: 50px 30px 43px;
   background: #fff;
   border-radius: 6px;
@@ -2718,12 +2718,12 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-single-service {
+  .orfarm-single-service {
     padding: 50px 15px 43px;
   }
 }
 
-.appie-single-service .icon {
+.orfarm-single-service .icon {
   display: inline-block;
   border-radius: 20px;
   height: 70px;
@@ -2736,7 +2736,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   position: relative;
 }
 
-.appie-single-service .icon > span {
+.orfarm-single-service .icon > span {
   position: absolute;
   right: -10px;
   top: -10px;
@@ -2751,97 +2751,97 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   color: #fff;
 }
 
-.appie-single-service .appie-title {
+.orfarm-single-service .orfarm-title {
   font-size: 20px;
   font-weight: 700;
   padding-top: 33px;
   padding-bottom: 10px;
 }
 
-.appie-single-service:hover {
+.orfarm-single-service:hover {
   -webkit-box-shadow: 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
           box-shadow: 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
   -webkit-transform: translateY(-15px);
           transform: translateY(-15px);
 }
 
-.appie-single-service.item-2 .icon {
+.orfarm-single-service.item-2 .icon {
   background: linear-gradient(135deg, #f7b8af 0%, #f8452d 100%);
 }
 
-.appie-single-service.item-2 .icon span {
+.orfarm-single-service.item-2 .icon span {
   background: #f8452d;
 }
 
-.appie-single-service.item-3 .icon {
+.orfarm-single-service.item-3 .icon {
   background: linear-gradient(135deg, #a0eac2 0%, #31c369 100%);
 }
 
-.appie-single-service.item-3 .icon span {
+.orfarm-single-service.item-3 .icon span {
   background: #31c369;
 }
 
-.appie-single-service.item-4 .icon {
+.orfarm-single-service.item-4 .icon {
   background: linear-gradient(135deg, #d8aaff 0%, #9b2cfa 100%);
 }
 
-.appie-single-service.item-4 .icon span {
+.orfarm-single-service.item-4 .icon span {
   background: #9b2cfa;
 }
 
-.appie-single-service.appie-single-services-3 {
+.orfarm-single-service.orfarm-single-services-3 {
   background: transparent;
 }
 
-.appie-single-service.appie-single-services-3 .icon {
+.orfarm-single-service.orfarm-single-services-3 .icon {
   border-radius: 50%;
   background-image: -ms-linear-gradient(110deg, #ff5f4a 0%, #ff9e91 100%);
 }
 
-.appie-single-service.appie-single-services-3 a {
+.orfarm-single-service.orfarm-single-services-3 a {
   color: #505056;
   font-size: 14px;
   font-weight: 500;
   margin-top: 25px;
 }
 
-.appie-single-service.appie-single-services-3 a:hover {
+.orfarm-single-service.orfarm-single-services-3 a:hover {
   color: #ff6b58;
 }
 
-.appie-single-service.appie-single-services-3.item-2 {
+.orfarm-single-service.orfarm-single-services-3.item-2 {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(39, 153, 246, 0.08)), to(rgba(255, 255, 255, 0.08)));
   background: linear-gradient(0deg, rgba(39, 153, 246, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%);
 }
 
-.appie-single-service.appie-single-services-3.item-2 .icon {
+.orfarm-single-service.orfarm-single-services-3.item-2 .icon {
   background-image: -ms-linear-gradient(110deg, #2799f6 0%, #76c1ff 100%);
 }
 
-.appie-single-service.appie-single-services-3.item-3 .icon {
+.orfarm-single-service.orfarm-single-services-3.item-3 .icon {
   background-image: -ms-linear-gradient(110deg, #f2335b 0%, #ff718f 100%);
 }
 
-.appie-single-service.appie-single-services-3.item-4 {
+.orfarm-single-service.orfarm-single-services-3.item-4 {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(119, 89, 237, 0.08)), to(rgba(255, 255, 255, 0.08)));
   background: linear-gradient(0deg, rgba(119, 89, 237, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%);
 }
 
-.appie-single-service.appie-single-services-3.item-4 .icon {
+.orfarm-single-service.orfarm-single-services-3.item-4 .icon {
   background-image: -ms-linear-gradient(110deg, #7759ed 0%, #ac97ff 100%);
 }
 
-.appie-single-service.appie-single-services-3.appie-single-services-5 a:hover {
+.orfarm-single-service.orfarm-single-services-3.orfarm-single-services-5 a:hover {
   color: #801f82;
 }
 
 @media (max-width: 767px) {
-  .appie-services-2-area .appie-section-title {
+  .orfarm-services-2-area .orfarm-section-title {
     text-align: center !important;
   }
 }
 
-.appie-single-service-2 {
+.orfarm-single-service-2 {
   border: 1px solid #eef0f4;
   border-radius: 10px;
   padding: 48px;
@@ -2850,13 +2850,13 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media (max-width: 767px) {
-  .appie-single-service-2 {
+  .orfarm-single-service-2 {
     text-align: center;
     padding: 20px;
   }
 }
 
-.appie-single-service-2 .icon i {
+.orfarm-single-service-2 .icon i {
   height: 50px;
   width: 50px;
   text-align: center;
@@ -2866,25 +2866,25 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   border-radius: 50%;
 }
 
-.appie-single-service-2 .title {
+.orfarm-single-service-2 .title {
   font-size: 20px;
   font-weight: 700;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
-.appie-single-service-2 a {
+.orfarm-single-service-2 a {
   font-size: 14px;
   font-weight: 500;
   color: #505056;
   margin-top: 23px;
 }
 
-.appie-single-service-2 a:hover {
+.orfarm-single-service-2 a:hover {
   color: #ff3e66;
 }
 
-.appie-single-service-2:hover {
+.orfarm-single-service-2:hover {
   -webkit-box-shadow: 0px -3px 0px 0px rgba(234, 76, 137, 0.004), 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
           box-shadow: 0px -3px 0px 0px rgba(234, 76, 137, 0.004), 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
   border-top: 3px solid #2eacfc;
@@ -2892,47 +2892,47 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           transform: translateY(-10px);
 }
 
-.appie-single-service-2.item-2 .icon i {
+.orfarm-single-service-2.item-2 .icon i {
   background: #ea4c89;
 }
 
-.appie-single-service-2.item-2:hover {
+.orfarm-single-service-2.item-2:hover {
   border-top-color: #ea4c89;
 }
 
-.appie-single-service-2.item-3 .icon i {
+.orfarm-single-service-2.item-3 .icon i {
   background: #3578ff;
 }
 
-.appie-single-service-2.item-3:hover {
+.orfarm-single-service-2.item-3:hover {
   border-top-color: #3578ff;
 }
 
-.appie-single-service-2.item-4 .icon i {
+.orfarm-single-service-2.item-4 .icon i {
   background: #f67741;
 }
 
-.appie-single-service-2.item-4:hover {
+.orfarm-single-service-2.item-4:hover {
   border-top-color: #f67741;
 }
 
-.appie-single-service-2.item-5 .icon i {
+.orfarm-single-service-2.item-5 .icon i {
   background: #6a88f7;
 }
 
-.appie-single-service-2.item-5:hover {
+.orfarm-single-service-2.item-5:hover {
   border-top-color: #6a88f7;
 }
 
-.appie-single-service-2.item-6 .icon i {
+.orfarm-single-service-2.item-6 .icon i {
   background: #3ab094;
 }
 
-.appie-single-service-2.item-6:hover {
+.orfarm-single-service-2.item-6:hover {
   border-top-color: #3ab094;
 }
 
-.appie-single-service-2.appie-single-service-about {
+.orfarm-single-service-2.orfarm-single-service-about {
   border-radius: 0;
   padding: 0 90px 30px 0;
   border: 0;
@@ -2941,67 +2941,67 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-single-service-2.appie-single-service-about {
+  .orfarm-single-service-2.orfarm-single-service-about {
     padding-right: 30px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-single-service-2.appie-single-service-about {
+  .orfarm-single-service-2.orfarm-single-service-about {
     padding-right: 50px;
     padding-left: 50px;
   }
 }
 
-.appie-single-service-2.appie-single-service-about .icon i {
+.orfarm-single-service-2.orfarm-single-service-about .icon i {
   background-color: #f1f7fe;
   color: #2b70fa;
   border-radius: 35% 65% 50% 50% / 59% 50% 50% 41%;
   font-size: 20px;
 }
 
-.appie-single-service-2.appie-single-service-about:hover {
+.orfarm-single-service-2.orfarm-single-service-about:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
   margin-top: 20px;
 }
 
-.appie-single-service-2.appie-single-service-about.item-2 .icon i {
+.orfarm-single-service-2.orfarm-single-service-about.item-2 .icon i {
   color: #db0f30;
   background-color: #fef3f5;
   border-radius: 50% 50% 50% 50% / 50% 75% 25% 50%;
 }
 
-.appie-single-service-2.appie-single-service-about.item-3 .icon i {
+.orfarm-single-service-2.orfarm-single-service-about.item-3 .icon i {
   color: #9b2cfa;
   background-color: #f7eeff;
   border-radius: 25% 75% 50% 50% / 50% 50% 50% 50%;
 }
 
-.appie-single-service-2.appie-single-service-about.item-4 .icon i {
+.orfarm-single-service-2.orfarm-single-service-about.item-4 .icon i {
   color: #f8452d;
   background-color: #fef0ee;
   border-radius: 40% 60% 40% 60% / 40% 60% 40% 60%;
 }
 
-.appie-single-service-2.appie-single-service-about.item-5 .icon i {
+.orfarm-single-service-2.orfarm-single-service-about.item-5 .icon i {
   color: #31c369;
   background-color: #f4fcf7;
   border-radius: 33% 67% 50% 50% / 61% 72% 28% 39%;
 }
 
-.appie-single-service-2.appie-single-service-about.item-6 .icon i {
+.orfarm-single-service-2.orfarm-single-service-about.item-6 .icon i {
   color: #f6ac0e;
   background-color: #fef7e7;
   border-radius: 21% 79% 58% 42% / 50% 46% 54% 50%;
 }
 
-.appie-services-6-area .appie-section-title .main-btn:hover {
+.orfarm-services-6-area .orfarm-section-title .main-btn:hover {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
 
-.appie-services-6-area .appie-single-service-2 a:hover {
+.orfarm-services-6-area .orfarm-single-service-2 a:hover {
   color: #9b2cfa;
 }
 
@@ -3096,33 +3096,33 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   padding-bottom: 26px;
 }
 
-.appie-services-8-area .service-thumb {
+.orfarm-services-8-area .service-thumb {
   margin-left: -50px;
   margin-right: -100px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-services-8-area .service-thumb {
+  .orfarm-services-8-area .service-thumb {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-services-8-area .service-thumb {
+  .orfarm-services-8-area .service-thumb {
     display: none;
   }
 }
 
 /*===========================
-    5.APPIE FEATURES css 
+    5.orfarm FEATURES css 
 ===========================*/
-.appie-features-area {
+.orfarm-features-area {
   position: relative;
   z-index: 10;
   overflow: hidden;
 }
 
-.appie-features-area .features-shape-1 {
+.orfarm-features-area .features-shape-1 {
   position: absolute;
   left: 560px;
   top: 130px;
@@ -3131,7 +3131,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   z-index: -1;
 }
 
-.appie-features-area .features-shape-2 {
+.orfarm-features-area .features-shape-2 {
   position: absolute;
   left: 500px;
   bottom: 0px;
@@ -3140,7 +3140,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   z-index: -1;
 }
 
-.appie-features-area .features-shape-3 {
+.orfarm-features-area .features-shape-3 {
   position: absolute;
   right: 270px;
   bottom: 0;
@@ -3150,7 +3150,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-tabs-btn .nav {
+  .orfarm-features-tabs-btn .nav {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
         -ms-flex-direction: row !important;
@@ -3163,7 +3163,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media (max-width: 767px) {
-  .appie-features-tabs-btn .nav {
+  .orfarm-features-tabs-btn .nav {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
         -ms-flex-direction: row !important;
@@ -3175,7 +3175,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   }
 }
 
-.appie-features-tabs-btn .nav a {
+.orfarm-features-tabs-btn .nav a {
   border-right: 3px solid #e8eaef;
   border-radius: 0;
   font-size: 15px;
@@ -3184,21 +3184,21 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-tabs-btn .nav a {
+  .orfarm-features-tabs-btn .nav a {
     padding-right: 20px;
     padding-left: 20px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-features-tabs-btn .nav a {
+  .orfarm-features-tabs-btn .nav a {
     padding-right: 15px;
     padding-left: 15px;
     margin-bottom: 20px;
   }
 }
 
-.appie-features-tabs-btn .nav a i {
+.orfarm-features-tabs-btn .nav a i {
   height: 35px;
   width: 35px;
   text-align: center;
@@ -3210,70 +3210,70 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   margin-right: 10px;
 }
 
-.appie-features-tabs-btn .nav a.active {
+.orfarm-features-tabs-btn .nav a.active {
   border-right-color: #2b70fa;
   background: transparent;
   color: #2b70fa;
 }
 
-.appie-features-tabs-btn .nav a.active i {
+.orfarm-features-tabs-btn .nav a.active i {
   color: #fff;
   background: #2b70fa;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-content {
+  .orfarm-features-content {
     padding-top: 40px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-features-content {
+  .orfarm-features-content {
     padding-top: 30px;
   }
 }
 
-.appie-features-content span {
+.orfarm-features-content span {
   font-size: 14px;
   font-weight: 500;
   color: #2b70fa;
   margin-bottom: 8px;
 }
 
-.appie-features-content .title {
+.orfarm-features-content .title {
   font-size: 44px;
   line-height: 54px;
   margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-features-content .title {
+  .orfarm-features-content .title {
     font-size: 36px;
     line-height: 44px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-features-content .title {
+  .orfarm-features-content .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
-.appie-features-content p {
+.orfarm-features-content p {
   font-size: 18px;
   line-height: 28px;
   padding-bottom: 30px;
 }
 
-.appie-features-area-2 {
+.orfarm-features-area-2 {
   background: #0e1133;
   position: relative;
   overflow: hidden;
   z-index: 10;
 }
 
-.appie-features-area-2 .features-shape-1 {
+.orfarm-features-area-2 .features-shape-1 {
   position: absolute;
   left: 240px;
   top: 240px;
@@ -3282,7 +3282,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           animation: linear 20s animationFramesThree infinite;
 }
 
-.appie-features-area-2 .features-shape-2 {
+.orfarm-features-area-2 .features-shape-2 {
   position: absolute;
   right: 190px;
   top: 160px;
@@ -3291,7 +3291,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           animation: linear 20s animationFramesFive infinite;
 }
 
-.appie-features-area-2 .features-shape-3 {
+.orfarm-features-area-2 .features-shape-3 {
   position: absolute;
   right: 160px;
   bottom: 260px;
@@ -3300,11 +3300,11 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           animation: linear 20s animationFramesOne infinite;
 }
 
-.appie-features-area-2.appie-features-area-5 {
+.orfarm-features-area-2.orfarm-features-area-5 {
   background: #fff;
 }
 
-.appie-features-box-item {
+.orfarm-features-box-item {
   border: 1px solid #202234;
   padding: 25px 30px 30px 70px;
   border-radius: 6px;
@@ -3316,28 +3316,28 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-features-box-item {
+  .orfarm-features-box-item {
     margin-left: 0;
     margin-right: 0;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-box-item {
+  .orfarm-features-box-item {
     margin-left: 50px;
     margin-right: 50px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-features-box-item {
+  .orfarm-features-box-item {
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 60px;
   }
 }
 
-.appie-features-box-item .title {
+.orfarm-features-box-item .title {
   color: #fff;
   font-size: 24px;
   font-weight: 700;
@@ -3345,18 +3345,18 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-features-box-item .title {
+  .orfarm-features-box-item .title {
     font-size: 20px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-features-box-item .title {
+  .orfarm-features-box-item .title {
     font-size: 20px;
   }
 }
 
-.appie-features-box-item .title::before {
+.orfarm-features-box-item .title::before {
   position: absolute;
   content: '';
   left: -40px;
@@ -3368,95 +3368,95 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   border-radius: 50%;
 }
 
-.appie-features-box-item p {
+.orfarm-features-box-item p {
   font-size: 14px;
   opacity: 0.6;
   color: #fff;
   margin-top: 3px;
 }
 
-.appie-features-box-item:hover {
+.orfarm-features-box-item:hover {
   border-color: #ff3e66;
 }
 
-.appie-features-box-item.item-2 .title::before {
+.orfarm-features-box-item.item-2 .title::before {
   background: #2eacfc;
   border-color: #15233d;
 }
 
-.appie-features-box-item.item-2:hover {
+.orfarm-features-box-item.item-2:hover {
   border-color: #2eacfc;
 }
 
-.appie-features-box-item.item-3 .title::before {
+.orfarm-features-box-item.item-3 .title::before {
   background: #33c956;
   border-color: #15262c;
 }
 
-.appie-features-box-item.item-3:hover {
+.orfarm-features-box-item.item-3:hover {
   border-color: #33c956;
 }
 
-.appie-features-box-item.appie-features-box-5-item .title {
+.orfarm-features-box-item.orfarm-features-box-5-item .title {
   color: #0e1133;
 }
 
-.appie-features-box-item.appie-features-box-5-item .title::before {
+.orfarm-features-box-item.orfarm-features-box-5-item .title::before {
   border-color: rgba(9, 8, 8, 0.21);
 }
 
-.appie-features-box-item.appie-features-box-5-item p {
+.orfarm-features-box-item.orfarm-features-box-5-item p {
   color: #505056;
   opacity: 1;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-thumb {
+  .orfarm-features-thumb {
     text-align: center;
     margin-top: 50px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-features-thumb {
+  .orfarm-features-thumb {
     text-align: center;
     margin-top: 50px;
   }
 }
 
-.appie-features-6-area .appie-features-tabs-btn .nav a.active {
+.orfarm-features-6-area .orfarm-features-tabs-btn .nav a.active {
   color: #9b2cfa;
   border-right-color: #9b2cfa;
 }
 
-.appie-features-6-area .appie-features-tabs-btn .nav a.active i {
+.orfarm-features-6-area .orfarm-features-tabs-btn .nav a.active i {
   background: #9b2cfa;
 }
 
-.appie-features-6-area .appie-features-content > span {
+.orfarm-features-6-area .orfarm-features-content > span {
   color: #9b2cfa;
 }
 
-.appie-features-6-area .appie-features-content a {
+.orfarm-features-6-area .orfarm-features-content a {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
 
-.appie-features-6-area .appie-features-content a:hover {
+.orfarm-features-6-area .orfarm-features-content a:hover {
   background: #fff;
   color: #9b2cfa;
 }
 
 /*===========================
-    6.APPIE TRAFFICE css 
+    6.orfarm TRAFFICE css 
 ===========================*/
-.appie-traffic-area {
+.orfarm-traffic-area {
   position: relative;
   overflow: hidden;
   z-index: 15;
 }
 
-.appie-traffic-area .traffic-thumb {
+.orfarm-traffic-area .traffic-thumb {
   position: absolute;
   right: 0;
   top: 50%;
@@ -3466,93 +3466,93 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media (max-width: 767px) {
-  .appie-traffic-area .traffic-thumb {
+  .orfarm-traffic-area .traffic-thumb {
     display: none;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-traffic-area .traffic-thumb {
+  .orfarm-traffic-area .traffic-thumb {
     display: none;
   }
 }
 
-.appie-traffic-title {
+.orfarm-traffic-title {
   padding-right: 220px;
   margin-bottom: 43px;
 }
 
 @media (max-width: 767px) {
-  .appie-traffic-title {
+  .orfarm-traffic-title {
     padding-right: 0;
   }
 }
 
-.appie-traffic-title span {
+.orfarm-traffic-title span {
   font-size: 14px;
   font-weight: 500;
   color: #2b70fa;
 }
 
-.appie-traffic-title .title {
+.orfarm-traffic-title .title {
   font-size: 44px;
   line-height: 54px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-traffic-title .title {
+  .orfarm-traffic-title .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-traffic-title .title {
+  .orfarm-traffic-title .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-traffic-title .title {
+  .orfarm-traffic-title .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
-.appie-traffic-service {
+.orfarm-traffic-service {
   position: relative;
   padding-left: 40px;
   padding-right: 70px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-traffic-service {
+  .orfarm-traffic-service {
     padding-right: 0;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-traffic-service {
+  .orfarm-traffic-service {
     margin-bottom: 30px;
     padding-right: 50px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-traffic-service {
+  .orfarm-traffic-service {
     margin-bottom: 30px;
     padding-right: 0px;
   }
 }
 
-.appie-traffic-service .icon {
+.orfarm-traffic-service .icon {
   position: absolute;
   left: 0;
   top: 5px;
 }
 
-.appie-traffic-service .icon i {
+.orfarm-traffic-service .icon i {
   height: 26px;
   width: 26px;
   text-align: center;
@@ -3565,25 +3565,25 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           box-shadow: 0px 6px 10px 0px rgba(16, 73, 189, 0.3);
 }
 
-.appie-traffic-service .title {
+.orfarm-traffic-service .title {
   font-size: 20px;
   font-weight: 700;
   padding-bottom: 7px;
 }
 
-.appie-traffic-service p {
+.orfarm-traffic-service p {
   font-size: 15px;
 }
 
-.appie-traffic-service.item-2 .icon i {
+.orfarm-traffic-service.item-2 .icon i {
   background: linear-gradient(135deg, #f7b8af 0%, #f8452d 100%);
 }
 
-.appie-traffic-service.item-3 .icon i {
+.orfarm-traffic-service.item-3 .icon i {
   background: linear-gradient(135deg, #a0eac2 0%, #31c369 100%);
 }
 
-.appie-traffic-service.item-4 .icon i {
+.orfarm-traffic-service.item-4 .icon i {
   background: linear-gradient(135deg, #d8aaff 0%, #9b2cfa 100%);
 }
 
@@ -3621,67 +3621,67 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 /*===========================
-    6.APPIE TRAFFICE css 
+    6.orfarm TRAFFICE css 
 ===========================*/
-.appie-testimonial-area {
+.orfarm-testimonial-area {
   background-image: url(../images/testimonial-bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.appie-testimonial-slider-rtl .appie-testimonial-item .author-info,
-.appie-testimonial-slider .appie-testimonial-item .author-info {
+.orfarm-testimonial-slider-rtl .orfarm-testimonial-item .author-info,
+.orfarm-testimonial-slider .orfarm-testimonial-item .author-info {
   margin-bottom: 15px;
 }
 
-.appie-testimonial-slider-rtl .appie-testimonial-item .author-info img,
-.appie-testimonial-slider .appie-testimonial-item .author-info img {
+.orfarm-testimonial-slider-rtl .orfarm-testimonial-item .author-info img,
+.orfarm-testimonial-slider .orfarm-testimonial-item .author-info img {
   display: inline-block;
 }
 
-.appie-testimonial-slider-rtl .appie-testimonial-item .author-info .title,
-.appie-testimonial-slider .appie-testimonial-item .author-info .title {
+.orfarm-testimonial-slider-rtl .orfarm-testimonial-item .author-info .title,
+.orfarm-testimonial-slider .orfarm-testimonial-item .author-info .title {
   font-weight: 500;
   font-size: 16px;
   color: #fff;
   padding-top: 10px;
 }
 
-.appie-testimonial-slider-rtl .appie-testimonial-item .author-info span,
-.appie-testimonial-slider .appie-testimonial-item .author-info span {
+.orfarm-testimonial-slider-rtl .orfarm-testimonial-item .author-info span,
+.orfarm-testimonial-slider .orfarm-testimonial-item .author-info span {
   font-size: 14px;
   color: #fff;
   opacity: 0.5;
 }
 
-.appie-testimonial-slider-rtl .appie-testimonial-item .text p,
-.appie-testimonial-slider .appie-testimonial-item .text p {
+.orfarm-testimonial-slider-rtl .orfarm-testimonial-item .text p,
+.orfarm-testimonial-slider .orfarm-testimonial-item .text p {
   font-size: 20px;
   line-height: 30px;
   color: #fff;
 }
 
-.appie-testimonial-slider-rtl .appie-testimonial-item .text ul,
-.appie-testimonial-slider .appie-testimonial-item .text ul {
+.orfarm-testimonial-slider-rtl .orfarm-testimonial-item .text ul,
+.orfarm-testimonial-slider .orfarm-testimonial-item .text ul {
   margin: 10px 0 0;
   padding: 0;
   list-style-type: none;
 }
 
-.appie-testimonial-slider-rtl .appie-testimonial-item .text ul li,
-.appie-testimonial-slider .appie-testimonial-item .text ul li {
+.orfarm-testimonial-slider-rtl .orfarm-testimonial-item .text ul li,
+.orfarm-testimonial-slider .orfarm-testimonial-item .text ul li {
   display: inline-block;
   margin: 0 2px;
 }
 
-.appie-testimonial-slider-rtl .appie-testimonial-item .text ul li i,
-.appie-testimonial-slider .appie-testimonial-item .text ul li i {
+.orfarm-testimonial-slider-rtl .orfarm-testimonial-item .text ul li i,
+.orfarm-testimonial-slider .orfarm-testimonial-item .text ul li i {
   color: #ffb848;
 }
 
-.appie-testimonial-slider-rtl .slick-arrow,
-.appie-testimonial-slider .slick-arrow {
+.orfarm-testimonial-slider-rtl .slick-arrow,
+.orfarm-testimonial-slider .slick-arrow {
   position: absolute;
   top: 62%;
   -webkit-transform: translateY(-50%);
@@ -3693,18 +3693,18 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   opacity: 0.5;
 }
 
-.appie-testimonial-slider-rtl .slick-arrow.prev,
-.appie-testimonial-slider .slick-arrow.prev {
+.orfarm-testimonial-slider-rtl .slick-arrow.prev,
+.orfarm-testimonial-slider .slick-arrow.prev {
   left: -80px;
 }
 
-.appie-testimonial-slider-rtl .slick-arrow.next,
-.appie-testimonial-slider .slick-arrow.next {
+.orfarm-testimonial-slider-rtl .slick-arrow.next,
+.orfarm-testimonial-slider .slick-arrow.next {
   right: -80px;
 }
 
-.appie-testimonial-slider-rtl .slick-dots,
-.appie-testimonial-slider .slick-dots {
+.orfarm-testimonial-slider-rtl .slick-dots,
+.orfarm-testimonial-slider .slick-dots {
   position: absolute;
   left: 50%;
   bottom: -65px;
@@ -3712,13 +3712,13 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           transform: translateX(-50%);
 }
 
-.appie-testimonial-slider-rtl .slick-dots li,
-.appie-testimonial-slider .slick-dots li {
+.orfarm-testimonial-slider-rtl .slick-dots li,
+.orfarm-testimonial-slider .slick-dots li {
   display: inline-block;
 }
 
-.appie-testimonial-slider-rtl .slick-dots li button,
-.appie-testimonial-slider .slick-dots li button {
+.orfarm-testimonial-slider-rtl .slick-dots li button,
+.orfarm-testimonial-slider .slick-dots li button {
   border: 0;
   background: #fff;
   height: 8px;
@@ -3729,12 +3729,12 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   margin: 0 4px;
 }
 
-.appie-testimonial-slider-rtl .slick-dots li.slick-active button,
-.appie-testimonial-slider .slick-dots li.slick-active button {
+.orfarm-testimonial-slider-rtl .slick-dots li.slick-active button,
+.orfarm-testimonial-slider .slick-dots li.slick-active button {
   opacity: 1;
 }
 
-.appie-testimonial-2-box {
+.orfarm-testimonial-2-box {
   background-image: url(../images/testimonial-bg-2.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -3743,24 +3743,24 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-testimonial-2-box {
+  .orfarm-testimonial-2-box {
     padding: 50px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-testimonial-2-box {
+  .orfarm-testimonial-2-box {
     padding: 50px 30px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-testimonial-2-box {
+  .orfarm-testimonial-2-box {
     padding: 50px 30px;
   }
 }
 
-.appie-testimonial-slider-2 .slick-arrow {
+.orfarm-testimonial-slider-2 .slick-arrow {
   position: absolute;
   right: 0;
   bottom: 0px;
@@ -3775,21 +3775,21 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   cursor: pointer;
 }
 
-.appie-testimonial-slider-2 .slick-arrow:hover {
+.orfarm-testimonial-slider-2 .slick-arrow:hover {
   background: #ff3e66;
   color: #fff;
   border-color: #ff3e66;
 }
 
-.appie-testimonial-slider-2 .slick-arrow.prev {
+.orfarm-testimonial-slider-2 .slick-arrow.prev {
   right: 60px;
 }
 
-.appie-testimonial-slider-2 .slick-arrow.next {
+.orfarm-testimonial-slider-2 .slick-arrow.next {
   right: 0;
 }
 
-.appie-testimonial-slider-2-item .item {
+.orfarm-testimonial-slider-2-item .item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3798,40 +3798,40 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-testimonial-slider-2-item .item {
+  .orfarm-testimonial-slider-2-item .item {
     display: block;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-testimonial-slider-2-item .item {
+  .orfarm-testimonial-slider-2-item .item {
     display: block;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-.appie-testimonial-slider-2-item .thumb {
+.orfarm-testimonial-slider-2-item .thumb {
   text-align: center;
   min-width: 140px;
   margin-right: 60px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-testimonial-slider-2-item .thumb {
+  .orfarm-testimonial-slider-2-item .thumb {
     margin-bottom: 30px;
     margin-right: 0;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-testimonial-slider-2-item .thumb {
+  .orfarm-testimonial-slider-2-item .thumb {
     margin-bottom: 30px;
     margin-right: 0;
   }
 }
 
-.appie-testimonial-slider-2-item .thumb img {
+.orfarm-testimonial-slider-2-item .thumb img {
   display: inline-block;
   border-radius: 50%;
   -webkit-box-shadow: 0px 20px 30px 0px rgba(0, 16, 49, 0.1);
@@ -3839,22 +3839,22 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   margin-bottom: 13px;
 }
 
-.appie-testimonial-slider-2-item .thumb ul {
+.orfarm-testimonial-slider-2-item .thumb ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.appie-testimonial-slider-2-item .thumb ul li {
+.orfarm-testimonial-slider-2-item .thumb ul li {
   display: inline-block;
 }
 
-.appie-testimonial-slider-2-item .thumb ul li i {
+.orfarm-testimonial-slider-2-item .thumb ul li i {
   font-size: 14px;
   color: #ffb848;
 }
 
-.appie-testimonial-slider-2-item .thumb span {
+.orfarm-testimonial-slider-2-item .thumb span {
   font-size: 13px;
   font-weight: 500;
   color: #fff;
@@ -3862,57 +3862,57 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-testimonial-slider-2-item .content {
+  .orfarm-testimonial-slider-2-item .content {
     text-align: center;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-testimonial-slider-2-item .content {
+  .orfarm-testimonial-slider-2-item .content {
     text-align: center;
   }
 }
 
-.appie-testimonial-slider-2-item .content p {
+.orfarm-testimonial-slider-2-item .content p {
   color: #fff;
   font-size: 20px;
   line-height: 30px;
 }
 
 @media (max-width: 767px) {
-  .appie-testimonial-slider-2-item .content p {
+  .orfarm-testimonial-slider-2-item .content p {
     font-size: 16px;
   }
 }
 
-.appie-testimonial-slider-2-item .content .author-info {
+.orfarm-testimonial-slider-2-item .content .author-info {
   margin-top: 27px;
 }
 
-.appie-testimonial-slider-2-item .content .author-info .title {
+.orfarm-testimonial-slider-2-item .content .author-info .title {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
 }
 
-.appie-testimonial-slider-2-item .content .author-info span {
+.orfarm-testimonial-slider-2-item .content .author-info span {
   font-size: 14px;
   color: #fff;
   opacity: .7;
 }
 
-.appie-testimonial-about-area {
+.orfarm-testimonial-about-area {
   background-image: url(../images/map-bg.png);
   background-size: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
-.appie-testimonial-about-area .appie-section-title {
+.orfarm-testimonial-about-area .orfarm-section-title {
   margin-bottom: 30px;
 }
 
-.appie-testimonial-about-area .appie-section-title .appie-title {
+.orfarm-testimonial-about-area .orfarm-section-title .orfarm-title {
   padding: 0 30px;
 }
 
@@ -4113,21 +4113,21 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 /*===========================
-    7.APPIE TEAM css 
+    7.orfarm TEAM css 
 ===========================*/
-.appie-team-item .thumb {
+.orfarm-team-item .thumb {
   position: relative;
   z-index: 10;
   overflow: hidden;
 }
 
-.appie-team-item .thumb img {
+.orfarm-team-item .thumb img {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   width: 100%;
 }
 
-.appie-team-item .thumb::before {
+.orfarm-team-item .thumb::before {
   position: absolute;
   content: '';
   left: 0;
@@ -4142,7 +4142,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   transition: all 0.3s ease-out 0s;
 }
 
-.appie-team-item .thumb ul {
+.orfarm-team-item .thumb ul {
   position: absolute;
   left: 50%;
   bottom: 30px;
@@ -4158,12 +4158,12 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   transition: all 0.3s ease-out 0s;
 }
 
-.appie-team-item .thumb ul li {
+.orfarm-team-item .thumb ul li {
   display: inline-block;
   margin: 0 3px;
 }
 
-.appie-team-item .thumb ul li a {
+.orfarm-team-item .thumb ul li a {
   display: inline-block;
   height: 36px;
   width: 36px;
@@ -4174,69 +4174,69 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   color: #fff;
 }
 
-.appie-team-item .thumb ul li a:hover {
+.orfarm-team-item .thumb ul li a:hover {
   background: #fff;
   color: #2b70fa;
   border-color: #fff;
 }
 
-.appie-team-item .content {
+.orfarm-team-item .content {
   padding-top: 27px;
 }
 
-.appie-team-item .content .title {
+.orfarm-team-item .content .title {
   font-size: 18px;
   font-weight: 700;
   padding-bottom: 8px;
 }
 
-.appie-team-item .content span {
+.orfarm-team-item .content span {
   font-size: 14px;
   color: #81818d;
 }
 
-.appie-team-item:hover .thumb::before {
+.orfarm-team-item:hover .thumb::before {
   opacity: 0.5;
 }
 
-.appie-team-item:hover .thumb ul {
+.orfarm-team-item:hover .thumb ul {
   opacity: 1;
   visibility: visible;
 }
 
-.appie-team-item:hover .thumb img {
+.orfarm-team-item:hover .thumb img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.appie-team-item.appie-team-item-about .thumb {
+.orfarm-team-item.orfarm-team-item-about .thumb {
   border-radius: 6px;
   overflow: hidden;
 }
 
-.appie-team-item.appie-team-item-about .thumb::before {
+.orfarm-team-item.orfarm-team-item-about .thumb::before {
   background-color: #2b70fa;
 }
 
-.appie-team-item.appie-team-item-about .thumb ul {
+.orfarm-team-item.orfarm-team-item-about .thumb ul {
   left: 30px;
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
 
-.appie-team-item.appie-team-item-about .thumb ul li a {
+.orfarm-team-item.orfarm-team-item-about .thumb ul li a {
   border-radius: 6px;
 }
 
-.appie-team-item.appie-team-item-about:hover .thumb::before {
+.orfarm-team-item.orfarm-team-item-about:hover .thumb::before {
   opacity: 0.9;
 }
 
-.appie-team-item.appie-team-item-about.appie-team-item-8 .thumb::before {
+.orfarm-team-item.orfarm-team-item-about.orfarm-team-item-8 .thumb::before {
   background: #db0f30;
 }
 
-.appie-team-item.appie-team-item-about.appie-team-item-8 .thumb ul li a:hover {
+.orfarm-team-item.orfarm-team-item-about.orfarm-team-item-8 .thumb ul li a:hover {
   color: #db0f30;
 }
 
@@ -4255,42 +4255,42 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   color: #fff;
 }
 
-.appie-team-about-area .team-btn a {
+.orfarm-team-about-area .team-btn a {
   border-color: #f5ab1e;
   color: #f5ab1e;
 }
 
-.appie-team-about-area .team-btn a:hover {
+.orfarm-team-about-area .team-btn a:hover {
   color: #fff;
 }
 
-.appie-team-about-area.appie-team-8-area .team-btn a {
+.orfarm-team-about-area.orfarm-team-8-area .team-btn a {
   border-color: #db0f30;
   color: #db0f30;
 }
 
-.appie-team-about-area.appie-team-8-area .team-btn a:hover {
+.orfarm-team-about-area.orfarm-team-8-area .team-btn a:hover {
   background: #db0f30;
   color: #fff;
 }
 
 /*===========================
-    8.APPIE PRICING css 
+    8.orfarm PRICING css 
 ===========================*/
-.appie-pricing-area {
+.orfarm-pricing-area {
   background: #eef1f6;
 }
 
-.appie-pricing-area {
+.orfarm-pricing-area {
   position: relative;
   z-index: 10;
 }
 
-.appie-pricing-area .section-title {
+.orfarm-pricing-area .section-title {
   padding-bottom: 48px;
 }
 
-.appie-pricing-area .switch {
+.orfarm-pricing-area .switch {
   position: relative;
   display: inline-block;
   width: 60px;
@@ -4299,11 +4299,11 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   margin: 0;
 }
 
-.appie-pricing-area .switch input {
+.orfarm-pricing-area .switch input {
   display: none;
 }
 
-.appie-pricing-area .slider {
+.orfarm-pricing-area .slider {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -4315,7 +4315,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   background: #fff;
 }
 
-.appie-pricing-area .slider:before {
+.orfarm-pricing-area .slider:before {
   position: absolute;
   content: "";
   height: 26px;
@@ -4329,20 +4329,20 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   transition: .4s;
 }
 
-.appie-pricing-area .switch.off .slider:before {
+.orfarm-pricing-area .switch.off .slider:before {
   -webkit-transform: translateX(26px);
   transform: translateX(26px);
 }
 
-.appie-pricing-area .slider.round {
+.orfarm-pricing-area .slider.round {
   border-radius: 34px;
 }
 
-.appie-pricing-area .slider.round:before {
+.orfarm-pricing-area .slider.round:before {
   border-radius: 50%;
 }
 
-.appie-pricing-area ul.switch-toggler-list {
+.orfarm-pricing-area ul.switch-toggler-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4355,7 +4355,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   margin-bottom: 40px;
 }
 
-.appie-pricing-area ul.switch-toggler-list li a {
+.orfarm-pricing-area ul.switch-toggler-list li a {
   font-size: 14px;
   font-weight: 500;
   color: #505056;
@@ -4364,7 +4364,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   display: block;
 }
 
-.appie-pricing-area ul.switch-toggler-list li.active a {
+.orfarm-pricing-area ul.switch-toggler-list li.active a {
   color: #0e1133;
 }
 
@@ -4556,7 +4556,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           transform: translateY(-10px);
 }
 
-.appie-pricing-2-area .appie-section-title .nav {
+.orfarm-pricing-2-area .orfarm-section-title .nav {
   display: inline-block !important;
   border: 2px solid #e7eaef;
   padding: 3px;
@@ -4564,11 +4564,11 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   margin-top: 55px;
 }
 
-.appie-pricing-2-area .appie-section-title .nav li {
+.orfarm-pricing-2-area .orfarm-section-title .nav li {
   display: inline-block;
 }
 
-.appie-pricing-2-area .appie-section-title .nav li a {
+.orfarm-pricing-2-area .orfarm-section-title .nav li a {
   border-radius: 30px;
   font-weight: 500;
   font-size: 14px;
@@ -4576,26 +4576,26 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   padding: 5px 20px;
 }
 
-.appie-pricing-2-area .appie-section-title .nav li a.active {
+.orfarm-pricing-2-area .orfarm-section-title .nav li a.active {
   color: #fff;
   background: #ff3e66;
 }
 
-.appie-pricing-6-area .pricing-one__single .pricing-rebon span {
+.orfarm-pricing-6-area .pricing-one__single .pricing-rebon span {
   background: #9b2cfa;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.appie-pricing-6-area .pricing-one__single.center .pricig-body .pricing-btn a {
+.orfarm-pricing-6-area .pricing-one__single.center .pricig-body .pricing-btn a {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
 
 /*===========================
-    9.APPIE FAQ css 
+    9.orfarm FAQ css 
 ===========================*/
-.appie-faq-area {
+.orfarm-faq-area {
   background: #eef1f6;
   position: relative;
   background-image: url(../images/shape/faq-shape.png);
@@ -4818,22 +4818,22 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   font-weight: 400;
 }
 
-.appie-faq-8-area {
+.orfarm-faq-8-area {
   background: #eef1f6;
   position: relative;
 }
 
-.appie-faq-8-area .faq-accordion .accrodion .accrodion-inner .accrodion-title::before {
+.orfarm-faq-8-area .faq-accordion .accrodion .accrodion-inner .accrodion-title::before {
   background: #fcecef;
   color: #db0f30;
 }
 
-.appie-faq-8-area .faq-accordion .accrodion .accrodion-inner .accrodion-title::after {
+.orfarm-faq-8-area .faq-accordion .accrodion .accrodion-inner .accrodion-title::after {
   background: #db0f30;
   color: #fff;
 }
 
-.appie-faq-8-area .faq-play-box {
+.orfarm-faq-8-area .faq-play-box {
   position: absolute;
   top: 0;
   right: 0;
@@ -4846,18 +4846,18 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-faq-8-area .faq-play-box {
+  .orfarm-faq-8-area .faq-play-box {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-faq-8-area .faq-play-box {
+  .orfarm-faq-8-area .faq-play-box {
     display: none;
   }
 }
 
-.appie-faq-8-area .faq-play-box .play-btn {
+.orfarm-faq-8-area .faq-play-box .play-btn {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -4865,7 +4865,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           transform: translate(-50%, -50%);
 }
 
-.appie-faq-8-area .faq-play-box .play-btn a {
+.orfarm-faq-8-area .faq-play-box .play-btn a {
   height: 80px;
   width: 80px;
   text-align: center;
@@ -4876,7 +4876,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   position: relative;
 }
 
-.appie-faq-8-area .faq-play-box .play-btn a::before {
+.orfarm-faq-8-area .faq-play-box .play-btn a::before {
   position: absolute;
   content: '';
   left: 0;
@@ -4889,7 +4889,7 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
           animation: linear infinite popup 1.5s;
 }
 
-.appie-faq-8-area .faq-play-box .faq-play-counter {
+.orfarm-faq-8-area .faq-play-box .faq-play-counter {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -4898,62 +4898,62 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   display: flex;
 }
 
-.appie-faq-8-area .faq-play-box .faq-play-counter .box-1 {
+.orfarm-faq-8-area .faq-play-box .faq-play-counter .box-1 {
   background: rgba(42, 109, 245, 0.9);
   padding: 50px 60px;
 }
 
-.appie-faq-8-area .faq-play-box .faq-play-counter .box-1 .title {
+.orfarm-faq-8-area .faq-play-box .faq-play-counter .box-1 .title {
   font-size: 30px;
   color: #fff;
 }
 
-.appie-faq-8-area .faq-play-box .faq-play-counter .box-1 span {
+.orfarm-faq-8-area .faq-play-box .faq-play-counter .box-1 span {
   font-size: 14px;
   color: #d1dbfb;
 }
 
-.appie-faq-8-area .faq-play-box .faq-play-counter .box-1.box-2 {
+.orfarm-faq-8-area .faq-play-box .faq-play-counter .box-1.box-2 {
   background: rgba(14, 17, 51, 0.9);
 }
 
 /*===========================
-    10.APPIE BLOG css 
+    10.orfarm BLOG css 
 ===========================*/
-.appie-blog-item .thumb {
+.orfarm-blog-item .thumb {
   overflow: hidden;
   border-radius: 6px;
 }
 
-.appie-blog-item .thumb img {
+.orfarm-blog-item .thumb img {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   width: 100%;
 }
 
-.appie-blog-item .content {
+.orfarm-blog-item .content {
   padding-top: 20px;
 }
 
-.appie-blog-item .content .blog-meta ul {
+.orfarm-blog-item .content .blog-meta ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.appie-blog-item .content .blog-meta ul li {
+.orfarm-blog-item .content .blog-meta ul li {
   display: inline-block;
   font-size: 14px;
   padding-right: 22px;
   position: relative;
 }
 
-.appie-blog-item .content .blog-meta ul li a {
+.orfarm-blog-item .content .blog-meta ul li a {
   font-weight: 400;
   color: #505056;
 }
 
-.appie-blog-item .content .blog-meta ul li:nth-child(1)::before {
+.orfarm-blog-item .content .blog-meta ul li:nth-child(1)::before {
   position: absolute;
   content: '';
   right: 8px;
@@ -4966,89 +4966,89 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   border-radius: 50%;
 }
 
-.appie-blog-item .content .title {
+.orfarm-blog-item .content .title {
   font-size: 24px;
   font-weight: 500;
   line-height: 34px;
   margin-top: 2px;
 }
 
-.appie-blog-item .content .title a {
+.orfarm-blog-item .content .title a {
   color: #0e1133;
 }
 
-.appie-blog-item .content .title a:hover {
+.orfarm-blog-item .content .title a:hover {
   color: #2b70fa;
 }
 
-.appie-blog-item .content > a {
+.orfarm-blog-item .content > a {
   font-size: 15px;
   font-weight: 500;
   color: #0e1133;
   margin-top: 14px;
 }
 
-.appie-blog-item .content > a i {
+.orfarm-blog-item .content > a i {
   padding-left: 6px;
 }
 
-.appie-blog-item .content > a:hover {
+.orfarm-blog-item .content > a:hover {
   color: #2b70fa;
 }
 
-.appie-blog-item:hover .thumb img {
+.orfarm-blog-item:hover .thumb img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.appie-blog-3-area .blog-btn a {
+.orfarm-blog-3-area .blog-btn a {
   background: transparent;
   color: #0e1133;
   border: 2px solid #e7eaef;
 }
 
-.appie-blog-3-area .blog-btn a:hover {
+.orfarm-blog-3-area .blog-btn a:hover {
   background: #ff6b58;
   border-color: #ff6b58;
   color: #fff;
 }
 
-.appie-blog-3-area.appie-blog-6-area .blog-btn a:hover {
+.orfarm-blog-3-area.orfarm-blog-6-area .blog-btn a:hover {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
 
-.appie-blog-3-area.appie-blog-8-area {
+.orfarm-blog-3-area.orfarm-blog-8-area {
   background: #eef1f6;
   position: relative;
   z-index: 10;
 }
 
-.appie-blog-3-area.appie-blog-8-area .appie-blog-8-shape-1 {
+.orfarm-blog-3-area.orfarm-blog-8-area .orfarm-blog-8-shape-1 {
   position: absolute;
   left: 0;
   top: 0;
   z-index: -1;
 }
 
-.appie-blog-3-area.appie-blog-8-area .appie-blog-8-shape-2 {
+.orfarm-blog-3-area.orfarm-blog-8-area .orfarm-blog-8-shape-2 {
   position: absolute;
   right: 0;
   bottom: 340px;
   z-index: -1;
 }
 
-.appie-blog-3-area.appie-blog-8-area .blog-btn a {
+.orfarm-blog-3-area.orfarm-blog-8-area .blog-btn a {
   border-color: #db0f30;
   color: #db0f30;
 }
 
-.appie-blog-3-area.appie-blog-8-area .blog-btn a:hover {
+.orfarm-blog-3-area.orfarm-blog-8-area .blog-btn a:hover {
   background: #db0f30;
   color: #fff;
 }
 
-.appie-blog-item-3 {
+.orfarm-blog-item-3 {
   -webkit-box-shadow: 0px 15px 50px 0px rgba(14, 17, 51, 0.1);
           box-shadow: 0px 15px 50px 0px rgba(14, 17, 51, 0.1);
   border-radius: 10px;
@@ -5062,27 +5062,27 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-blog-item-3 {
+  .orfarm-blog-item-3 {
     padding: 15px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-blog-item-3 {
+  .orfarm-blog-item-3 {
     padding: 15px;
     display: block;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-blog-item-3 {
+  .orfarm-blog-item-3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
 }
 
-.appie-blog-item-3 .thumb {
+.orfarm-blog-item-3 .thumb {
   max-width: 120px;
   min-width: 120px;
   border-radius: 6px;
@@ -5091,77 +5091,77 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
 }
 
 @media (max-width: 767px) {
-  .appie-blog-item-3 .thumb {
+  .orfarm-blog-item-3 .thumb {
     max-width: 100%;
     min-width: 100%;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-blog-item-3 .thumb {
+  .orfarm-blog-item-3 .thumb {
     max-width: 120px;
     min-width: 120px;
   }
 }
 
-.appie-blog-item-3 .thumb img {
+.orfarm-blog-item-3 .thumb img {
   width: 100%;
   -webkit-transition: all linear 0.3s;
   transition: all linear 0.3s;
 }
 
-.appie-blog-item-3 .content {
+.orfarm-blog-item-3 .content {
   padding-right: 50px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-blog-item-3 .content {
+  .orfarm-blog-item-3 .content {
     padding-right: 0;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-blog-item-3 .content {
+  .orfarm-blog-item-3 .content {
     padding-right: 0;
     margin-top: 20px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-blog-item-3 .content {
+  .orfarm-blog-item-3 .content {
     padding-right: 50px;
     margin-top: 0;
   }
 }
 
-.appie-blog-item-3 .content .title {
+.orfarm-blog-item-3 .content .title {
   font-size: 22px;
   line-height: 32px;
   margin-bottom: 8px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-blog-item-3 .content .title {
+  .orfarm-blog-item-3 .content .title {
     font-size: 18px;
     line-height: 28px;
   }
 }
 
-.appie-blog-item-3 .content .title a {
+.orfarm-blog-item-3 .content .title a {
   color: #0e1133;
 }
 
-.appie-blog-item-3 .content .title a:hover {
+.orfarm-blog-item-3 .content .title a:hover {
   color: #ff6b58;
 }
 
-.appie-blog-item-3 .content ul {
+.orfarm-blog-item-3 .content ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.appie-blog-item-3 .content ul li {
+.orfarm-blog-item-3 .content ul li {
   display: inline-block;
   font-size: 14px;
   font-weight: 400;
@@ -5169,30 +5169,30 @@ input#exampleInputEmail:focus, #inputGroupSelect01:focus,#exampleInputFirstName:
   margin-right: 22px;
 }
 
-.appie-blog-item-3 .content ul li i {
+.orfarm-blog-item-3 .content ul li i {
   padding-right: 6px;
 }
 
-.appie-blog-item-3 .content ul li a {
+.orfarm-blog-item-3 .content ul li a {
   color: #505056;
   font-size: 14px;
   font-weight: 400;
 }
 
-.appie-blog-item-3:hover .thumb img {
+.orfarm-blog-item-3:hover .thumb img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.appie-blog-item-3.appie-blog-item-6 .content .title a:hover {
+.orfarm-blog-item-3.orfarm-blog-item-6 .content .title a:hover {
   color: #9b2cfa;
 }
 
-.appie-blog-item-3.appie-blog-item-8 {
+.orfarm-blog-item-3.orfarm-blog-item-8 {
   background: #fff;
 }
 
-.appie-blog-item-3.appie-blog-item-8 .content .title a:hover {
+.orfarm-blog-item-3.orfarm-blog-item-8 .content .title a:hover {
   color: #db0f30;
 }
 
@@ -6084,9 +6084,9 @@ blockquote cite {
 }
 
 /*===========================
-    10.APPIE PROJECT css 
+    10.orfarm PROJECT css 
 ===========================*/
-.appie-project-area .appie-project-box {
+.orfarm-project-area .orfarm-project-box {
   background-image: url(../images/project-bg.jpg);
   background-size: cover;
   background-position: center;
@@ -6100,46 +6100,46 @@ blockquote cite {
 }
 
 @media (max-width: 767px) {
-  .appie-project-area .appie-project-box {
+  .orfarm-project-area .orfarm-project-box {
     padding-left: 30px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-project-area .appie-project-box {
+  .orfarm-project-area .orfarm-project-box {
     padding-left: 70px;
   }
 }
 
-.appie-project-area .appie-project-box .appie-project-thumb {
+.orfarm-project-area .orfarm-project-box .orfarm-project-thumb {
   position: absolute;
   right: 70px;
   bottom: 0;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-project-area .appie-project-box .appie-project-thumb {
+  .orfarm-project-area .orfarm-project-box .orfarm-project-thumb {
     right: 30px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-project-area .appie-project-box .appie-project-thumb {
+  .orfarm-project-area .orfarm-project-box .orfarm-project-thumb {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-project-area .appie-project-box .appie-project-thumb {
+  .orfarm-project-area .orfarm-project-box .orfarm-project-thumb {
     display: none;
   }
 }
 
-.appie-project-content {
+.orfarm-project-content {
   padding-right: 50px;
 }
 
-.appie-project-content .title {
+.orfarm-project-content .title {
   color: #fff;
   font-size: 50px;
   line-height: 60px;
@@ -6147,52 +6147,52 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-project-content .title {
+  .orfarm-project-content .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-project-content .title {
+  .orfarm-project-content .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-project-content .title {
+  .orfarm-project-content .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 
-.appie-project-content p {
+.orfarm-project-content p {
   color: #fff;
   opacity: 0.8;
 }
 
-.appie-project-content .input-box {
+.orfarm-project-content .input-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 @media (max-width: 767px) {
-  .appie-project-content .input-box {
+  .orfarm-project-content .input-box {
     display: block;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-project-content .input-box {
+  .orfarm-project-content .input-box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
 }
 
-.appie-project-content .input-box input {
+.orfarm-project-content .input-box input {
   width: 100%;
   height: 50px;
   padding-left: 30px;
@@ -6200,7 +6200,7 @@ blockquote cite {
   border: 0;
 }
 
-.appie-project-content .input-box button {
+.orfarm-project-content .input-box button {
   margin-left: 10px;
   padding: 0 30px;
   border-radius: 6px;
@@ -6212,24 +6212,24 @@ blockquote cite {
 }
 
 @media (max-width: 767px) {
-  .appie-project-content .input-box button {
+  .orfarm-project-content .input-box button {
     margin-top: 20px;
     margin-left: 0;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-project-content .input-box button {
+  .orfarm-project-content .input-box button {
     margin-top: 0px;
     margin-left: 10px;
   }
 }
 
-.appie-project-3-area.appie-project-5-area {
+.orfarm-project-3-area.orfarm-project-5-area {
   background: #eef1f6;
 }
 
-.appie-project-3-box {
+.orfarm-project-3-box {
   background-image: url(../images/project-bg-2.jpg);
   background-size: cover;
   background-position: center;
@@ -6245,33 +6245,33 @@ blockquote cite {
 }
 
 @media (max-width: 767px) {
-  .appie-project-3-box {
+  .orfarm-project-3-box {
     text-align: center;
   }
 }
 
-.appie-project-3-box .title {
+.orfarm-project-3-box .title {
   color: #fff;
   font-size: 46px;
   line-height: 56px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-project-3-box .title {
+  .orfarm-project-3-box .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-project-3-box .title {
+  .orfarm-project-3-box .title {
     font-size: 35px;
     line-height: 46px;
     margin-bottom: 30px;
   }
 }
 
-.appie-project-3-box a {
+.orfarm-project-3-box a {
   background: #fff;
   color: #0e1133;
   border-color: #fff;
@@ -6280,65 +6280,65 @@ blockquote cite {
 }
 
 /*===========================
-    10.APPIE FOOTER css 
+    10.orfarm FOOTER css 
 ===========================*/
-.appie-footer-area {
+.orfarm-footer-area {
   background: #eef1f6;
   padding-top: 50px;
   padding-bottom: 60px;
 }
 
-.appie-footer-area.appie-footer-3-area {
+.orfarm-footer-area.orfarm-footer-3-area {
   padding-top: 180px;
 }
 
-.appie-footer-area.appie-footer-3-area.appie-footer-5-area {
+.orfarm-footer-area.orfarm-footer-3-area.orfarm-footer-5-area {
   background: #fff;
 }
 
-.appie-footer-area.appie-footer-about-area {
+.orfarm-footer-area.orfarm-footer-about-area {
   padding-top: 230px;
 }
 
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area {
+.orfarm-footer-area.orfarm-footer-about-area.orfarm-footer-8-area {
   background: #fff;
 }
 
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-about-widget .social ul li a {
+.orfarm-footer-area.orfarm-footer-about-area.orfarm-footer-8-area .footer-about-widget .social ul li a {
   border: 2px solid #e6e7ea;
 }
 
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-about-widget .social ul li a:hover {
+.orfarm-footer-area.orfarm-footer-about-area.orfarm-footer-8-area .footer-about-widget .social ul li a:hover {
   background: #db0f30;
   border-color: #db0f30;
   color: #fff;
 }
 
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-navigation ul li a:hover {
+.orfarm-footer-area.orfarm-footer-about-area.orfarm-footer-8-area .footer-navigation ul li a:hover {
   color: #db0f30;
 }
 
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-widget-info ul li a i {
+.orfarm-footer-area.orfarm-footer-about-area.orfarm-footer-8-area .footer-widget-info ul li a i {
   color: #db0f30;
 }
 
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-copyright .apps-download-btn ul li a {
+.orfarm-footer-area.orfarm-footer-about-area.orfarm-footer-8-area .footer-copyright .apps-download-btn ul li a {
   background: #0e1133;
   color: #fff;
   border-color: #0e1133;
 }
 
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-copyright .apps-download-btn ul li a:hover {
+.orfarm-footer-area.orfarm-footer-about-area.orfarm-footer-8-area .footer-copyright .apps-download-btn ul li a:hover {
   background: #fff;
   color: #0e1133;
 }
 
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-copyright .apps-download-btn ul li a.item-2 {
+.orfarm-footer-area.orfarm-footer-about-area.orfarm-footer-8-area .footer-copyright .apps-download-btn ul li a.item-2 {
   background: #fff;
   color: #0e1133;
 }
 
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area .footer-copyright .apps-download-btn ul li a.item-2:hover {
+.orfarm-footer-area.orfarm-footer-about-area.orfarm-footer-8-area .footer-copyright .apps-download-btn ul li a.item-2:hover {
   background: #0e1133;
   color: #fff;
   border-color: #0e1133;
@@ -6584,11 +6584,11 @@ blockquote cite {
   color: #0e1133;
 }
 
-.appie-error-area {
+.orfarm-error-area {
   padding-top: 250px;
 }
 
-.appie-error-content span {
+.orfarm-error-content span {
   display: block;
   font-size: 50px;
   color: #db0f30;
@@ -6596,21 +6596,21 @@ blockquote cite {
   padding-top: 40px;
 }
 
-.appie-error-content .title {
+.orfarm-error-content .title {
   font-size: 50px;
   font-weight: 800;
   color: #0e1133;
   padding-bottom: 11px;
 }
 
-.appie-error-content p {
+.orfarm-error-content p {
   line-height: 26px;
   color: #505056;
   font-size: 16px;
   padding: 0 50px;
 }
 
-.appie-error-content a {
+.orfarm-error-content a {
   border: 2px solid #2b70fa;
   line-height: 45px;
   padding: 0 35px;
@@ -6618,15 +6618,15 @@ blockquote cite {
   margin-top: 30px;
 }
 
-.appie-signup-area.appie-signup-8-area {
+.orfarm-signup-area.orfarm-signup-8-area {
   background: #eef1f6;
 }
 
-.appie-signup-area.appie-signup-8-area .appie-signup-box form .input-box button {
+.orfarm-signup-area.orfarm-signup-8-area .orfarm-signup-box form .input-box button {
   background: #db0f30;
 }
 
-.appie-signup-box {
+.orfarm-signup-box {
   background-image: url(../images/signup-bg.jpg);
   padding: 63px 100px 60px;
   border-radius: 10px;
@@ -6638,18 +6638,18 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-signup-box {
+  .orfarm-signup-box {
     padding: 30px 50px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-signup-box {
+  .orfarm-signup-box {
     padding: 30px;
   }
 }
 
-.appie-signup-box .thumb {
+.orfarm-signup-box .thumb {
   position: absolute;
   right: 70px;
   bottom: 30px;
@@ -6657,35 +6657,35 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-signup-box .thumb {
+  .orfarm-signup-box .thumb {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-signup-box .thumb {
+  .orfarm-signup-box .thumb {
     display: none;
   }
 }
 
-.appie-signup-box span {
+.orfarm-signup-box span {
   color: #fff;
   font-weight: 500;
 }
 
-.appie-signup-box .title {
+.orfarm-signup-box .title {
   font-size: 46px;
   color: #fff;
   padding-bottom: 20px;
 }
 
 @media (max-width: 767px) {
-  .appie-signup-box .title {
+  .orfarm-signup-box .title {
     font-size: 30px;
   }
 }
 
-.appie-signup-box form {
+.orfarm-signup-box form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6694,7 +6694,7 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-signup-box form {
+  .orfarm-signup-box form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -6703,7 +6703,7 @@ blockquote cite {
 }
 
 @media (max-width: 767px) {
-  .appie-signup-box form {
+  .orfarm-signup-box form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -6711,12 +6711,12 @@ blockquote cite {
   }
 }
 
-.appie-signup-box form .input-box {
+.orfarm-signup-box form .input-box {
   margin-right: 10px;
   margin-top: 10px;
 }
 
-.appie-signup-box form .input-box input {
+.orfarm-signup-box form .input-box input {
   width: 300px;
   background: #fff;
   line-height: 55px;
@@ -6726,18 +6726,18 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-signup-box form .input-box input {
+  .orfarm-signup-box form .input-box input {
     width: 100%;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-signup-box form .input-box input {
+  .orfarm-signup-box form .input-box input {
     width: 100%;
   }
 }
 
-.appie-signup-box form .input-box button {
+.orfarm-signup-box form .input-box button {
   background: #2b70fa;
   line-height: 55px;
   border: 0;
@@ -6747,11 +6747,11 @@ blockquote cite {
   font-weight: 500;
 }
 
-.appie_checkbox_common {
+.orfarm_checkbox_common {
   margin-top: 15px;
 }
 
-.appie_checkbox_common label {
+.orfarm_checkbox_common label {
   color: #fff;
   font-size: 14px;
   margin-bottom: 12px;
@@ -6759,16 +6759,16 @@ blockquote cite {
   font-weight: 400;
 }
 
-.appie_checkbox_common label a {
+.orfarm_checkbox_common label a {
   text-decoration: underline;
   color: #b3b6bc;
 }
 
-.appie_checkbox_common input[type="checkbox"] {
+.orfarm_checkbox_common input[type="checkbox"] {
   display: none;
 }
 
-.appie_checkbox_common input[type="checkbox"] + label span {
+.orfarm_checkbox_common input[type="checkbox"] + label span {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -6780,7 +6780,7 @@ blockquote cite {
   position: relative;
 }
 
-.appie_checkbox_common input[type="checkbox"] + label span:before {
+.orfarm_checkbox_common input[type="checkbox"] + label span:before {
   color: #fff;
   content: "\f00c";
   font-family: 'Font Awesome 5 Pro';
@@ -6795,30 +6795,30 @@ blockquote cite {
   transition: 0.2s;
 }
 
-.appie_checkbox_common input[type="checkbox"]:checked + label span {
+.orfarm_checkbox_common input[type="checkbox"]:checked + label span {
   background: #2079ff;
   border-color: #2079ff;
 }
 
-.appie_checkbox_common input[type="checkbox"]:checked + label span:before {
+.orfarm_checkbox_common input[type="checkbox"]:checked + label span:before {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
 
-.appie_checkbox_common input[type="checkbox"] + label span,
-.appie_checkbox_common input[type="checkbox"]:checked + label span {
+.orfarm_checkbox_common input[type="checkbox"] + label span,
+.orfarm_checkbox_common input[type="checkbox"]:checked + label span {
   -webkit-transition: background-color 0.2s linear;
   transition: background-color 0.2s linear;
 }
 
-.appie_checkbox_common.checkbox_style2 input[type="checkbox"] + label span {
+.orfarm_checkbox_common.checkbox_style2 input[type="checkbox"] + label span {
   border-radius: 3px;
 }
 
 /*===========================
-    11.APPIE ABOUT css 
+    11.orfarm ABOUT css 
 ===========================*/
-.appie-about-box {
+.orfarm-about-box {
   background: #f0f1f7;
   padding: 70px;
   overflow: hidden;
@@ -6826,47 +6826,47 @@ blockquote cite {
 }
 
 @media (max-width: 767px) {
-  .appie-about-box {
+  .orfarm-about-box {
     padding: 30px;
     text-align: center;
   }
 }
 
-.appie-about-box .about-thumb {
+.orfarm-about-box .about-thumb {
   position: absolute;
   left: 0;
   top: -65px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-about-box .about-thumb {
+  .orfarm-about-box .about-thumb {
     position: static;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-about-box .about-thumb {
+  .orfarm-about-box .about-thumb {
     display: none;
   }
 }
 
-.appie-about-content {
+.orfarm-about-content {
   padding-right: 50px;
 }
 
 @media (max-width: 767px) {
-  .appie-about-content {
+  .orfarm-about-content {
     padding-right: 0;
   }
 }
 
-.appie-about-content span {
+.orfarm-about-content span {
   font-size: 14px;
   font-weight: 500;
   color: #ff3e66;
 }
 
-.appie-about-content .title {
+.orfarm-about-content .title {
   font-size: 44px;
   line-height: 54px;
   margin-top: 8px;
@@ -6874,37 +6874,37 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-content .title {
+  .orfarm-about-content .title {
     font-size: 32px;
     line-height: 42px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-about-content .title {
+  .orfarm-about-content .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
-.appie-about-service {
+.orfarm-about-service {
   position: relative;
   padding-left: 40px;
 }
 
 @media (max-width: 767px) {
-  .appie-about-service {
+  .orfarm-about-service {
     text-align: left;
   }
 }
 
-.appie-about-service .icon {
+.orfarm-about-service .icon {
   position: absolute;
   left: 0;
   top: 5px;
 }
 
-.appie-about-service .icon i {
+.orfarm-about-service .icon i {
   height: 26px;
   width: 26px;
   text-align: center;
@@ -6914,63 +6914,63 @@ blockquote cite {
   background: #31c369;
 }
 
-.appie-about-service .title {
+.orfarm-about-service .title {
   font-size: 20px;
   font-weight: 700;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-service .title {
+  .orfarm-about-service .title {
     font-size: 16px;
   }
 }
 
-.appie-about-service p {
+.orfarm-about-service p {
   font-size: 15px;
   margin-top: 8px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-service p {
+  .orfarm-about-service p {
     font-size: 14px;
   }
 }
 
-.appie-about-3-area .appie-traffic-title {
+.orfarm-about-3-area .orfarm-traffic-title {
   padding-right: 100px;
 }
 
 @media (max-width: 767px) {
-  .appie-about-3-area .appie-traffic-title {
+  .orfarm-about-3-area .orfarm-traffic-title {
     text-align: center;
     padding-right: 0;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-about-3-area .appie-traffic-title {
+  .orfarm-about-3-area .orfarm-traffic-title {
     text-align: left;
     padding-right: 50px;
   }
 }
 
-.appie-about-3-area .appie-traffic-title .title {
+.orfarm-about-3-area .orfarm-traffic-title .title {
   margin-bottom: 15px;
 }
 
-.appie-about-3-area .appie-traffic-service {
+.orfarm-about-3-area .orfarm-traffic-service {
   padding-left: 0;
   padding-right: 50px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-3-area .appie-traffic-service {
+  .orfarm-about-3-area .orfarm-traffic-service {
     padding-right: 0;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-about-3-area .appie-traffic-service {
+  .orfarm-about-3-area .orfarm-traffic-service {
     text-align: center;
     padding-right: 30px;
     padding-left: 30px;
@@ -6978,14 +6978,14 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-about-3-area .appie-traffic-service {
+  .orfarm-about-3-area .orfarm-traffic-service {
     text-align: left;
     padding-right: 50px;
     padding-left: 0;
   }
 }
 
-.appie-about-3-area .appie-traffic-service .icon {
+.orfarm-about-3-area .orfarm-traffic-service .icon {
   position: static;
   background-image: -ms-linear-gradient(120deg, #2b70fa 0%, #84bcfa 100%);
   display: inline-block;
@@ -6999,86 +6999,86 @@ blockquote cite {
   margin-bottom: 23px;
 }
 
-.appie-about-3-area .appie-traffic-service.item-2 .icon {
+.orfarm-about-3-area .orfarm-traffic-service.item-2 .icon {
   background-image: -ms-linear-gradient(120deg, #31c369 0%, #a0eac2 100%);
 }
 
-.appie-about-3-area .appie-traffic-service.item-3 .icon {
+.orfarm-about-3-area .orfarm-traffic-service.item-3 .icon {
   background-image: -ms-linear-gradient(120deg, #9b2cfa 0%, #d8aaff 100%);
 }
 
-.appie-about-3-area .appie-traffic-service.item-4 .icon {
+.orfarm-about-3-area .orfarm-traffic-service.item-4 .icon {
   background-image: -ms-linear-gradient(120deg, #f8452d 0%, #f7b8af 100%);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-about-thumb-3 {
+  .orfarm-about-thumb-3 {
     margin-bottom: 40px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-about-thumb-3 {
+  .orfarm-about-thumb-3 {
     margin-bottom: 40px;
   }
 }
 
-.appie-about-thumb-3 img {
+.orfarm-about-thumb-3 img {
   width: 100%;
 }
 
-.appie-about-top-title-area {
+.orfarm-about-top-title-area {
   padding-top: 227px;
   background-image: url("https://cdn.shopify.com/s/files/1/0412/8151/9765/articles/b3-min_1024x1024.jpg?v=1593256250");
 }
 
-.appie-about-top-title {
+.orfarm-about-top-title {
   padding-right: 65px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-top-title {
+  .orfarm-about-top-title {
     padding-right: 0;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-about-top-title {
+  .orfarm-about-top-title {
     padding-right: 0;
   }
 }
 
-.appie-about-top-title .title {
+.orfarm-about-top-title .title {
   font-size: 60px;
   position: relative;
   z-index: 10;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-top-title .title {
+  .orfarm-about-top-title .title {
     font-size: 52px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-about-top-title .title {
+  .orfarm-about-top-title .title {
     font-size: 44px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-about-top-title .title {
+  .orfarm-about-top-title .title {
     font-size: 32px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-about-top-title .title {
+  .orfarm-about-top-title .title {
     font-size: 40px;
   }
 }
 
-.appie-about-top-title .title::before {
+.orfarm-about-top-title .title::before {
   position: absolute;
   content: '';
   left: 0;
@@ -7088,67 +7088,68 @@ blockquote cite {
   background: #ff6e85;
   z-index: -1;
 }
-.appie-about-top-title h3{
+.orfarm-about-top-title h3{
   color: #000;
 }
-.appie-about-top-title p {
+.orfarm-about-top-title p {
   font-size: 30px;
   color: #ff0707;
   padding-top: 18px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-top-title p {
+  .orfarm-about-top-title p {
     font-size: 16px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-about-top-title p {
+  .orfarm-about-top-title p {
     font-size: 16px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-about-top-title p {
+  .orfarm-about-top-title p {
     font-size: 16px;
   }
 }
 
-.appie-about-page-area {
+.orfarm-about-page-area {
   padding-top: 462px;
   padding-bottom: 100px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 345px;
-  background-color:#28a745;
+  background-color:yellowgreen;
+
 }
 
 @media (max-width: 767px) {
-  .appie-about-page-area {
+  .orfarm-about-page-area {
     margin-top: 80px;
     padding-top: 80px;
   }
 }
 
-.appie-about-page-content {
+.orfarm-about-page-content {
   position: relative;
 }
 
-.appie-about-page-content .title {
+.orfarm-about-page-content .title {
   font-size: 36px;
   font-weight: 700;
   color: #fff;
 }
 
-.appie-about-page-content p {
+.orfarm-about-page-content p {
   color: #fff;
   padding-top: 15px;
   opacity: 0.7;
 }
 
-.appie-about-page-content a {
+.orfarm-about-page-content a {
   color: #fff;
   border: 2px solid #fff;
   border-radius: 10px;
@@ -7159,12 +7160,12 @@ blockquote cite {
   margin-top: 43px;
 }
 
-.appie-about-page-content a:hover {
+.orfarm-about-page-content a:hover {
   background: #fff;
   color: #2b70fa;
 }
 
-.appie-about-page-content::before {
+.orfarm-about-page-content::before {
   position: absolute;
   content: '';
   left: 0;
@@ -7178,47 +7179,47 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-page-content::before {
+  .orfarm-about-page-content::before {
     width: 94vw;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-about-page-content::before {
+  .orfarm-about-page-content::before {
     width: 100%;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-about-page-content::before {
+  .orfarm-about-page-content::before {
     display: none;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-about-page-content::before {
+  .orfarm-about-page-content::before {
     width: 100%;
     height: 400px;
     display: block;
   }
 }
 
-.appie-how-it-work-content > .title {
+.orfarm-how-it-work-content > .title {
   font-size: 44px;
 }
 
-.appie-how-it-work-content p {
+.orfarm-how-it-work-content p {
   font-size: 18px;
   padding-top: 9px;
 }
 
-.appie-how-it-work-content .how-it-work-box {
+.orfarm-how-it-work-content .how-it-work-box {
   position: relative;
   padding-left: 70px;
   margin-top: 45px;
 }
 
-.appie-how-it-work-content .how-it-work-box span {
+.orfarm-how-it-work-content .how-it-work-box span {
   position: absolute;
   left: 0;
   top: 50%;
@@ -7235,26 +7236,26 @@ blockquote cite {
   font-weight: 500;
 }
 
-.appie-how-it-work-content .how-it-work-box .title {
+.orfarm-how-it-work-content .how-it-work-box .title {
   font-size: 18px;
   font-weight: 500;
 }
 
-.appie-how-it-work-content .how-it-work-box:hover span {
+.orfarm-how-it-work-content .how-it-work-box:hover span {
   background: #2b70fa;
   -webkit-box-shadow: 0px 14px 20px 0px rgba(0, 43, 130, 0.3);
           box-shadow: 0px 14px 20px 0px rgba(0, 43, 130, 0.3);
   color: #fff;
 }
 
-.appie-about-8-area {
+.orfarm-about-8-area {
   background-image: url(../images/background-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.appie-about-8-box {
+.orfarm-about-8-box {
   padding: 50px 50px 145px;
   background: #fff;
   border-radius: 6px;
@@ -7266,32 +7267,32 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-8-box {
+  .orfarm-about-8-box {
     padding: 50px 25px 145px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-about-8-box {
+  .orfarm-about-8-box {
     margin-bottom: 30px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-about-8-box {
+  .orfarm-about-8-box {
     margin-bottom: 30px;
     padding: 50px 20px 145px;
   }
 }
 
-.appie-about-8-box .thumb {
+.orfarm-about-8-box .thumb {
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: -1;
 }
 
-.appie-about-8-box .title {
+.orfarm-about-8-box .title {
   font-size: 30px;
   line-height: 40px;
   font-weight: 500;
@@ -7299,52 +7300,52 @@ blockquote cite {
 }
 
 @media (max-width: 767px) {
-  .appie-about-8-box .title {
+  .orfarm-about-8-box .title {
     font-size: 24px;
     line-height: 34px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-about-8-box .title {
+  .orfarm-about-8-box .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
-.appie-about-8-box a {
+.orfarm-about-8-box a {
   border: 2px solid #db0f30;
   color: #db0f30;
   background: #fff;
   margin-top: 30px;
 }
 
-.appie-about-8-box a:hover {
+.orfarm-about-8-box a:hover {
   color: #fff;
   background: #db0f30;
   border-color: #db0f30;
 }
 
 /*===========================
-    12.APPIE COUNTER css 
+    12.orfarm COUNTER css 
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-counter-area {
+  .orfarm-counter-area {
     padding-bottom: 100px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-counter-area {
+  .orfarm-counter-area {
     padding-bottom: 100px;
   }
 }
 
-.appie-counter-area.appie-counter-5-area {
+.orfarm-counter-area.orfarm-counter-5-area {
   background: #eef1f6;
 }
 
-.appie-single-counter {
+.orfarm-single-counter {
   padding: 30px;
   position: relative;
   background: #fff;
@@ -7354,24 +7355,24 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-single-counter {
+  .orfarm-single-counter {
     padding: 20px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-single-counter {
+  .orfarm-single-counter {
     margin-bottom: 90px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-single-counter {
+  .orfarm-single-counter {
     margin-bottom: 90px;
   }
 }
 
-.appie-single-counter .counter-content {
+.orfarm-single-counter .counter-content {
   background: #fff;
   text-align: center;
   border-radius: 6px;
@@ -7381,52 +7382,52 @@ blockquote cite {
   padding-bottom: 40px;
 }
 
-.appie-single-counter .counter-content .title {
+.orfarm-single-counter .counter-content .title {
   font-size: 40px;
   font-weight: 400;
   margin-top: 5px;
 }
 
-.appie-single-counter .counter-content .title span {
+.orfarm-single-counter .counter-content .title span {
   font-weight: 700;
 }
 
-.appie-single-counter .counter-content p {
+.orfarm-single-counter .counter-content p {
   font-size: 14px;
   font-weight: 500;
 }
 
-.appie-single-counter.item-2 {
+.orfarm-single-counter.item-2 {
   background-image: -ms-linear-gradient(140deg, #fdead3 0%, #fff7ee 100%);
 }
 
-.appie-single-counter.item-2 .counter-content {
+.orfarm-single-counter.item-2 .counter-content {
   -webkit-box-shadow: 0px 30px 40px 0px rgba(56, 31, 0, 0.1);
           box-shadow: 0px 30px 40px 0px rgba(56, 31, 0, 0.1);
 }
 
-.appie-single-counter.item-3 {
+.orfarm-single-counter.item-3 {
   background-image: -ms-linear-gradient(140deg, #dafedb 0%, #f0fcf0 100%);
 }
 
-.appie-single-counter.item-3 .counter-content {
+.orfarm-single-counter.item-3 .counter-content {
   -webkit-box-shadow: 0px 30px 40px 0px rgba(0, 74, 1, 0.1);
           box-shadow: 0px 30px 40px 0px rgba(0, 74, 1, 0.1);
 }
 
-.appie-single-counter.item-4 {
+.orfarm-single-counter.item-4 {
   background-image: -ms-linear-gradient(140deg, #fedaf4 0%, #fceff7 100%);
 }
 
-.appie-single-counter.item-4 .counter-content {
+.orfarm-single-counter.item-4 .counter-content {
   -webkit-box-shadow: 0px 30px 40px 0px rgba(74, 0, 54, 0.1);
           box-shadow: 0px 30px 40px 0px rgba(74, 0, 54, 0.1);
 }
 
 /*===========================
-    13.APPIE VIDEO PLAYER css 
+    13.orfarm VIDEO PLAYER css 
 ===========================*/
-.appie-video-player-slider .slick-arrow {
+.orfarm-video-player-slider .slick-arrow {
   position: absolute;
   right: 0;
   bottom: -90px;
@@ -7441,46 +7442,46 @@ blockquote cite {
   cursor: pointer;
 }
 
-.appie-video-player-slider .slick-arrow:hover {
+.orfarm-video-player-slider .slick-arrow:hover {
   background: #ff3e66;
   color: #fff;
   border-color: #ff3e66;
 }
 
-.appie-video-player-slider .slick-arrow.prev {
+.orfarm-video-player-slider .slick-arrow.prev {
   right: 60px;
 }
 
-.appie-video-player-slider .slick-arrow.next {
+.orfarm-video-player-slider .slick-arrow.next {
   right: 0;
 }
 
-.appie-video-player-slider .item img {
+.orfarm-video-player-slider .item img {
   width: 100%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-video-player-item {
+  .orfarm-video-player-item {
     margin-bottom: 50px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-video-player-item {
+  .orfarm-video-player-item {
     margin-bottom: 50px;
   }
 }
 
-.appie-video-player-item .thumb {
+.orfarm-video-player-item .thumb {
   position: relative;
   overflow: hidden;
 }
 
-.appie-video-player-item .thumb img {
+.orfarm-video-player-item .thumb img {
   width: 100%;
 }
 
-.appie-video-player-item .thumb .video-popup {
+.orfarm-video-player-item .thumb .video-popup {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -7488,7 +7489,7 @@ blockquote cite {
           transform: translate(-50%, -50%);
 }
 
-.appie-video-player-item .thumb .video-popup a {
+.orfarm-video-player-item .thumb .video-popup a {
   height: 90px;
   width: 90px;
   background: #fff;
@@ -7500,7 +7501,7 @@ blockquote cite {
   position: relative;
 }
 
-.appie-video-player-item .thumb .video-popup a::before {
+.orfarm-video-player-item .thumb .video-popup a::before {
   position: absolute;
   content: '';
   left: 0;
@@ -7513,41 +7514,41 @@ blockquote cite {
           animation: linear infinite popup 1.5s;
 }
 
-.appie-video-player-item .content {
+.orfarm-video-player-item .content {
   padding-left: 100px;
   padding-top: 35px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-video-player-item .content {
+  .orfarm-video-player-item .content {
     padding-left: 30px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-video-player-item .content {
+  .orfarm-video-player-item .content {
     padding-left: 0px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-video-player-item .content {
+  .orfarm-video-player-item .content {
     padding-left: 0px;
   }
 }
 
-.appie-video-player-item .content .title {
+.orfarm-video-player-item .content .title {
   font-size: 30px;
   margin-bottom: 12px;
 }
 
 @media (max-width: 767px) {
-  .appie-video-player-item .content .title {
+  .orfarm-video-player-item .content .title {
     font-size: 26px;
   }
 }
 
-.appie-video-player-item .content a {
+.orfarm-video-player-item .content a {
   border-radius: 30px;
   border: 2px solid #e7eaef;
   background: #fff;
@@ -7555,7 +7556,7 @@ blockquote cite {
   margin-top: 33px;
 }
 
-.appie-video-player-item .content a:hover {
+.orfarm-video-player-item .content a:hover {
   background: #ff3e66;
   border-color: #fff;
   color: #fff;
@@ -7617,20 +7618,20 @@ blockquote cite {
   }
 }
 
-.appie-video-player-6-area .appie-video-player-item .content a:hover {
+.orfarm-video-player-6-area .orfarm-video-player-item .content a:hover {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
 
-.appie-video-player-6-area .appie-video-player-slider .slick-arrow:hover {
+.orfarm-video-player-6-area .orfarm-video-player-slider .slick-arrow:hover {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
 
 /*===========================
-    14.APPIE DOWNLOAD css 
+    14.orfarm DOWNLOAD css 
 ===========================*/
-.appie-download-area {
+.orfarm-download-area {
   background-image: url(../images/download-bg.png);
   background-size: cover;
   background-position: center;
@@ -7641,13 +7642,13 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-download-area {
+  .orfarm-download-area {
     padding-top: 80px;
     padding-bottom: 80px;
   }
 }
 
-.appie-download-area::before {
+.orfarm-download-area::before {
   position: absolute;
   content: '';
   right: 170px;
@@ -7664,25 +7665,25 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-download-area::before {
+  .orfarm-download-area::before {
     right: 0;
     width: 550px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-download-area::before {
+  .orfarm-download-area::before {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-download-area::before {
+  .orfarm-download-area::before {
     display: none;
   }
 }
 
-.appie-download-area .download-shape-1 {
+.orfarm-download-area .download-shape-1 {
   position: absolute;
   left: 95px;
   top: 95px;
@@ -7691,7 +7692,7 @@ blockquote cite {
           animation: linear 20s animationFramesFour infinite;
 }
 
-.appie-download-area .download-shape-2 {
+.orfarm-download-area .download-shape-2 {
   position: absolute;
   left: 150px;
   bottom: 100px;
@@ -7700,7 +7701,7 @@ blockquote cite {
           animation: linear 20s animationFramesTwo infinite;
 }
 
-.appie-download-area .download-shape-3 {
+.orfarm-download-area .download-shape-3 {
   position: absolute;
   top: 140px;
   right: 250px;
@@ -7709,13 +7710,13 @@ blockquote cite {
           animation: linear 20s animationFramesFive infinite;
 }
 
-.appie-download-content > span {
+.orfarm-download-content > span {
   font-size: 14px;
   font-weight: 500;
   color: #ff3e66;
 }
 
-.appie-download-content .title {
+.orfarm-download-content .title {
   font-size: 44px;
   line-height: 54px;
   margin-top: 9px;
@@ -7723,30 +7724,30 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-download-content .title {
+  .orfarm-download-content .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-download-content .title {
+  .orfarm-download-content .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
-.appie-download-content ul {
+.orfarm-download-content ul {
   margin: 30px 0 0;
   padding: 0;
   list-style-type: none;
 }
 
-.appie-download-content ul li {
+.orfarm-download-content ul li {
   display: inline-block;
 }
 
-.appie-download-content ul li a {
+.orfarm-download-content ul li a {
   background: #0e1133;
   color: #fff;
   padding-left: 22px;
@@ -7765,60 +7766,60 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-download-content ul li a {
+  .orfarm-download-content ul li a {
     padding-right: 20px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-download-content ul li a {
+  .orfarm-download-content ul li a {
     margin-bottom: 20px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-download-content ul li a {
+  .orfarm-download-content ul li a {
     margin-bottom: 0px;
   }
 }
 
-.appie-download-content ul li a i {
+.orfarm-download-content ul li a i {
   font-size: 36px;
   padding-right: 11px;
 }
 
-.appie-download-content ul li a span {
+.orfarm-download-content ul li a span {
   font-size: 14px;
   font-weight: 500;
 }
 
-.appie-download-content ul li a span span {
+.orfarm-download-content ul li a span span {
   font-size: 24px;
   display: block;
   line-height: 18px;
 }
 
-.appie-download-content ul li a:hover {
+.orfarm-download-content ul li a:hover {
   background: #fff;
   color: #0e1133;
 }
 
-.appie-download-content ul li a.item-2 {
+.orfarm-download-content ul li a.item-2 {
   background: #fff;
   color: #0e1133;
 }
 
-.appie-download-content ul li a.item-2:hover {
+.orfarm-download-content ul li a.item-2:hover {
   background: #0e1133;
   color: #fff;
 }
 
-.appie-sponser-area {
+.orfarm-sponser-area {
   position: relative;
   z-index: 10;
 }
 
-.appie-sponser-area .sponser-shape {
+.orfarm-sponser-area .sponser-shape {
   position: absolute;
   left: 50%;
   top: 60%;
@@ -7828,13 +7829,13 @@ blockquote cite {
 }
 
 @media (max-width: 767px) {
-  .appie-sponser-box {
+  .orfarm-sponser-box {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
-.appie-sponser-box .sponser-item {
+.orfarm-sponser-box .sponser-item {
   background: #fff;
   height: 100px;
   width: 100px;
@@ -7846,109 +7847,109 @@ blockquote cite {
   margin: 30px 16px 0;
 }
 
-.appie-sponser-box.item-2 .sponser-item {
+.orfarm-sponser-box.item-2 .sponser-item {
   margin: 30px 28px 0;
 }
 
 @media (max-width: 767px) {
-  .appie-sponser-box.item-2 .sponser-item {
+  .orfarm-sponser-box.item-2 .sponser-item {
     margin: 30px 16px 0;
   }
 }
 
-.appie-download-3-box {
+.orfarm-download-3-box {
   border-radius: 20px;
   background: #ebf2fc;
   overflow: hidden;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-download-3-box {
+  .orfarm-download-3-box {
     margin: 30px 0 0;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-download-3-box {
+  .orfarm-download-3-box {
     margin: 30px 0 0;
   }
 }
 
-.appie-download-3-box .content {
+.orfarm-download-3-box .content {
   padding: 50px;
 }
 
 @media (max-width: 767px) {
-  .appie-download-3-box .content {
+  .orfarm-download-3-box .content {
     padding: 20px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-download-3-box .content {
+  .orfarm-download-3-box .content {
     padding: 50px;
   }
 }
 
-.appie-download-3-box .content .title {
+.orfarm-download-3-box .content .title {
   font-size: 34px;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
-.appie-download-3-box .content a.main-btn {
+.orfarm-download-3-box .content a.main-btn {
   background: #fff;
   color: #0e1133;
   border-color: #fff;
   margin-top: 33px;
 }
 
-.appie-download-3-box .content a.main-btn:hover {
+.orfarm-download-3-box .content a.main-btn:hover {
   background: #ff6b58;
   border-color: #ff6b58;
   color: #fff;
 }
 
-.appie-download-3-box .content a.main-btn i {
+.orfarm-download-3-box .content a.main-btn i {
   padding-right: 6px;
 }
 
-.appie-download-3-box .content a.main-btn.main-btn-2 {
+.orfarm-download-3-box .content a.main-btn.main-btn-2 {
   background: #ff6b58;
   border-color: #ff6b58;
   color: #fff;
 }
 
-.appie-download-3-box .content a.main-btn.main-btn-2:hover {
+.orfarm-download-3-box .content a.main-btn.main-btn-2:hover {
   background: #fff;
   color: #0e1133;
   border-color: #fff;
 }
 
-.appie-download-3-box.appie-download-6-box a.main-btn:hover {
+.orfarm-download-3-box.orfarm-download-6-box a.main-btn:hover {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
 
-.appie-download-3-box.appie-download-6-box a.main-btn.main-btn-2 {
+.orfarm-download-3-box.orfarm-download-6-box a.main-btn.main-btn-2 {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
 
-.appie-download-3-box.appie-download-5-box a.main-btn:hover {
+.orfarm-download-3-box.orfarm-download-5-box a.main-btn:hover {
   background: #801f82;
   border-color: #801f82;
 }
 
-.appie-download-3-box.appie-download-5-box a.main-btn.main-btn-2 {
+.orfarm-download-3-box.orfarm-download-5-box a.main-btn.main-btn-2 {
   background: #801f82;
   border-color: #801f82;
 }
 
 /*===========================
-    15.APPIE FUN FACT css 
+    15.orfarm FUN FACT css 
 ===========================*/
-.appie-fun-fact-box {
+.orfarm-fun-fact-box {
   background-image: url(../images/fun-fact-bg.jpg);
   padding: 90px 70px;
   background-size: cover;
@@ -7958,12 +7959,12 @@ blockquote cite {
 }
 
 @media (max-width: 767px) {
-  .appie-fun-fact-box {
+  .orfarm-fun-fact-box {
     padding: 30px;
   }
 }
 
-.appie-fun-fact-box .appie-fun-fact-content > .title {
+.orfarm-fun-fact-box .orfarm-fun-fact-content > .title {
   font-size: 44px;
   line-height: 54px;
   color: #fff;
@@ -7972,14 +7973,14 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-fun-fact-box .appie-fun-fact-content > .title {
+  .orfarm-fun-fact-box .orfarm-fun-fact-content > .title {
     font-size: 40px;
     line-height: 50px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-fun-fact-box .appie-fun-fact-content > .title {
+  .orfarm-fun-fact-box .orfarm-fun-fact-content > .title {
     font-size: 28px;
     line-height: 38px;
     padding-right: 0;
@@ -7987,57 +7988,57 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-fun-fact-box .appie-fun-fact-content > .title {
+  .orfarm-fun-fact-box .orfarm-fun-fact-content > .title {
     font-size: 36px;
     line-height: 46px;
     padding-right: 0;
   }
 }
 
-.appie-fun-fact-box .appie-fun-fact-content p {
+.orfarm-fun-fact-box .orfarm-fun-fact-content p {
   color: #fff;
   opacity: 0.8;
 }
 
-.appie-fun-fact-box .appie-fun-fact-content .appie-fun-fact-item {
+.orfarm-fun-fact-box .orfarm-fun-fact-content .orfarm-fun-fact-item {
   margin-top: 36px;
 }
 
 @media (max-width: 767px) {
-  .appie-fun-fact-box .appie-fun-fact-content .appie-fun-fact-item {
+  .orfarm-fun-fact-box .orfarm-fun-fact-content .orfarm-fun-fact-item {
     text-align: center;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-fun-fact-box .appie-fun-fact-content .appie-fun-fact-item {
+  .orfarm-fun-fact-box .orfarm-fun-fact-content .orfarm-fun-fact-item {
     text-align: left;
   }
 }
 
-.appie-fun-fact-box .appie-fun-fact-content .appie-fun-fact-item .title {
+.orfarm-fun-fact-box .orfarm-fun-fact-content .orfarm-fun-fact-item .title {
   font-size: 30px;
   color: #fff;
 }
 
-.appie-fun-fact-box .appie-fun-fact-content .appie-fun-fact-item span {
+.orfarm-fun-fact-box .orfarm-fun-fact-content .orfarm-fun-fact-item span {
   font-size: 14px;
   color: #a4a4b9;
 }
 
-.appie-fun-fact-box .appie-fun-fact-play {
+.orfarm-fun-fact-box .orfarm-fun-fact-play {
   position: relative;
   z-index: 10;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-fun-fact-box .appie-fun-fact-play {
+  .orfarm-fun-fact-box .orfarm-fun-fact-play {
     margin-top: 50px;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-fun-fact-box .appie-fun-fact-play {
+  .orfarm-fun-fact-box .orfarm-fun-fact-play {
     margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
@@ -8045,12 +8046,12 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-fun-fact-box .appie-fun-fact-play {
+  .orfarm-fun-fact-box .orfarm-fun-fact-play {
     text-align: left;
   }
 }
 
-.appie-fun-fact-box .appie-fun-fact-play img {
+.orfarm-fun-fact-box .orfarm-fun-fact-play img {
   position: absolute;
   right: -40px;
   top: 0;
@@ -8058,18 +8059,18 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-fun-fact-box .appie-fun-fact-play img {
+  .orfarm-fun-fact-box .orfarm-fun-fact-play img {
     position: static;
   }
 }
 
 @media (max-width: 767px) {
-  .appie-fun-fact-box .appie-fun-fact-play img {
+  .orfarm-fun-fact-box .orfarm-fun-fact-play img {
     display: none;
   }
 }
 
-.appie-fun-fact-box .appie-fun-fact-play a {
+.orfarm-fun-fact-box .orfarm-fun-fact-play a {
   height: 70px;
   width: 70px;
   text-align: center;
@@ -8081,7 +8082,7 @@ blockquote cite {
   z-index: 5;
 }
 
-.appie-fun-fact-box .appie-fun-fact-play a::before {
+.orfarm-fun-fact-box .orfarm-fun-fact-play a::before {
   position: absolute;
   content: '';
   left: 0;
@@ -8095,9 +8096,9 @@ blockquote cite {
 }
 
 /*===========================
-    15.APPIE SHOWCASE css 
+    15.orfarm SHOWCASE css 
 ===========================*/
-.appie-showcase-area {
+.orfarm-showcase-area {
   background: #eef1f6;
   padding-top: 90px;
   padding-bottom: 120px;
@@ -8106,7 +8107,7 @@ blockquote cite {
   z-index: 10;
 }
 
-.appie-showcase-area .showcase-shape-1 {
+.orfarm-showcase-area .showcase-shape-1 {
   position: absolute;
   left: 90px;
   top: 185px;
@@ -8115,7 +8116,7 @@ blockquote cite {
           animation: linear 25s animationFramesFive infinite;
 }
 
-.appie-showcase-area .showcase-shape-2 {
+.orfarm-showcase-area .showcase-shape-2 {
   position: absolute;
   left: 170px;
   bottom: 95px;
@@ -8124,7 +8125,7 @@ blockquote cite {
           animation: linear 20s animationFramesOne infinite;
 }
 
-.appie-showcase-area .showcase-shape-3 {
+.orfarm-showcase-area .showcase-shape-3 {
   position: absolute;
   top: 200px;
   right: 0;
@@ -8133,7 +8134,7 @@ blockquote cite {
           animation: linear 25s animationFramesThree infinite;
 }
 
-.appie-showcase-area .showcase-shape-4 {
+.orfarm-showcase-area .showcase-shape-4 {
   position: absolute;
   bottom: 250px;
   right: 195px;
@@ -8142,7 +8143,7 @@ blockquote cite {
           animation: linear 25s animationFramesFour infinite;
 }
 
-.appie-showcase-item {
+.orfarm-showcase-item {
   -webkit-box-shadow: 0px 2px 3px 0px rgba(14, 17, 51, 0.1);
           box-shadow: 0px 2px 3px 0px rgba(14, 17, 51, 0.1);
   border-radius: 10px;
@@ -8153,22 +8154,22 @@ blockquote cite {
   margin-bottom: 50px;
 }
 
-.appie-showcase-item:hover {
+.orfarm-showcase-item:hover {
   -webkit-box-shadow: 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
           box-shadow: 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
 }
 
-.appie-showcase-item a {
+.orfarm-showcase-item a {
   display: block;
 }
 
-.appie-showcase-item img {
+.orfarm-showcase-item img {
   width: 100%;
 }
 
-.appie-showcase-slider .slick-dots {
+.orfarm-showcase-slider .slick-dots {
   position: absolute;
   left: 50%;
   bottom: -20px;
@@ -8176,11 +8177,11 @@ blockquote cite {
           transform: translateX(-50%);
 }
 
-.appie-showcase-slider .slick-dots li {
+.orfarm-showcase-slider .slick-dots li {
   display: inline-block;
 }
 
-.appie-showcase-slider .slick-dots li button {
+.orfarm-showcase-slider .slick-dots li button {
   font-size: 0;
   border: 0;
   background: #ccced9;
@@ -8190,12 +8191,12 @@ blockquote cite {
   margin: 0 3px;
 }
 
-.appie-showcase-slider .slick-dots li.slick-active button {
+.orfarm-showcase-slider .slick-dots li.slick-active button {
   background: #ff6b58;
 }
 
 /*===========================
-    16.APPIE CONTACT css 
+    16.orfarm CONTACT css 
 ===========================*/
 .contact-section {
   position: relative;
@@ -8479,20 +8480,20 @@ blockquote cite {
 }
 
 /*===========================
-    17.APPIE CONTACT css 
+    17.orfarm CONTACT css 
 ===========================*/
-.appie-shop-grid-area .bisylms-pagination {
+.orfarm-shop-grid-area .bisylms-pagination {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.appie-shop-grid-area .bisylms-pagination .current, .appie-shop-grid-area .bisylms-pagination:hover {
+.orfarm-shop-grid-area .bisylms-pagination .current, .orfarm-shop-grid-area .bisylms-pagination:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 5px;
 }
 
-.appie-shop-grid-area .bisylms-pagination a {
+.orfarm-shop-grid-area .bisylms-pagination a {
   border: 2px solid #e7eaef;
   background: #fff;
   color: #0e1133;
@@ -8501,41 +8502,41 @@ blockquote cite {
   border-radius: 5px;
 }
 
-.appie-shop-grid-area .bisylms-pagination a i {
+.orfarm-shop-grid-area .bisylms-pagination a i {
   font-size: 14px;
   padding-left: 6px;
 }
 
-.appie-shop-grid-area .bisylms-pagination a:hover {
+.orfarm-shop-grid-area .bisylms-pagination a:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
-  background: #2b70fa;
-  border-color: #2b70fa;
+  background: #f5ab1e;
+  border-color: #f5ab1e;
   color: #fff;
 }
 
-.appie-shop-grid-area .bisylms-pagination span {
+.orfarm-shop-grid-area .bisylms-pagination span {
   border: 2px solid #e7eaef;
 }
 
-.appie-shop-sidebar .shop-price-filter {
+.orfarm-shop-sidebar .shop-price-filter {
   border-bottom: 1px solid #e7eaef;
   padding-bottom: 10px;
 }
 
-.appie-shop-sidebar .shop-price-filter .title {
+.orfarm-shop-sidebar .shop-price-filter .title {
   font-size: 16px;
   font-weight: 700;
 }
 
-.appie-shop-sidebar .shop-price-filter .price-range {
+.orfarm-shop-sidebar .shop-price-filter .price-range {
   width: 100%;
   margin-top: 33px;
   margin-bottom: 24px;
   position: relative;
 }
 
-.appie-shop-sidebar .shop-price-filter .price-range::before {
+.orfarm-shop-sidebar .shop-price-filter .price-range::before {
   /* position: absolute;
   content: '';
   left: 50%;
@@ -8548,12 +8549,12 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-shop-sidebar .shop-price-filter .price-range::before {
+  .orfarm-shop-sidebar .shop-price-filter .price-range::before {
     width: 100%;
   }
 }
 
-.appie-shop-sidebar .shop-price-filter .price-range .box-1 {
+.orfarm-shop-sidebar .shop-price-filter .price-range .box-1 {
   height: 16px;
   width: 16px;
   border-radius: 50%;
@@ -8570,12 +8571,12 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-shop-sidebar .shop-price-filter .price-range .box-1 {
+  .orfarm-shop-sidebar .shop-price-filter .price-range .box-1 {
     left: 0;
   }
 }
 
-.appie-shop-sidebar .shop-price-filter .price-range .box-2 {
+.orfarm-shop-sidebar .shop-price-filter .price-range .box-2 {
   height: 16px;
   width: 16px;
   border-radius: 50%;
@@ -8592,62 +8593,62 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-shop-sidebar .shop-price-filter .price-range .box-2 {
+  .orfarm-shop-sidebar .shop-price-filter .price-range .box-2 {
     right: 0;
   }
 }
 
-.appie-shop-sidebar .shop-price-filter .main-filter-price span {
+.orfarm-shop-sidebar .shop-price-filter .main-filter-price span {
   font-size: 14px;
   color: #63636a;
 }
 
-.appie-shop-sidebar .shop-price-filter .main-filter-price a {
+.orfarm-shop-sidebar .shop-price-filter .main-filter-price a {
   font-size: 14px;
   color: #0e1133;
 }
 
-.appie-shop-sidebar .shop-category-widget {
+.orfarm-shop-sidebar .shop-category-widget {
   margin-top: 37px;
   border-bottom: 1px solid #e7eaef;
   padding-bottom: 33px;
 }
-.appie-shop-sidebar .shop-category-widget .fruit a{
+.orfarm-shop-sidebar .shop-category-widget .fruit a{
   color: red;
 }
 
-.appie-shop-sidebar .shop-category-widget .title {
+.orfarm-shop-sidebar .shop-category-widget .title {
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 25px;
 }
 
-.appie-shop-sidebar .shop-category-widget ul li {
+.orfarm-shop-sidebar .shop-category-widget ul li {
   margin-top: 10px;
 }
 
-.appie-shop-sidebar .shop-category-widget ul li a {
+.orfarm-shop-sidebar .shop-category-widget ul li a {
   font-size: 15px;
   color: #63636a;
 }
 
-.appie-shop-sidebar .shop-category-widget ul li a:hover {
+.orfarm-shop-sidebar .shop-category-widget ul li a:hover {
   color: #f5ab1e;
 }
 
-.appie-shop-sidebar .shop-best-product-widget {
+.orfarm-shop-sidebar .shop-best-product-widget {
   margin-top: 37px;
   border-bottom: 1px solid #e7eaef;
   padding-bottom: 40px;
 }
 
-.appie-shop-sidebar .shop-best-product-widget .title {
+.orfarm-shop-sidebar .shop-best-product-widget .title {
   padding-bottom: 10px;
   font-size: 16px;
   font-weight: 700;
 }
 
-.appie-shop-sidebar .shop-best-product-widget .shop-product {
+.orfarm-shop-sidebar .shop-best-product-widget .shop-product {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8657,12 +8658,12 @@ blockquote cite {
   margin-top: 20px;
 }
 
-.appie-shop-sidebar .shop-best-product-widget .shop-product .thumb {
+.orfarm-shop-sidebar .shop-best-product-widget .shop-product .thumb {
   max-width: 60px;
   margin-right: 20px;
 }
 
-.appie-shop-sidebar .shop-best-product-widget .shop-product .content a {
+.orfarm-shop-sidebar .shop-best-product-widget .shop-product .content a {
   display: block;
   font-size: 14px;
   font-weight: 500;
@@ -8670,33 +8671,33 @@ blockquote cite {
   color: #0e1133;
 }
 
-.appie-shop-sidebar .shop-best-product-widget .shop-product .content span {
+.orfarm-shop-sidebar .shop-best-product-widget .shop-product .content span {
   font-size: 14px;
   font-weight: 400;
   color: #63636a;
 }
 
-.appie-shop-sidebar .shop-tags-bar {
+.orfarm-shop-sidebar .shop-tags-bar {
   margin-top: 37px;
 }
 
-.appie-shop-sidebar .shop-tags-bar .title {
+.orfarm-shop-sidebar .shop-tags-bar .title {
   padding-bottom: 10px;
   font-size: 16px;
   font-weight: 700;
 }
 
-.appie-shop-sidebar .shop-tags-bar ul {
+.orfarm-shop-sidebar .shop-tags-bar ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.appie-shop-sidebar .shop-tags-bar ul li {
+.orfarm-shop-sidebar .shop-tags-bar ul li {
   display: inline-block;
 }
 
-.appie-shop-sidebar .shop-tags-bar ul li a {
+.orfarm-shop-sidebar .shop-tags-bar ul li a {
   border: 2px solid #e7eaef;
   line-height: 30px;
   padding: 0 13px;
@@ -8906,7 +8907,7 @@ blockquote cite {
   color: #0e1133;
 }
 
-.single-shop-box .content .pricing .regular-price {
+.single-shop-box .content .pricing .regular-price span {
   color: #63636a;
   font-weight: 400;
   text-decoration: line-through;

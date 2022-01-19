@@ -298,7 +298,7 @@ function showProduct() {
                                     <h3>`+ cartMain[i].productName + `</h3>
                                 </a>
                                 <p><strong>Kích thước:</strong> <span>1</span>kg</p>
-                                <div class="discount-price"><span>`+ cartMain[i].productPrice + ` </span> <sup>đ</sup> </div>
+                                <div class="discount-price"><span>`+ cartMain[i].productPrice + ` </span> </div>
 
                             </div>
                             <div class="change-pro">
@@ -345,7 +345,7 @@ function showProductMain() {
                                     <h3>`+ cartMain[i].productNameMain + `</h3>
                                 </a>
                                 <p><strong>Kích thước:</strong> <span>1</span>kg</p>
-                                <div class="discount-price"><span>`+ cartMain[i].productPriceMain + ` </span> <sup>đ</sup> </div>
+                                <div class="discount-price"><span>`+ cartMain[i].productPriceMain + ` </span> </div>
 
                             </div>
                             <div class="change-pro">

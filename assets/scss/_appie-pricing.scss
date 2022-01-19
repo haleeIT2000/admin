@@ -2,20 +2,20 @@
 
 
 /*===========================
-    8.APPIE PRICING css 
+    8.orfarm PRICING css 
 ===========================*/
 
 
 
 
 
-.appie-pricing-area{
+.orfarm-pricing-area{
 	background: $grey;
 }
 
 
 
-.appie-pricing-area{
+.orfarm-pricing-area{
 	position: relative;
 	z-index: 10;
 	& .section-title{
@@ -23,7 +23,7 @@
 	}
 }
 
-.appie-pricing-area .switch {
+.orfarm-pricing-area .switch {
 	position: relative;
 	display: inline-block;
 	width: 60px;
@@ -32,11 +32,11 @@
 	margin: 0;
 }
 
-.appie-pricing-area .switch input {
+.orfarm-pricing-area .switch input {
 	display: none;
 }
 
-.appie-pricing-area .slider {
+.orfarm-pricing-area .slider {
 	position: absolute;
 	cursor: pointer;
 	top: 0;
@@ -50,7 +50,7 @@
 
 
 
-.appie-pricing-area .slider:before {
+.orfarm-pricing-area .slider:before {
 	position: absolute;
 	content: "";
 	height: 26px;
@@ -66,20 +66,20 @@
 
 
 
-.appie-pricing-area .switch.off .slider:before {
+.orfarm-pricing-area .switch.off .slider:before {
 	-webkit-transform: translateX(26px);
 	transform: translateX(26px);
 }
 
-.appie-pricing-area .slider.round {
+.orfarm-pricing-area .slider.round {
 	border-radius: 34px;
 }
 
-.appie-pricing-area .slider.round:before {
+.orfarm-pricing-area .slider.round:before {
 	border-radius: 50%;
 }
 
-.appie-pricing-area ul.switch-toggler-list {
+.orfarm-pricing-area ul.switch-toggler-list {
 	display: -webkit-box;
 	display: flex;
 	-webkit-box-align: center;
@@ -89,7 +89,7 @@
 	margin-bottom: 40px;
 }
 
-.appie-pricing-area ul.switch-toggler-list li a {
+.orfarm-pricing-area ul.switch-toggler-list li a {
 	font-size: 14px;
 	font-weight: 500;
 	color: $text-color;
@@ -98,7 +98,7 @@
 	display: block;
 }
 
-.appie-pricing-area ul.switch-toggler-list li.active a {
+.orfarm-pricing-area ul.switch-toggler-list li.active a {
 	color: $heading-color;
 }
 
@@ -289,8 +289,8 @@
 
 
 
-.appie-pricing-2-area{
-	& .appie-section-title{
+.orfarm-pricing-2-area{
+	& .orfarm-section-title{
 		& .nav{
 			display: inline-block !important;
 			border: 2px solid #e7eaef;
@@ -318,7 +318,7 @@
 
 
 
-.appie-pricing-6-area{
+.orfarm-pricing-6-area{
 	& .pricing-one__single {
 		& .pricing-rebon {
 			& span{

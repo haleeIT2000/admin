@@ -2,14 +2,14 @@
 
 
 /*===========================
-    10.APPIE PROJECT css 
+    10.orfarm PROJECT css 
 ===========================*/
 
 
 
 
-.appie-project-area{
-	& .appie-project-box{
+.orfarm-project-area{
+	& .orfarm-project-box{
 		background-image: url(../images/project-bg.jpg);
 		background-size: cover;
 		background-position: center;
@@ -26,7 +26,7 @@
 		@media #{$sm} {
 			padding-left: 70px;
 		}
-		& .appie-project-thumb{
+		& .orfarm-project-thumb{
 			position: absolute;
 			right: 70px;
 			bottom: 0;
@@ -44,7 +44,7 @@
 }
 
 
-.appie-project-content{
+.orfarm-project-content{
 	padding-right: 50px;
 	& .title{
 		color: $white;
@@ -108,13 +108,13 @@
 
 
 
-.appie-project-3-area{
-	&.appie-project-5-area{
+.orfarm-project-3-area{
+	&.orfarm-project-5-area{
 		background: $grey;
 	}
 }
 
-.appie-project-3-box{
+.orfarm-project-3-box{
 	background-image: url(../images/project-bg-2.jpg);
 	background-size: cover;
 	background-position: center;
