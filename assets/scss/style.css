@@ -8514,9 +8514,16 @@ blockquote cite {
   border-color: #f5ab1e;
   color: #fff;
 }
-
+.dropdown-user .dropdown-toggle::after {
+  width: 0 !important;
+  height: 0 !important;
+  display: none !important;
+}
 .orfarm-shop-grid-area .bisylms-pagination span {
   border: 2px solid #e7eaef;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+  background-color: #eee !important;
 }
 
 .orfarm-shop-sidebar .shop-price-filter {

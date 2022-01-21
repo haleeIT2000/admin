@@ -22,31 +22,32 @@
 .data-widgets .widget .media .media-body .widget-text {
     font-size: 20px;
     font-weight: 600;
-    color: #3f4257;
+    color: #fff;
     word-wrap: break-word;
 }
 
 .data-widgets .widget .media .media-body .widget-numeric-value {
     font-size: 22px;
-    color: #3f4257;
+    color: #fff;
 }
 .data-widgets .widget .widget-total-stats {
     font-size: 16px;
+    color: #fff;
 }
 .data-widgets .widget.t-sales-widget i {
-    background-color: #c2d5ff;
+    background-color: #fff;
     color: #1a73e9;
 }
 .data-widgets .widget.t-order-widget i {
-    background-color: #c2d5ff;
+    background-color: #fff;
     color: #1a73e9;
 }
 .data-widgets .widget.t-customer-widget i {
-    background-color: #c2d5ff;
+    background-color: #fff;
     color: #1a73e9;
 }
 .data-widgets .widget.t-income-widget i {
-    background-color: #c2d5ff;
+    background-color: #fff;
     color: #1a73e9;
 }
 

@@ -108,7 +108,7 @@ var chart = AmCharts.makeChart("sale-statistics", {
     "position": "left",
     "autoGridCount": false,
     "labelFunction": function(value) {
-      return "$" + Math.round(value) + "M";
+      return  Math.round(value) + "M";
     }
   }],
   "graphs": [{
@@ -118,12 +118,12 @@ var chart = AmCharts.makeChart("sale-statistics", {
     "fillColors": "#c2d5ff",
     "fillAlphas": 1,
     "type": "column",
-    "title": "Monthly Revenue",
+    "title": "Doanh thu hàng tháng",
     "valueField": "sales2",
     "clustered": false,
     "columnWidth": 0.5,
-    "legendValueText": "$[[value]]M",
-    "balloonText": "[[title]]<br /><b style='font-size: 130%'>$[[value]]M</b>"
+    "legendValueText": "[[value]]M",
+    "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M</b>"
   }, {
     "id": "g4",
     "valueAxis": "v1",
@@ -131,12 +131,12 @@ var chart = AmCharts.makeChart("sale-statistics", {
     "fillColors": "#1a73e9",
     "fillAlphas": 1,
     "type": "column",
-    "title": "Yearly Revenue",
+    "title": "Doanh thu hàng năm",
     "valueField": "sales1",
     "clustered": false,
     "columnWidth": 0.3,
-    "legendValueText": "$[[value]]M",
-    "balloonText": "[[title]]<br /><b style='font-size: 130%'>$[[value]]M</b>"
+    "legendValueText": "[[value]]M",
+    "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M</b>"
   },],
   "chartCursor": {
     "pan": true,
@@ -160,91 +160,91 @@ var chart = AmCharts.makeChart("sale-statistics", {
     "shadowAlpha": 0
   },
   "dataProvider": [{
-    "date": "2018-12-16",
+    "date": "2021-12-16",
     "market1": 71,
     "market2": 75,
     "sales1": 5,
     "sales2": 8
   }, {
-    "date": "2018-12-17",
+    "date": "2021-12-17",
     "market1": 74,
     "market2": 78,
     "sales1": 4,
     "sales2": 6
   }, {
-    "date": "2018-12-18",
+    "date": "2021-12-18",
     "market1": 78,
     "market2": 88,
     "sales1": 5,
     "sales2": 2
   }, {
-    "date": "2018-12-19",
+    "date": "2021-12-19",
     "market1": 85,
     "market2": 89,
     "sales1": 8,
     "sales2": 9
   }, {
-    "date": "2018-12-20",
+    "date": "2021-12-20",
     "market1": 82,
     "market2": 89,
     "sales1": 9,
     "sales2": 6
   }, {
-    "date": "2018-12-21",
+    "date": "2021-12-21",
     "market1": 83,
     "market2": 85,
     "sales1": 3,
     "sales2": 5
   }, {
-    "date": "2018-12-22",
+    "date": "2021-12-22",
     "market1": 88,
     "market2": 92,
     "sales1": 5,
     "sales2": 7
   }, {
-    "date": "2018-12-23",
+    "date": "2021-12-23",
     "market1": 85,
     "market2": 90,
     "sales1": 7,
     "sales2": 6
   }, {
-    "date": "2018-12-24",
+    "date": "2021-12-24",
     "market1": 85,
     "market2": 91,
     "sales1": 9,
     "sales2": 5
   }, {
-    "date": "2018-12-25",
+    "date": "2021-12-25",
     "market1": 80,
     "market2": 84,
     "sales1": 5,
     "sales2": 8
   }, {
-    "date": "2018-12-26",
+    "date": "2021-12-26",
     "market1": 87,
     "market2": 92,
     "sales1": 4,
     "sales2": 8
   }, {
-    "date": "2018-12-27",
+    "date": "2021-12-27",
     "market1": 84,
     "market2": 87,
     "sales1": 3,
     "sales2": 4
   }, {
-    "date": "2018-12-28",
+    "date": "2021-12-28",
     "market1": 83,
     "market2": 88,
     "sales1": 5,
     "sales2": 7
   }, {
-    "date": "2018-12-29",
+    "date": "2021-12-29",
     "market1": 84,
     "market2": 87,
     "sales1": 5,
     "sales2": 8
   }, {
-    "date": "2018-12-30",
+    "date": "2021-12-30",
     "market1": 81,
     "market2": 85,
     "sales1": 4,

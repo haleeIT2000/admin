@@ -468,7 +468,6 @@
         });
 
        // ===== Shopping Cart 
-
         $('.amm-shopping-cart-open').on('click', function () {
             $('.amm-shopping-cart-canvas').addClass('open')
             $('.overlay').addClass('open')
@@ -482,15 +481,6 @@
             $('.amm-shopping-cart-canvas').removeClass('open')
             $('.overlay').removeClass('open')
         });
-
-
-
-
-
-
-
-
-
 
         /*---canvas menu activation---*/
         $('.canvas_open').on('click', function () {

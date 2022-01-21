@@ -1,5 +1,4 @@
 body {
-    max-width: 1440px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
   }
@@ -480,9 +479,9 @@ breadcrumb-item .active{
     background-image: url(/image/chi-dep-bien-hoa-quay-rau-cu-qua-sieu-to-khong-lo-thanh-be-xiu-xiu-xiu-khien-ai-nay-deu-phai-thot-len-dich-thi-la-tien-nu-ket-lai-o-ha-pham-roi1222-2021-05-22-15-00.jpg);
 }
 /* shop */
-#dropdown-collection:hover{
+/* #dropdown-collection:hover{
     background-color: #f5ab1e;
-}
+} */
 /* license */
 .img-license{
     width: 900px;

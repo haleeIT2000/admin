@@ -21,8 +21,11 @@
     <link href="../plugins/charts/chartist/chartist.css" rel="stylesheet" type="text/css">
     <link href="../assets/css/default-dashboard/style.css" rel="stylesheet" type="text/css" />
     <link href="../assets/css/ecommerce-dashboard/style.css" rel="stylesheet" type="text/css" />
-    <link href="../assets/css/ecommerce-dashboard/timeline.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/ecommerce-dashboard/timeline.css" rel="stylesheet" type="text/css" />\
+    <link rel="stylesheet" href="../assets/css/style.css">
     <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+
+
 </head>
 
 <body>
@@ -208,7 +211,7 @@
         <div class="ps-overlay"></div>
         <div class="search-overlay"></div>
 
-      
+
         <!--  BEGIN MODERN  -->
 
         <div class="modernSidebar-nav header header navbar">
@@ -225,18 +228,16 @@
                         </li>
 
                         <li class="menu">
-                            <a href="./order.html" 
-                                class="dropdown-toggle collapsed">
+                            <a href="./order.html" class="dropdown-toggle collapsed">
                                 <div class="">
                                     <i class="flaticon-cart-1"></i>
                                     <span>Đơn hàng</span>
                                 </div>
                             </a>
-                           
+
                         </li>
                         <li class="menu">
-                            <a href="./product.html" 
-                                class="dropdown-toggle collapsed">
+                            <a href="./product.html" class="dropdown-toggle collapsed">
                                 <div class="">
                                     <i class="flaticon-home-line"></i>
                                     <span>Sản phẩm</span>
@@ -245,17 +246,16 @@
                         </li>
 
                         <li class="menu">
-                            <a href="./hub.html" 
-                                class="dropdown-toggle collapsed">
+                            <a href="./hub.html" class="dropdown-toggle collapsed">
                                 <div class="">
                                     <i class="flaticon-home-line"></i>
                                     <span>Kho Hàng</span>
                                 </div>
                             </a>
-                           
+
                         </li>
-                       
-                        
+
+
                         <li class="menu">
                             <a href="#uiAccount" data-toggle="collapse" aria-expanded="false"
                                 class="dropdown-toggle collapsed">
@@ -277,15 +277,16 @@
                                                 <li>
                                                     <a href="./staff.html">Nhân viên</a>
                                                 </li>
-                                              
+                                                
+                                                
                                             </ul>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </li>
-                
-                        
+
+
                     </ul>
                 </nav>
 
@@ -293,206 +294,177 @@
         </div>
         <!--  END MODERN  -->
 
-
         <!--  BEGIN CONTENT PART  -->
         <div id="content" class="main-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
-                        <div class="statbox widget box box-shadow">
-                            <div class="widget-header">
-                                <div class="row">
-                                    <div class="col-xl-12 col-md-12 col-sm-12 col-12">
-                                        <h4>Thêm bài viết</h4>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-12 layout-spacing">
+                        <div class="statbox widget box">
+                            <div class="widget-content-area">
+                                <div class="widget-header mb-5 mt-5">
+                                    <div class="row">
+
+                                        <div class="col-lg-12">
+                                            <form class="top-action" method="GET" action="">
+
+                                                <input name="sorts[]" value="" class="sort sort-name" type="hidden">
+                                                <input name="sorts[]" value="" class="sort sort-type" type="hidden">
+                                                <input name="sorts[]" value="" class="sort sort-address" type="hidden">
+                                                <input name="sorts[]" value="" class="sort sort-hotline" type="hidden">
+                                                <input name="sorts[]" value="" class="sort sort-transport_code"
+                                                    type="hidden">
+                                                <input name="sorts[]" value="country_code|desc"
+                                                    class="sort sort-country_code" type="hidden">
+                                                <input name="sorts[]" value="" class="sort sort-bill_in_warehouse"
+                                                    type="hidden">
+                                                <input name="sorts[]" value="" class="sort sort-view_bill"
+                                                    type="hidden">
+                                                <input name="sorts[]" value="" class="sort sort-order_in_warehouse"
+                                                    type="hidden">
+
+                                                <div id="filter">
+                                                    <input type="text" name="id" placeholder="ID" value=""
+                                                        class="form-control">
+                                                    <input type="text" name="name" placeholder="Tên sản phẩm" value=""
+                                                        class="form-control">
+                                                    <input type="text" name="danh mục" placeholder="danh mục" value=""
+                                                        class="form-control"> 
+                                                    <button class="btn btn-info"
+                                                        style="padding: 0 10px; background: none; border: none;"
+                                                        title="Tìm kiếm">
+                                                        <i class="flaticon-search" aria-hidden="true"
+                                                            style="color:#469408;font-size: 25px;line-height: 42px;"></i>
+                                                    </button>
+                                                    <input name="export" type="submit" value="Xuất Excel"
+                                                        class="btn btn-danger">
+                                                   
+                                                </div>
+                                            </form>
+                                        </div>
+
                                     </div>
                                 </div>
-                            </div>
-                            <div class="widget-content widget-content-area add-manage-product-2">
-                                <div class="">
+                                <div class="table-responsive new-products">
+                                    <table class="table">
+                                        <thead>
+                                            <tr class="text-center">
+                                                <th>ID</th>
+                                                <th>Tên sản phẩm</th>
+                                                <th>Danh mục</th>
+                                                <th>Số lượng nhập </th>
+                                                <th>Đã bán</th>
+                                                <th>Số lượng tồn</th>
+                                                <th>Giá bán</th>
+                                                <th>Giá nhập</th>
 
-                                    <form id="add_form" class="form-horizontal"
-                                        action="https://ordertrungquoc.mrdream.vn/admin/blog" method="POST">
-                                        <input type="hidden" name="_token"
-                                            value="0DHJE7LtR38u80RKTMpabHBIjL7g4R8BSLXt15B5">
-                                        <div class="form-group row">
-                                            <label class="col-md-3 col-form-label">
-                                                Tiêu đề bài viết
-                                                <span class="text-danger">*</span>
-                                            </label>
-                                            <div class="col-md-9">
-                                                <input type="text" placeholder="Blog Title"
-                                                    onkeyup="makeSlug(this.value)" id="title" name="title"
-                                                    class="form-control" required="">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row" id="category">
-                                            <label class="col-md-3 col-from-label">
-                                                Danh Mục
-                                                <span class="text-danger">*</span>
-                                            </label>
-                                            <div class="col-md-9">
-                                                <div class="dropdown bootstrap-select form-control aiz-"><select
-                                                        class="form-control aiz-selectpicker" name="category_id"
-                                                        id="category_id" data-live-search="true" required=""
-                                                        tabindex="-98">
-                                                        <option>--</option>
-                                                        <option value="1">
-                                                            Sức khỏe
-                                                        </option>
-                                                        <option value="2">
-                                                            OrFarm
-                                                        </option>
-                                                        <option value="2">
-                                                            Thực phẩm tốt
-                                                        </option>
-                                                        <option value="2">
-                                                            Thời sự
-                                                        </option>
-                                                        <option value="2">
-                                                            Khác
-                                                        </option>
-                                                    </select>
-                                                    <div class="dropdown-menu" style="overflow: hidden;">
-                                                        <div class="bs-searchbox"><input type="search"
-                                                                class="form-control" autocomplete="off" role="combobox"
-                                                                aria-label="Search" aria-controls="bs-select-1"
-                                                                aria-autocomplete="list"
-                                                                aria-activedescendant="bs-select-1-0"></div>
-                                                        <div class="inner show" role="listbox" id="bs-select-1"
-                                                            tabindex="-1" style="overflow-y: auto;">
-                                                            <ul class="dropdown-menu inner show" role="presentation"
-                                                                style="margin-top: 0px; margin-bottom: 0px;">
-                                                                <li class="selected active"><a role="option"
-                                                                        class="dropdown-item active selected"
-                                                                        id="bs-select-1-0" tabindex="0" aria-setsize="3"
-                                                                        aria-posinset="1" aria-selected="true"><span
-                                                                            class="text">--</span></a></li>
-                                                                <li><a role="option" class="dropdown-item"
-                                                                        id="bs-select-1-1" tabindex="0"><span
-                                                                            class="text">
-                                                                            Test cat 1 edited
-                                                                        </span></a></li>
-                                                                <li><a role="option" class="dropdown-item"
-                                                                        id="bs-select-1-2" tabindex="0"><span
-                                                                            class="text">
-                                                                            Test cat 2 edited
-                                                                        </span></a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="text-center">
+                                            <tr>
+                                                <td>#0001</td>
+                                                <td>Cam sành</td>
+                                                <td><span class="badge badge-info badge-pill">Hoa quả</span></td>
+                                                <td>100</td>
+                                                <td>50</td>
+                                                <td>50</td>
+                                                <td>
+                                                    50.000
+                                                </td>
+                                                <td>20.000</td>
+                                            </tr>
 
-                                        <div class="form-group row">
-                                            <label class="col-md-3 col-form-label" for="signinSrEmail">
-                                                Banner
-                                                <small>(1300x650)</small>
-                                            </label>
-                                            <div class="col-md-9">
-                                                <div class="input-group" data-toggle="aizuploader" data-type="image">
-                                                    <!-- <div class="col-md-8"> -->
-                                                    <div class="mb-3">
-                                                        <div class="custom-file">
-                                                            <input type="file" class="form-control-file"
-                                                                id="file-input">
-                                                        </div>
-                                                        <!-- </div> -->
-                                                    </div>
-                                                    <!-- <div class="form-control file-amount">Choose File</div>
-                                                    <input type="hidden" name="banner" class="selected-files"> -->
-                                                </div>
-                                                <div class="file-preview box sm">
-                                                </div>
-                                            </div>
-                                        </div>
+                                            <tr>
+                                                <td>#0001</td>
+                                                <td>Cam sành</td>
+                                                <td><span class="badge badge-info badge-pill">Hoa quả</span></td>
+                                                <td>100</td>
+                                                <td>50</td>
+                                                <td>50</td>
+                                                <td>
+                                                    50.000
+                                                </td>
+                                                <td>20.000</td>
 
-                                        <div class="form-group row">
-                                            <label class="col-md-3 col-form-label">
-                                                Mô tả ngắn
-                                                <span class="text-danger">*</span>
-                                            </label>
-                                            <div class="col-md-9">
-                                                <textarea name="short_description" rows="5" class="form-control"
-                                                    required=""></textarea>
-                                            </div>
-                                        </div>
+                                            </tr>
+                                            <tr>
+                                                <td>#0001</td>
+                                                <td>Cam sành</td>
+                                                <td><span class="badge badge-info badge-pill">Hoa quả</span></td>
+                                                <td> 100</td>
+                                                <td>50</td>
+                                                <td>50</td>
+                                                <td>
+                                                    50.000
+                                                </td>
+                                                <td>20.000</td>
+                                            </tr>
 
-                                        <div class="form-group row">
-                                            <label class="col-md-3 col-from-label">
-                                                Mô tả chi tiết
-                                            </label>
-                                            <div class="col-md-9">
-                                                <textarea name="short_description" rows="5" class="form-control"
-                                                    required=""></textarea>
-                                            </div>
-                                        </div>
+                                            <tr>
+                                                <td>#0001</td>
+                                                <td>Cam sành</td>
+                                                <td><span class="badge badge-info badge-pill">Hoa quả</span></td>
+                                                <td>100</td>
+                                                <td>50</td>
+                                                <td>50</td>
+                                                <td>
+                                                    50.000
+                                                </td>
+                                                <td>20.000</td>
+                                            </tr>
 
-                                        <div class="form-group row">
-                                            <label class="col-md-3 col-form-label">Tiêu đề Meta</label>
-                                            <div class="col-md-9">
-                                                <input type="text" class="form-control" name="meta_title"
-                                                    placeholder="Meta Title">
-                                            </div>
-                                        </div>
+                                            <tr>
+                                                <td>#0001</td>
+                                                <td>Cam sành</td>
+                                                <td><span class="badge badge-info badge-pill">Hoa quả</span></td>
+                                                <td>100</td>
+                                                <td>50</td>
+                                                <td>50</td>
+                                                <td>
+                                                    50.000
+                                                </td>
+                                                <td>20.000</td>
+                                            </tr>
 
-                                        <div class="form-group row">
-                                            <label class="col-md-3 col-form-label" for="signinSrEmail">
-                                                Hình ảnh khác
-                                                <small>(200x200)+</small>
-                                            </label>
-                                            <div class="col-md-9">
-                                                <div class="input-group" data-toggle="aizuploader" data-type="image">
-                                                    <!-- <div class="col-md-8"> -->
-                                                    <div class="mb-3">
-                                                        <div class="custom-file">
-                                                            <input type="file" class="form-control-file"
-                                                                id="file-input">
-                                                        </div>
-                                                        <!-- </div> -->
-                                                    </div>
-                                                    <!-- <div class="form-control file-amount">Choose File</div>
-                                                <input type="hidden" name="banner" class="selected-files"> -->
-                                                </div>
-                                                <div class="file-preview box sm">
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group row">
-                                            <label class="col-md-3 col-form-label">Mô tả Meta</label>
-                                            <div class="col-md-9">
-                                                <textarea name="meta_description" rows="5"
-                                                    class="form-control"></textarea>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group row">
-                                            <label class="col-md-3 col-form-label">
-                                                Meta Keywords
-                                            </label>
-                                            <div class="col-md-9">
-                                                <input type="text" class="form-control" id="meta_keywords"
-                                                    name="meta_keywords" placeholder="Meta Keywords">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group mb-0 text-right">
-                                            <button type="submit" class="btn btn-warning">
-                                                Lưu
-                                            </button>
-                                        </div>
-                                    </form>
+                                            <tr>
+                                                <td>#0001</td>
+                                                <td>Cam sành</td>
+                                                <td><span class="badge badge-info badge-pill">Hoa quả</span></td>
+                                                <td>100</td>
+                                                <td>50</td>
+                                                <td>50</td>
+                                                <td>
+                                                    50.000
+                                                </td>
+                                                <td>20.000</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="pagination-section">
+                                    <ul
+                                        class="pagination pagination-style-1 pagination-rounded justify-content-end mt-3 mb-3">
+                                        <li><a href="javascript:void(0);">«</a></li>
+                                        <li><a href="javascript:void(0);">1</a></li>
+                                        <li><a href="javascript:void(0);">2</a></li>
+                                        <li><a href="javascript:void(0);">3</a></li>
+                                        <li><a href="javascript:void(0);">4</a></li>
+                                        <li><a href="javascript:void(0);">5</a></li>
+                                        <li><a href="javascript:void(0);">»</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+
             </div>
         </div>
-
         <!--  END CONTENT PART  -->
+
     </div>
+    <!-- END MAIN CONTAINER -->
     <!-- END MAIN CONTAINER -->
 
     <!--  BEGIN FOOTER  -->
@@ -592,13 +564,6 @@
 <script src="../plugins/charts/amcharts/serial.js"></script>
 <script src="../plugins/charts/amcharts/light.js"></script>
 <script src="../assets/js/ecommerce-dashboard/ecommerce-custom.js"></script>
-
-<script>
-    $(document).ready(function () {
-        App.init();
-    });
-</script>
-<script src="../assets/js/custom.js"></script>
 
 
 </html>

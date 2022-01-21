@@ -342,7 +342,7 @@ select.form-control.form-custom {
 
 .page-title {
     float: left;
-    margin-bottom: 35px;
+    margin-left: 20px;
     margin-top: 35px;
 }
 
@@ -3069,7 +3069,7 @@ ul.pagination li a.active { background-color: #1a73e9; color: #fff; border-color
     background-color: #f1f3f9;
     border-color: #f1f3f1;
 }
-ul.pagination li a:hover:not(.active) { background-color: #1a73e9; color: #fff; }
+ul.pagination li a:hover:not(.active) { background-color: #f5ab1e; color: #fff; }
 ul.pagination > .disabled > a , .pagination>.disabled>a:hover  { cursor: not-allowed; color: #888ea8; }
 ul.pagination-sm > li > a { padding: 4px 10px; font-size: 12px }
 ul.pagination-lg > li > a { padding: 7px 15px; font-size: 20px }

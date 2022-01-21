@@ -21,6 +21,7 @@
     <link href="../plugins/charts/chartist/chartist.css" rel="stylesheet" type="text/css">
     <link href="../assets/css/default-dashboard/style.css" rel="stylesheet" type="text/css" />
     <link href="../assets/css/ecommerce-dashboard/style.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/ecommerce-dashboard/timeline.css" rel="stylesheet" type="text/css" />
     <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
 </head>
 
@@ -223,141 +224,40 @@
                         </li>
 
                         <li class="menu">
-                            <a href="#order" data-toggle="collapse" aria-expanded="false"
-                                class="dropdown-toggle collapsed">
+                            <a href="./order.html" class="dropdown-toggle collapsed">
                                 <div class="">
                                     <i class="flaticon-cart-1"></i>
                                     <span>Đơn hàng</span>
                                 </div>
                             </a>
-                            <div class="submenu list-unstyled collapse eq-animated eq-fadeInUp" id="order"
-                                data-parent="#topAccordion">
-                                <div class="submenu-scroll">
-                                    <ul class="list-unstyled mt-4">
-                                        <li>
-                                            <ul class="list-unstyled submenu collapse show eq-animated eq-fadeInUp"
-                                                id="ui-features">
-                                                <li>
-                                                    <a href="order.html">
-                                                        <div>
-                                                            <i class="flaticon-cart-1"></i> Tất cả đơn hàng
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="deposit.html">
-                                                        <div>
-                                                            <i class="flaticon-cart-2"></i> Tất cả đơn ký gửi
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+
                         </li>
                         <li class="menu">
-                            <a href="./product.html"
-                                class="dropdown-toggle collapsed">
+                            <a href="./product.html" class="dropdown-toggle collapsed">
                                 <div class="">
-                                    <i class="flaticon-3d-cube"></i>
+                                    <i class="flaticon-home-line"></i>
                                     <span>Sản phẩm</span>
                                 </div>
                             </a>
                         </li>
 
                         <li class="menu">
-                            <a href="#hub" data-toggle="collapse" aria-expanded="false"
-                                class="dropdown-toggle collapsed">
+                            <a href="./hub.html" class="dropdown-toggle collapsed">
                                 <div class="">
                                     <i class="flaticon-home-line"></i>
                                     <span>Kho Hàng</span>
                                 </div>
                             </a>
-                            <div class="submenu list-unstyled collapse eq-animated eq-fadeInUp" id="hub"
-                                data-parent="#topAccordion">
-                                <div class="submenu-scroll">
-                                    <ul class="list-unstyled mt-4">
-                                        <li>
-                                            <ul class="list-unstyled sub-submenu collapse show eq-animated eq-fadeInUp"
-                                                id="ui-features">
-                                                <li>
-                                                    <a href="hub.html">Tất cả kho hàng</a>
-                                                </li>
-                                                <li>
-                                                    <a href="add-hub.html">Thêm kho hàng</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+
                         </li>
-                        <li class="menu">
-                            <a href="#complain" data-toggle="collapse" aria-expanded="false"
-                                class="dropdown-toggle collapsed">
-                                <div class="">
-                                    <i class="flaticon-mail-edit"></i>
-                                    <span>Khiếu nại</span>
-                                </div>
-                            </a>
-                            <div class="submenu list-unstyled collapse eq-animated eq-fadeInUp" id="complain"
-                                data-parent="#topAccordion">
-                                <div class="submenu-scroll">
-                                    <ul class="list-unstyled mt-4">
-                                        <li>
-                                            <ul class="list-unstyled sub-submenu collapse show eq-animated eq-fadeInUp"
-                                                id="ui-features">
-                                                <li>
-                                                    <a href="complain.html">Tất cả khiếu nại</a>
-                                                </li>
-                                                <li>
-                                                    <a href="complain.html">Khiếu nại cần xử lý</a>
-                                                </li>
-                                                <li><a href="complain.html">Khiếu nại đang xử lý</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="menu">
-                            <a href="#uiAndComponents" data-toggle="collapse" aria-expanded="false"
-                                class="dropdown-toggle collapsed">
-                                <div class="">
-                                    <i class="flaticon-bank-safe-box"></i>
-                                    <span>APT Tài chính</span>
-                                </div>
-                            </a>
-                            <div class="submenu list-unstyled collapse eq-animated eq-fadeInUp" id="uiAndComponents"
-                                data-parent="#topAccordion">
-                                <div class="submenu-scroll">
-                                    <ul class="list-unstyled mt-4">
-                                        <li>
-                                            <ul class="list-unstyled sub-submenu collapse show eq-animated eq-fadeInUp"
-                                                id="ui-features">
-                                                <li>
-                                                    <a href="bill-pays.html">Hóa đơn</a>
-                                                </li>
-                                                <li>
-                                                    <a href="recharges.html">Nạp tiền / Trừ tiền</a>
-                                                </li>
-                                                <li>
-                                                    <a href="withdrawal.html">Yêu cầu rút tiền</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
+
+
                         <li class="menu">
                             <a href="#uiAccount" data-toggle="collapse" aria-expanded="false"
                                 class="dropdown-toggle collapsed">
                                 <div class="">
                                     <i class="flaticon-user-7"></i>
-                                    <span>APT Tài khoản</span>
+                                    <span>Tài khoản</span>
                                 </div>
                             </a>
                             <div class="submenu list-unstyled collapse eq-animated eq-fadeInUp" id="uiAccount"
@@ -368,71 +268,20 @@
                                             <ul class="list-unstyled sub-submenu collapse show eq-animated eq-fadeInUp"
                                                 id="ui-features">
                                                 <li>
-                                                    <a href="user.html">Khách hàng</a>
+                                                    <a href="./user.html">Khách hàng</a>
                                                 </li>
                                                 <li>
-                                                    <a href="staff.html">Nhân viên</a>
+                                                    <a href="./staff.html">Nhân viên</a>
                                                 </li>
-                                                <li>
-                                                    <a href="role.html">Phân quyền</a>
-                                                </li>
+
                                             </ul>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </li>
-                        <li class="menu">
-                            <a href="#blogs" data-toggle="collapse" aria-expanded="false"
-                                class="dropdown-toggle collapsed">
-                                <div class="">
-                                    <i class="flaticon-chat-bubble"></i>
-                                    <span>APT Blogs</span>
-                                </div>
-                            </a>
-                            <div class="submenu list-unstyled collapse eq-animated eq-fadeInUp" id="blogs"
-                                data-parent="#topAccordion">
-                                <div class="submenu-scroll">
-                                    <ul class="list-unstyled mt-4">
-                                        <li>
-                                            <ul class="list-unstyled sub-submenu collapse show eq-animated eq-fadeInUp"
-                                                id="ui-features">
-                                                <li>
-                                                    <a href="blog.html">Tất cả bài viết</a>
-                                                </li>
-                                                <li>
-                                                    <a href="cate-blog.html">Danh mục bài viết</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="menu">
-                            <a href="#setting" data-toggle="collapse" aria-expanded="false"
-                                class="dropdown-toggle collapsed">
-                                <div class="">
-                                    <i class="flaticon-settings-3"></i>
-                                    <span>Cấu hình</span>
-                                </div>
-                            </a>
-                            <div class="submenu list-unstyled collapse eq-animated eq-fadeInUp" id="setting"
-                                data-parent="#topAccordion">
-                                <div class="submenu-scroll">
-                                    <ul class="list-unstyled mt-4">
-                                        <li>
-                                            <ul class="list-unstyled sub-submenu collapse show eq-animated eq-fadeInUp"
-                                                id="ui-features">
-                                                <li>
-                                                    <a href="setting.html">Cấu hình chung</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
+
+
                     </ul>
                 </nav>
 
@@ -450,10 +299,9 @@
                 </div>
 
                 <div class="row layout-spacing ">
-
                     <div class="col-xl-3 mb-xl-0 col-lg-6 mb-4 col-md-6 col-sm-6">
-                        <div class="widget-content-area  data-widgets br-4" style="background-color: #6ead14;">
-                            <div class="widget  t-sales-widget1">
+                        <div class="widget-content-area  data-widgets br-4" style="background-color: yellowgreen;">
+                            <div class="widget  t-order-widget">
                                 <div class="media">
                                     <div class="icon ml-2">
                                         <i class="flaticon-line-chart"></i>
@@ -467,9 +315,8 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-xl-3 mb-xl-0 col-lg-6 mb-4 col-md-6 col-sm-6">
-                        <div class="widget-content-area  data-widgets br-4" style="background-color: #FFA500;">
+                        <div class="widget-content-area  data-widgets br-4" style="background-color: yellowgreen;">
                             <div class="widget  t-order-widget">
                                 <div class="media">
                                     <div class="icon ml-2">
@@ -486,7 +333,7 @@
                     </div>
 
                     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mb-sm-0 mb-4">
-                        <div class="widget-content-area  data-widgets br-4" style="background-color: #e30734;">
+                        <div class="widget-content-area  data-widgets br-4" style="background-color: yellowgreen;">
                             <div class="widget  t-customer-widget">
                                 <div class="media">
                                     <div class="icon ml-2">
@@ -504,7 +351,7 @@
 
                     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
 
-                        <div class="widget-content-area  data-widgets br-4" style="background-color: #0dcaef;">
+                        <div class="widget-content-area  data-widgets br-4" style="background-color: yellowgreen;">
                             <div class="widget  t-income-widget">
                                 <div class="media">
                                     <div class="icon ml-2">
@@ -743,7 +590,9 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-5 col-sm-5 col-12 text-center text-center">
-                                                <i class="flaticon-wall-clock icon1  mt-3"></i>
+                                                <i class="flaticon-wall-clock icon1  mt-3" style="font-size: 94px;
+                                                vertical-align: middle;
+                                                color: #d3d3d3;"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -1069,48 +918,235 @@
                             <div class="widget-header ">
                                 <div class="row">
                                     <div class="col-xl-12 col-md-12 col-sm-12 col-12">
-                                        <h4>Hóa đơn gần nhất</h4>
+                                        <h4>Đơn hàng gần nhất</h4>
                                     </div>
                                 </div>
                             </div>
-                            <div class="widget-content-area ">
-                                <div class="table-responsive">
-                                    <table class="table">
+                            <div class="widget-content widget-content-area">
+                                <div class="table-responsive mb-4">
+                                    <table id="ecommerce-order-list" class="table table-hover table-bordered">
                                         <thead>
-                                            <tr>
-                                                <th class="form-check-column text-center">
-                                                    <label for="invoiceAll"
-                                                        class="new-control new-checkbox checkbox-primary pb-2">
-                                                        <input type="checkbox" id="invoiceAll"
-                                                            class="new-control-input">
-                                                        <span class="new-control-indicator mt-2"></span><span
-                                                            class="invisible">s</span>
-                                                    </label>
-                                                </th>
-                                                <th>Sản phẩm</th>
-                                                <th>Mã hóa đơn</th>
-                                                <th>Ngày</th>
-                                                <th class="text-center">Số lượng</th>
-                                                <th class="text-center">Trạng thái</th>
-                                                <th></th>
+                                            <tr class="text-center">
+
+                                                <th>ID</th>
+                                                <th>Khách hàng</th>
+                                                <th>Số điện thoại</th>
+                                                <th>Địa chỉ</th>
+                                                <th>Số lượng</th>
+
+                                                <th>Tên sản phẩm</th>
+                                                <th>Tổng tiền</th>
+
+                                                <th class="align-center">Trạng thái</th>
+                                                <th class="align-center">Chi tiết</th>
                                             </tr>
+                                            <!-- ID, tên người nhận, địa chỉ, số điện thoại, ngày tạo, tên sản phẩm, số lượng sản phẩm, tổng hóa đơn. -->
                                         </thead>
-                                        <tbody>
+                                        <tbody class="text-center">
                                             <tr>
-                                                <td class="form-check-column text-center">
-                                                    <label class="new-control new-checkbox checkbox-primary pb-2">
-                                                        <input type="checkbox" class="new-control-input invoicechk">
-                                                        <span class="new-control-indicator mt-2"></span><span
-                                                            class="invisible">s</span>
-                                                    </label>
+
+                                                <td>1</td>
+
+                                                <td>Nguyenvana</td>
+                                                <td>0125847658</td>
+                                                <td>Hà Nội</td>
+
+                                                <td>3</td>
+
+                                                <td>Cam sành</td>
+                                                <td>200000đ</td>
+
+                                                <td class="align-center">
+                                                    <span class="badge badge-success">Thành công</span>
                                                 </td>
-                                                <td>Camera</td>
-                                                <td>#0001</td>
-                                                <td>16/12</td>
-                                                <td class="align-center">15</td>
-                                                <td class="text-center">
-                                                    <span class="badge badge-pills outline-badge-secondary">Đang tiến
-                                                        hành</span>
+                                                <td>
+                                                    <i class="flaticon-view-1 bs-tooltip" data-placement="top"
+                                                        data-original-title="View"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>1</td>
+
+                                                <td>Nguyenvana</td>
+                                                <td>0125847658</td>
+                                                <td>Hà Nội</td>
+
+                                                <td>3</td>
+
+                                                <td>Cam sành</td>
+                                                <td>200000đ</td>
+
+                                                <td class="align-center">
+                                                    <span class="badge badge-success">Thành công</span>
+                                                </td>
+                                                <td>
+                                                    <i class="flaticon-view-1 bs-tooltip" data-placement="top"
+                                                        data-original-title="View"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>1</td>
+
+                                                <td>Nguyenvana</td>
+                                                <td>0125847658</td>
+                                                <td>Hà Nội</td>
+
+                                                <td>3</td>
+
+                                                <td>Cam sành</td>
+                                                <td>200000đ</td>
+
+                                                <td class="align-center">
+                                                    <span class="badge badge-success">Thành công</span>
+                                                </td>
+                                                <td>
+                                                    <i class="flaticon-view-1 bs-tooltip" data-placement="top"
+                                                        data-original-title="View"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>1</td>
+
+                                                <td>Nguyenvana</td>
+                                                <td>0125847658</td>
+                                                <td>Hà Nội</td>
+
+                                                <td>3</td>
+
+                                                <td>Cam sành</td>
+                                                <td>200000đ</td>
+
+                                                <td class="align-center">
+                                                    <span class="badge badge-success">Thành công</span>
+                                                </td>
+                                                <td>
+                                                    <i class="flaticon-view-1 bs-tooltip" data-placement="top"
+                                                        data-original-title="View"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>1</td>
+
+                                                <td>Nguyenvana</td>
+                                                <td>0125847658</td>
+                                                <td>Hà Nội</td>
+
+                                                <td>3</td>
+
+                                                <td>Cam sành</td>
+                                                <td>200000đ</td>
+
+                                                <td class="align-center">
+                                                    <span class="badge badge-success">Thành công</span>
+                                                </td>
+                                                <td>
+                                                    <i class="flaticon-view-1 bs-tooltip" data-placement="top"
+                                                        data-original-title="View"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>1</td>
+
+                                                <td>Nguyenvana</td>
+                                                <td>0125847658</td>
+                                                <td>Hà Nội</td>
+
+                                                <td>3</td>
+
+                                                <td>Cam sành</td>
+                                                <td>200000đ</td>
+
+                                                <td class="align-center">
+                                                    <span class="badge badge-success">Thành công</span>
+                                                </td>
+                                                <td>
+                                                    <i class="flaticon-view-1 bs-tooltip" data-placement="top"
+                                                        data-original-title="View"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>1</td>
+
+                                                <td>Nguyenvana</td>
+                                                <td>0125847658</td>
+                                                <td>Hà Nội</td>
+
+                                                <td>3</td>
+
+                                                <td>Cam sành</td>
+                                                <td>200000đ</td>
+
+                                                <td class="align-center">
+                                                    <span class="badge badge-success">Thành công</span>
+                                                </td>
+                                                <td>
+                                                    <i class="flaticon-view-1 bs-tooltip" data-placement="top"
+                                                        data-original-title="View"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>1</td>
+
+                                                <td>Nguyenvana</td>
+                                                <td>0125847658</td>
+                                                <td>Hà Nội</td>
+
+                                                <td>3</td>
+
+                                                <td>Cam sành</td>
+                                                <td>200000đ</td>
+
+                                                <td class="align-center">
+                                                    <span class="badge badge-success">Thành công</span>
+                                                </td>
+                                                <td>
+                                                    <i class="flaticon-view-1 bs-tooltip" data-placement="top"
+                                                        data-original-title="View"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>1</td>
+
+                                                <td>Nguyenvana</td>
+                                                <td>0125847658</td>
+                                                <td>Hà Nội</td>
+
+                                                <td>3</td>
+
+                                                <td>Cam sành</td>
+                                                <td>200000đ</td>
+
+                                                <td class="align-center">
+                                                    <span class="badge badge-success">Thành công</span>
+                                                </td>
+                                                <td>
+                                                    <i class="flaticon-view-1 bs-tooltip" data-placement="top"
+                                                        data-original-title="View"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>1</td>
+
+                                                <td>Nguyenvana</td>
+                                                <td>0125847658</td>
+                                                <td>Hà Nội</td>
+
+                                                <td>3</td>
+
+                                                <td>Cam sành</td>
+                                                <td>200000đ</td>
+
+                                                <td class="align-center">
+                                                    <span class="badge badge-success">Thành công</span>
                                                 </td>
                                                 <td>
                                                     <i class="flaticon-view-1 bs-tooltip" data-placement="top"
@@ -1118,114 +1154,7 @@
                                                 </td>
                                             </tr>
 
-                                            <tr>
-                                                <td class="form-check-column text-center">
-                                                    <label class="new-control new-checkbox checkbox-primary pb-2">
-                                                        <input type="checkbox" class="new-control-input invoicechk">
-                                                        <span class="new-control-indicator mt-2"></span><span
-                                                            class="invisible">s</span>
-                                                    </label>
-                                                </td>
-                                                <td>Iphone</td>
-                                                <td>#0002</td>
-                                                <td>16/12</td>
-                                                <td class="align-center">65</td>
-                                                <td class="text-center">
-                                                    <span class="badge badge-pills outline-badge-success">Đã chấp
-                                                        nhận</span>
-                                                </td>
-                                                <td>
-                                                    <i class="flaticon-view-1 bs-tooltip" data-placement="top"
-                                                        data-original-title="View"></i>
-                                                </td>
-                                            </tr>
 
-                                            <tr>
-                                                <td class="form-check-column text-center">
-                                                    <label class="new-control new-checkbox checkbox-primary pb-2">
-                                                        <input type="checkbox" class="new-control-input invoicechk">
-                                                        <span class="new-control-indicator mt-2"></span><span
-                                                            class="invisible">s</span>
-                                                    </label>
-                                                </td>
-                                                <td>Headphone</td>
-                                                <td>#0003</td>
-                                                <td>16/12</td>
-                                                <td class="align-center">25</td>
-                                                <td class="text-center">
-                                                    <span class="badge badge-pills outline-badge-warning">Đang xử
-                                                        lý</span>
-                                                </td>
-                                                <td>
-                                                    <i class="flaticon-view-1 bs-tooltip" data-placement="top"
-                                                        data-original-title="View"></i>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td class="form-check-column text-center">
-                                                    <label class="new-control new-checkbox checkbox-primary pb-2">
-                                                        <input type="checkbox" class="new-control-input invoicechk">
-                                                        <span class="new-control-indicator mt-2"></span><span
-                                                            class="invisible">s</span>
-                                                    </label>
-                                                </td>
-                                                <td>Speakers</td>
-                                                <td>#0004</td>
-                                                <td>16/12</td>
-                                                <td class="align-center">100</td>
-                                                <td class="text-center">
-                                                    <span class="badge badge-pills outline-badge-secondary">Đang tiến
-                                                        hành</span>
-                                                </td>
-                                                <td>
-                                                    <i class="flaticon-view-1 bs-tooltip" data-placement="top"
-                                                        data-original-title="View"></i>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td class="form-check-column text-center">
-                                                    <label class="new-control new-checkbox checkbox-primary pb-2">
-                                                        <input type="checkbox" class="new-control-input invoicechk">
-                                                        <span class="new-control-indicator mt-2"></span><span
-                                                            class="invisible">s</span>
-                                                    </label>
-                                                </td>
-                                                <td>Watch</td>
-                                                <td>#0005</td>
-                                                <td>16/12</td>
-                                                <td class="align-center">85</td>
-                                                <td class="text-center">
-                                                    <span class="badge badge-pills outline-badge-success">Đã chấp
-                                                        nhận</span>
-                                                </td>
-                                                <td>
-                                                    <i class="flaticon-view-1 bs-tooltip" data-placement="top"
-                                                        data-original-title="View"></i>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td class="form-check-column text-center">
-                                                    <label class="new-control new-checkbox checkbox-primary pb-2">
-                                                        <input type="checkbox" class="new-control-input invoicechk">
-                                                        <span class="new-control-indicator mt-2"></span><span
-                                                            class="invisible">s</span>
-                                                    </label>
-                                                </td>
-                                                <td>Sunglasses</td>
-                                                <td>#0006</td>
-                                                <td>16/12</td>
-                                                <td class="align-center">19</td>
-                                                <td class="text-center">
-                                                    <span class="badge badge-pills outline-badge-danger">Đã hủy</span>
-                                                </td>
-                                                <td>
-                                                    <i class="flaticon-view-1 bs-tooltip" data-placement="top"
-                                                        data-original-title="View"></i>
-                                                </td>
-                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>
@@ -1363,7 +1292,7 @@
 
     </div>
     <!-- END MAIN CONTAINER -->
-    
+
     <!--  BEGIN FOOTER  -->
     <footer class="footer-section theme-footer">
 
@@ -1400,79 +1329,66 @@
     <aside class="profile-sidebar text-center">
         <div class="profile-content profile-content-scroll">
             <div class="usr-profile">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6p1uHt5NGPGppq1t48xlKt18PfNiIX5zCYQ&usqp=CAU"
-                    alt="admin-profile" class="img-fluid">
+                <img src="../assets/img/90x90.jpg" alt="admin-profile" class="img-fluid" />
             </div>
             <p class="user-name mt-4 mb-4">Hoàng Thị Xoan</p>
-            <div class="">
-                <div class="accordion" id="user-stats">
-                    <div class="card">
-                        <div class="card-header pb-4 mb-4" id="status">
-                            <h6 class="mb-0" data-toggle="collapse" data-target="#user-status" aria-expanded="true"
-                                aria-controls="user-status"><i class="flaticon-view-3 mr-2"></i> Status <i
-                                    class="flaticon-down-arrow ml-2"></i> </h6>
-                        </div>
-                        <div id="user-status" class="collapse show" aria-labelledby="status" data-parent="#user-stats">
-                            <div class="card-body text-left">
-                                <ul class="list-unstyled pb-4">
-                                    <li class="status-online"><a href="javascript:void(0);">Online</a></li>
-                                    <li class="status-away"><a href="javascript:void(0);">Away</a></li>
-                                    <li class="status-no-disturb"><a href="javascript:void(0);">Not Disturb</a></li>
-                                    <li class="status-invisible"><a href="javascript:void(0);">Invisible</a></li>
-                                    <li class="status-offline"><a href="javascript:void(0);">Offline</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <p>LV-1</p>
+            <progress id="file" value="32" max="100"> 32% </progress>
+
             <div class="user-links text-left">
                 <ul class="list-unstyled">
-                    <li><a href="apps_mailbox.html"><i class="flaticon-mail-22"></i> Inbox</a></li>
-                    <li><a href="user_profile.html"><i class="flaticon-user-11"></i> My Profile</a></li>
-                    <li><a href="user_login_1.html"><i class="flaticon-power-off"></i> Logout</a></li>
+                    <li>
+                        <a href="#"><i class="flaticon-mail-22"></i> Email: abc@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="flaticon-telephone"></i> Điện thoại: 0123458759</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="flaticon-location-1"></i> Địa chỉ: Hà Nội</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="flaticon-power-off"></i> Logout</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </aside>
     <!--  BEGIN PROFILE SIDEBAR  -->
 </body>
-    <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
-    <script src="../assets/js/libs/jquery-3.1.1.min.js"></script>
-    <script src="../assets/js/loader.js"></script>
-    <script src="../assets/js/popper.min.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../plugins/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="../plugins/blockui/jquery.blockUI.min.js"></script>
-    <script src="../assets/js/app.js"></script>
-    <script>
-        $(document).ready(function () {
-            App.init();
-        });
-    </script>
-    <script src="../assets/js/custom.js"></script>
-    <!-- END GLOBAL MANDATORY SCRIPTS -->
+<!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
+<script src="../assets/js/libs/jquery-3.1.1.min.js"></script>
+<script src="../assets/js/loader.js"></script>
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../plugins/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="../plugins/blockui/jquery.blockUI.min.js"></script>
+<script src="../assets/js/app.js"></script>
+<script>
+    $(document).ready(function () {
+        App.init();
+    });
+</script>
+<script src="../assets/js/custom.js"></script>
+<!-- END GLOBAL MANDATORY SCRIPTS -->
 
-    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
-    <script src="../plugins/charts/chartist/chartist.js"></script>
-    <script src="../plugins/maps/vector/jvector/jquery-jvectormap-2.0.3.min.js"></script>
-    <script src="../plugins/maps/vector/jvector/worldmap_script/jquery-jvectormap-world-mill-en.js"></script>
-    <script src="../plugins/calendar/pignose/moment.latest.min.js"></script>
-    <script src="../plugins/calendar/pignose/pignose.calendar.js"></script>
-    <script src="../plugins/progressbar/progressbar.min.js"></script>
-    <script src="../assets/js/default-dashboard/default-custom.js"></script>
-    <script src="../assets/js/ui-kit/timeline/horizontal-main.js"></script>
-    <script src="../plugins/progressbar/progressbar.min.js"></script>
-    <script src="../plugins/charts/amcharts/amcharts.js"></script>
-    <script src="../plugins/maps/vector/ammaps/ammap_amcharts_extension.js"></script>
-    <script src="../plugins/maps/vector/ammaps/worldLow.js"></script>
-    <script src="../plugins/charts/amcharts/radar.js"></script>
-    <script src="../plugins/charts/amcharts/pie.js"></script>
-    <script src="../plugins/charts/sparklines/jquery.sparkline.min.js"></script>
-    <script src="../plugins/charts/amcharts/serial.js"></script>
-    <script src="../plugins/charts/amcharts/light.js"></script>
-    <script src="../assets/js/ecommerce-dashboard/ecommerce-custom.js"></script>
-    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
-
+<!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+<script src="../plugins/charts/chartist/chartist.js"></script>
+<script src="../plugins/maps/vector/jvector/jquery-jvectormap-2.0.3.min.js"></script>
+<script src="../plugins/maps/vector/jvector/worldmap_script/jquery-jvectormap-world-mill-en.js"></script>
+<script src="../plugins/calendar/pignose/moment.latest.min.js"></script>
+<script src="../plugins/calendar/pignose/pignose.calendar.js"></script>
+<script src="../plugins/progressbar/progressbar.min.js"></script>
+<script src="../assets/js/default-dashboard/default-custom.js"></script>
+<script src="../assets/js/ui-kit/timeline/horizontal-main.js"></script>
+<script src="../plugins/charts/amcharts/amcharts.js"></script>
+<script src="../plugins/maps/vector/ammaps/ammap_amcharts_extension.js"></script>
+<script src="../plugins/maps/vector/ammaps/worldLow.js"></script>
+<script src="../plugins/charts/amcharts/radar.js"></script>
+<script src="../plugins/charts/amcharts/pie.js"></script>
+<script src="../plugins/charts/sparklines/jquery.sparkline.min.js"></script>
+<script src="../plugins/charts/amcharts/serial.js"></script>
+<script src="../plugins/charts/amcharts/light.js"></script>
+<script src="../assets/js/ecommerce-dashboard/ecommerce-custom.js"></script>
+<!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
 
 </html>

@@ -13,7 +13,7 @@ var ol = $('#ecommerce-order-list').DataTable({
           "previous": "<i class='flaticon-arrow-left-1'></i>",
           "next": "<i class='flaticon-arrow-right'></i>"
         },
-        "info": "Showing page _PAGE_ of _PAGES_"
+        "info": "Hiện thị _PAGE_ trong _PAGES_"
     }
 });
 // checkall('select-all-orders', 'select-orders');
