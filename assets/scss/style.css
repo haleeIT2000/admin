@@ -9624,9 +9624,22 @@ blockquote cite {
     font-size: 16px;
 }
 .order-again{
-  display: grid;
+  border-top: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+}
+.order-again button, .order-again p{
+  padding-top: 10px;
+  float: right;
 }
 .order-again button{
-  padding-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
-
+.ordered-detail .product-name a{
+  text-decoration: none;
+  color: #5fa800;
+}
+.ordered-detail .product-name a:hover{
+  color: #333;
+}
