@@ -9490,6 +9490,41 @@ blockquote cite {
   }
   .personal-infor{
     padding-left: 100px;
+    
+   }
+   .personal-infor table tr input , .personal-infor label{
+     /* display: none; */
+     width: 200px;
+     margin-top: 0px;
+   }
+
+   .hidden-edit{
+     background-color: #eee;
+     height: 300px;
+     width: 500px;
+    display: none;
+    margin-left: 42px;
+   }
+   .hidden-pass{
+    background-color: #eee;
+    height: 400px;
+    width: 500px;
+    display: none;
+    margin-left: 42px;
+   }
+   .hidden-edit input, .hidden-pass input{
+     margin-left: 25%;
+     width: 300px;
+   }
+   #password_confirm{
+    margin-left: 22%;
+    width: 300px;
+   }
+   .hidden-edit label, .hidden-pass label{
+    margin-left: 20%;
+   }
+   .hidden-edit .updated-infor, .hidden-pass .updated-infor{
+     margin-left: 151px;
    }
    .birthday-customer input{
     width: 65px;
@@ -9499,7 +9534,9 @@ blockquote cite {
     width: 80px;
    
    }
-
+   #display-userName-2 label{
+    padding-left: 36%;
+   }
   .profile-userpic img {  
   float: none;  
   margin: 0 auto;  
@@ -9509,14 +9546,12 @@ blockquote cite {
   -moz-border-radius: 50% !important;  
   border-radius: 50% !important;
   }
-   
-   
+
   .profile-usertitle {  
   text-align: center;  
   margin-top: 20px;
   }
-   
-   
+ 
   .profile-usertitle-name {  
   color: #5a7391;  
   font-size: 16px;  
@@ -9524,6 +9559,28 @@ blockquote cite {
   margin-bottom: 7px;
   }
    
+  #btn-edit, #btn-edit-2{
+    background-color: #fff !important;
+    border: none !important;
+    color: blue !important;
+    margin-left: 150px;
+    width: 100px;
+  }
+  #btn-edit:hover, #btn-edit-2:hover{
+    text-decoration: underline;
+    border: none;
+    
+  }
+  .personal-infor table tbody tr td:first-child{
+    /* padding-right: 100px ; */
+    color: #000;
+    font-weight: 600;
+    padding-left: 10%;
+    padding-top: 7px;
+  }
+  .personal-infor table tbody tr td:first-child label{
+    padding-left: 25%;
+  }
    
   .profile-usertitle-job {  
   color: #5b9bd1;  
