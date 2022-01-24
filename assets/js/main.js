@@ -529,23 +529,8 @@
                 if ($(this).next().val() > 1) $(this).next().val(+$(this).next().val() - 1);
             }
         });
-
-
-
-
-
-
-
-
-
-
-
     });
-
-
-
-
-})(jQuery);
+        })(jQuery);
 //input plus sub 
 
 $('input.input-qty').each(function () {

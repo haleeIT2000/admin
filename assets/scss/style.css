@@ -832,25 +832,47 @@ p {
   height: 70px;
 }
 
-.displayProduct .cover-product .img-product img{
+.img-product img{
   height: 150px;
   width: 150px;
 }
-.displayProduct .change-pro .icon-delete i{
+
+.icon-delete i{
   font-size: 20px;
-  padding-left: 76px;
-  padding-top: 5px;
+  padding-left: 125px;
+  padding-top: 60%;
+  margin-bottom: 58%;
 }
 .change-pro{
   padding-left: 65px;
 }
-.displayProduct .cover-product .icon-delete i:hover{
+
+.icon-delete i:hover{
   color: #9c9ea4;
 }
-.displayProduct .cover-product .sumPro{
+
+.sumPro{
   padding-left: 200px;
   padding-top: 56px;
+  margin-bottom: 21%;
 }
+
+/* .displayProduct .cover-product .img-product img{
+  height: 150px;
+  width: 150px;
+} */
+/* .displayProduct .change-pro .icon-delete i{
+  font-size: 20px;
+  padding-left: 76px;
+  padding-top: 5px;
+} */
+/* .displayProduct .cover-product .icon-delete i:hover{
+  color: #9c9ea4;
+} */
+/* .displayProduct .cover-product .sumPro{
+  padding-left: 200px;
+  padding-top: 56px;
+} */
 /* .displayProduct{
   border-bottom:  1px solid #eee;
 } */
@@ -8850,7 +8872,7 @@ blockquote cite {
   
 }
 .cart-link .delete{
-  padding-left: 380px;
+  padding-left: 74%;
 }
 .common-view-cart .text-cart{
   font-size: 17px;
@@ -8979,7 +9001,9 @@ blockquote cite {
   padding-left: 50px;
   padding-top: 54px;
   height: 80px;
+  margin-bottom: 51%;
 }
+
 .is-form {
   overflow:hidden;
   position:relative;
@@ -9699,4 +9723,38 @@ blockquote cite {
 }
 .ordered-detail .product-name a:hover{
   color: #333;
+}
+/* .success-order */
+.notify-order i{
+  font-size: 45px;
+  color: #f5ab1e;
+}
+.notify-order{
+  background: #f0ffeb;
+}
+.notify-order .success-order{
+  color: green;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 30px;
+}
+.infor-order p{
+  font-size: 25px;
+  font-weight: 400;
+}
+.infor-order .customer-infor{
+  padding-left: 25%;
+}
+.temporarySum, .shipment, .summary {
+  display: flex;
+  justify-content: space-between;
+}
+.shipment{
+  border-bottom: 1px solid #ea4335;
+}
+.order{
+  border-bottom: 1px solid #eee;
+}
+.quality span, .sumPro span, .temporarySum span, .shipment span, .summary span{
+  color: green;
 }
