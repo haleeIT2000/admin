@@ -164,7 +164,7 @@ function deleteProduct() {
 }
 
 function changePriceProduct(productItem) {
-
+    debugger;
     let quantity = productItem.value;
     let sum = 0;
     let getParent = productItem.parentElement;
@@ -177,7 +177,7 @@ function changePriceProduct(productItem) {
     }
     //lấy tất cả các sản phẩm có trong carts và tính toán tổng giá trị đơn hàng
     cart.forEach(product => {
-        let sumProduct = parseInt(product.quantity) * product.productPrice;
+        let sumProduct = parseInt(product.quantity) * product.productPrice *1000;
         sum += sumProduct;
     });
     let appendSum = document.querySelector(".amm-shopping_cart-btn p");
@@ -193,7 +193,6 @@ function showProduct() {
     let payment='';
     loadCart();
     for (let i = 0; i < cart.length; i++) {
-//        debugger;
         payment += `  <li>
                         <div class="cover-product row">
                             <div class="img-product pl-5">
@@ -252,7 +251,7 @@ function immidiateSum() {
         for (let i = 0; i < getInforProduct.length; i++) {
             let getPrice = getInforProduct[i].querySelector("div .discount-price span").innerText;
             let quantityProduct = getInforProduct[i].querySelector(".change-pro .buttons_added .inputQuantity").value;
-            totalB = getPrice * quantityProduct*1000;
+            totalB = getPrice * quantityProduct * 1000;
             sumPay += totalB;
 
         }
@@ -302,7 +301,7 @@ function updateQuantity(productPayment) {
     if (getcart.length > 0) {
         cartMain = JSON.parse(getcart);
     }
-    // debugger;
+    debugger;
 
     let quantity = productPayment.value;
     let sum = 0;
@@ -316,7 +315,7 @@ function updateQuantity(productPayment) {
 
     //lấy tất cả các sản phẩm có trong carts và tính toán tổng giá trị đơn hàng
     cartMain.forEach(product => {
-        let sumProduct = parseInt(product.quantity) * product.productPrice;
+        let sumProduct = parseInt(product.quantity) * product.productPrice *1000;
         sum += sumProduct;
         sumShip();
     });
@@ -341,12 +340,10 @@ function sumShip() {
     } else {
         ship = priceShip;
         temporarySum = (parseInt(temporarySum) + parseInt(ship)) * 1000;
-
     }
     shipping.innerHTML = parseInt(ship).toLocaleString("de-DE") * 1000;
     let sumPriceMain = document.querySelector(".sum-fee span");
     sumPriceMain.innerHTML = parseInt(temporarySum).toLocaleString("de-DE");
-
 }
 
 function deleteAllProductViewCart() {
@@ -435,43 +432,6 @@ function changePriceProductMain(productItem) {
     sessionStorage.setItem("cart", JSON.stringify(products));
 }
 
-// function showProductMain() {
-//     loadCart();
-//     document.querySelector(".amm-shopping_cart-list-items ul").innerHTML = cart.map(prod =>
-//         `<li>
-//         <div class="cover-product row">
-//             <div class="img-product pl-5">
-//                 <img src="` + prod.imgProductMain + `" alt="">
-//             </div>
-//             <div class="infor-product pl-3">
-//                 <input type="hidden" value="` + prod.productIdMain + `" id="` + prod.productIdMain + `">
-//                 <a href="./productdetail.html">
-//                     <h3>` + prod.productNameMain + `</h3>
-//                 </a>
-//                 <p><strong>Kích thước:</strong> <span>1</span>kg</p>
-//                 <div class="discount-price"><span>` + prod.productPriceMain + ` </span> </div>
-
-//             </div>
-//             <div class="change-pro">
-//                 <div class="buttons_added" >
-//                 <input class="inputQuantity" onChange="updateQuantity(this)"  id='` + prod.productIdMain + `' " min='1' name='quantity' type='number' value='` + prod.quantityMain + `' />
-                
-//                 <div class="icon-delete" id="` + prod.productIdMain + `">
-//                     <i class="icon-delete1 fas fa-trash-alt"></i>
-//                 </div>
-//                 </div>
-//             </div>
-//             <div class="sumPro">
-//                 <span>` + prod.productPriceMain + ` </span><sup>đ</sup>
-//             </div>
-
-//         </div>
-//     </li>`
-// ).join()
-//     countProduct();
-//     deleteProductViewCart();
-//     deleteAllProductViewCart();
-// }
 
 function showProductToPayment() {
    loadCart();
@@ -520,7 +480,7 @@ function immidiateSum_Payment() {
             let getPrice = cart[i].productPrice;
             let quantityProduct = cart[i].quantity;
             totalB = getPrice * quantityProduct*1000;
-            sumPayment += totalB;
+            sumPayment += totalB ;
         }
     }
     let sumPrice = document.querySelector(".sumPriceproduct .padding-price1");
@@ -596,7 +556,7 @@ console.log(discounts);
     let sum1 = (parseInt(sum) - discountMoney)*1000;
     document.querySelector(".sumarizePrice .padding-price").innerHTML = sum1.toLocaleString("de-DE");
 }
-// let btnPromotion = document.querySelector('.applyDiscount button');
-//     btnPromotion.addEventListener('click', function () {
-//         updateTotalMoney();
-//     });
+let btnPromotion = document.querySelector('.applyDiscount button');
+    btnPromotion.addEventListener('click', function () {
+        updateTotalMoney();
+    });
